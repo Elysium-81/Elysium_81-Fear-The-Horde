@@ -36,8 +36,7 @@ All point cost is to be determined and scaled
 			Generator
 			Battery bank
 			Solar bank
-				Crafting solar cells
-			
+				Craft Solar cells (Pehaps as it own perk)
 	Weapon and Ammo
 		Range Traps
 			Dart trap
