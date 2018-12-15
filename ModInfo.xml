@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Fear The Horde" />
+		<Description value="Test mod" />
+		<Author value="Elysium_81" />
+		<Version value="0.0.1" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

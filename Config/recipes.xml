@@ -1,0 +1,21 @@
+<configs>
+	<!-- Makes the recipes learnable -->
+	
+ 	<setattribute xpath="/recipes/recipe[@name='resourceForgedIron']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolClawHammer']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolPickaxeIron']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolShovelIron']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolFireaxeIron']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolFireaxeSteel']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolPickaxeSteel']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolShovelSteel']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
+	
+	
+	
+	
+	
+	
+</configs>
+
+
