@@ -16,8 +16,8 @@ All point cost is to be determined and scaled
 		Workstations			
 			Forge				
 				Forge			2 Point
-				Iron			4 Point
-				Steel			8 Point
+				Iron			4 Point (Pehaps as it own perk)
+				Steel			8 Point	(Pehaps as it own perk)
 			Workbench			1 Point
 			Table Saw			1 Point
 			Cement Mixer		1 Point
@@ -30,29 +30,26 @@ All point cost is to be determined and scaled
 			GyroCopter			10 Point
 		
 		Eletric 
-			1. Wiretool + lights
-			2. 
-			3. 
-			4. 
+			Basic (Wiretool)
 		
 		Power sources (Getting power for the eletric items)
-			1. Generator
-			2. Battery bank
-			3. Solar bank
-			4. Crafting solar cells
+			Generator
+			Battery bank
+			Solar bank
+				Crafting solar cells
 			
 	Weapon and Ammo
 		Range Traps
-			1. Dart trap
-			2. Dart turret
-			3. Shotgun turret
-			4. Auto turret
-			5. Gatling turret
+			Dart trap
+			Dart turret
+			Shotgun turret
+			Auto turret
+			Gatling turret
 			
 		Melee Trape
-			1. Eletric fence
-			2. Blade trap
-			3. Upgradet blade trap
+			Eletric fence
+			Blade trap
+			Upgradet blade trap
 	
 	Food and Health
 	
