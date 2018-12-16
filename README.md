@@ -31,6 +31,8 @@ All point cost is to be determined and scaled
 		
 		Eletric 
 			Basic (Wiretool)
+			Lights
+			Switch and Triggers
 		
 		Power sources (Getting power for the eletric items)
 			Generator
@@ -148,7 +150,7 @@ All point cost is to be determined and scaled
 			 6 Pcs Mechanical Parts
 			 4 Pcs Electric Parts
 		
-		Dart Turrets
+		Dart Turrets (Needs icon)
 			Ammo		: 
 			Range		: 
 			Firerate	: 
@@ -209,7 +211,7 @@ All point cost is to be determined and scaled
 			00 Pcs Electric Parts
 			00 Pcs Forge Iron
 
-		Gatling Turrets
+		Gatling Turrets (Needs icon)
 			Ammo		: 7.62mm
 			Range		: 
 			Firerate	: 
@@ -229,6 +231,8 @@ All point cost is to be determined and scaled
 			00 Pcs Mechanical Parts
 			00 Pcs Electric Parts
 			00 Pcs Forge Iron
-		
-		
-		
+
+#Items added
+	Weed cleaver + recipes  (Needs icon)
+
+#Recipes
