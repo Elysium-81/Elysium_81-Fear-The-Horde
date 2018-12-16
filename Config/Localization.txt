@@ -1,0 +1,72 @@
+
+meleeToolweedCleaver,items,Melee,KgNone,Weed Cleaver,,,,,
+meleeToolweedCleaverDesc,items,Melee,KgNone,User for cutting grass like a boss.,,,,,
+dartTurret,blocks,Electricity,New,Dart Turret,,,,,
+dartTurretDesc,blocks,Electricity,New,"A dart trap on a tripod. Fast but power and ammo hungry.....",,,,,
+gatlingTurret,blocks,Electricity,New,Gatling Turret,,,,,
+gatlingTurretDesc,blocks,Electricity,New,"Gatling Turret. It a bullet boss.",,,,,
+
+
+toolsCraftingDesc,progression,Skill,New,Lean perks to begin crafting advanced tools.,,,,,
+toolsCraftingName,progression,Skill,New,Tools,,,,,
+workstationsCraftingDesc,progression,Skill,New,Lean perks to begin crafting workstations.,,,,,
+workstationsCraftingName,progression,Skill,New,Workstations,,,,,
+vehicleCraftingDesc,progression,Skill,New,Lean this perks to begin crafting vehicles.,,,,,
+vehicleCraftingName,progression,Skill,New,Vehicles,,,,,
+
+
+perkForgeDesc,progression,Perk,New,Craft a forges that kan be used to forge iron and steel item.,,,,,
+perkForgeName,progression,Perk,New,Forge,,,,,
+perkForgeRank1Desc,progression,Perk,New,"You can craft a forges.",,,,,
+perkForgeRank2Desc,progression,Perk,New,"Iron Chef. You can now craft forged iron, that can be used to craft Iron tools and weapons.",,,,,
+perkForgeRank3Desc,progression,Perk,New,"Steel Master! You can now craft forged steel, that can be used to craft steel tools and weapons.",,,,,
+
+perkWorkbenchDesc,progression,Perk,New,Craft Workbench. Thise a very hand tools as they allows you to craft advanced items.,,,,,
+perkWorkbenchName,progression,Perk,New,Workbench,,,,,
+perkWorkbenchRank1Desc,progression,Perk,New,"Workbench.",,,,,
+
+perktableSawDesc,progression,Perk,New,Craft Tablesaw. Thise a very hand tools that allows you to cut up wood to craft furniture and advanced block shapes.,,,,,
+perktableSawName,progression,Perk,New,Tablesaw,,,,,
+perktableSawRank1Desc,progression,Perk,New,"Tablesaw.",,,,,
+
+perkcementMixerDesc,progression,Perk,New,Craft Cement Mixer. Thise a very hand tools that allows you to mix various items together.,,,,,
+perkcementMixerName,progression,Perk,New,Cement Mixer,,,,,
+perkcementMixerRank1Desc,progression,Perk,New,"Cement Mixer.",,,,,
+
+perkchemistryStationDesc,progression,Perk,New,Craft Chemistry Station. Thise could be a very hand station that allows you to make various chemically item.,,,,,
+perkchemistryStationName,progression,Perk,New,Chemistry Station,,,,,
+perkchemistryStationRank1Desc,progression,Perk,New,"Chemistry Station.",,,,,
+
+perkBicycleDesc,progression,Perk,New,Craft your self a bicycle to get around.,,,,,
+perkBicycleName,progression,Perk,New,Bicycle,,,,,
+perkBicycleRank1Desc,progression,Perk,New,"Bicycle.",,,,,
+
+perkMinibikeDesc,progression,Perk,New,Craft a minibike to get around with out using stamina.,,,,,
+perkMinibikeName,progression,Perk,New,Minibike,,,,,
+perkMinibikeRank1Desc,progression,Perk,New,"Minibike.",,,,,
+
+perkMotorcycleDesc,progression,Perk,New,Craft a Motorcycle to get around with out using stamina.,,,,,
+perkMotorcycleName,progression,Perk,New,Motorcycle,,,,,
+perkMotorcycleRank1Desc,progression,Perk,New,"Motorcycle.",,,,,
+
+perk4x4Desc,progression,Perk,New,Craft a 4x4Truck to get around with out using stamina.,,,,,
+perk4x4Name,progression,Perk,New,4x4Truck,,,,,
+perk4x4Rank1Desc,progression,Perk,New,"4x4Truck.",,,,,
+
+perkGyroCopterDesc,progression,Perk,New,Craft a GyroCopter to get around with out using stamina.,,,,,
+perkGyroCopterName,progression,Perk,New,GyroCopter,,,,,
+perkGyroCopterRank1Desc,progression,Perk,New,"GyroCopter.",,,,,
+
+perkIronToolsDesc,progression,Perk,New,This perk allows you to craft iron tools.,,,,,
+perkIronToolsName,progression,Perk,New,Iron Tools,,,,,
+perkIronToolsRank1Desc,progression,Perk,New,"Unlock Claw hammer, Pickaxe, Shovel and Fireaxe.",,,,,
+perkSteelToolsDesc,progression,Perk,New,This perk allows you to craft steel tools.,,,,,
+perkSteelToolsName,progression,Perk,New,Steel Tools,,,,,
+perkSteelToolsRank1Desc,progression,Perk,New,"Unlock Pickaxe, Shovel, Fireaxe and Wrench.",,,,,
+
+perkPowerToolsDesc,progression,Perk,New,Craft power tools.,,,,,
+perkPowerToolsName,progression,Perk,New,Power Tools,,,,,
+perkPowerToolsRank1Desc,progression,Perk,New,"Craft Nail gun.",,,,,
+perkPowerToolsRank2Desc,progression,Perk,New,"Craft Chainsaw.",,,,,
+perkPowerToolsRank3Desc,progression,Perk,New,"Craft Auger.",,,,,
+perkPowerToolsRank4Desc,progression,Perk,New,"Craft HD Powertools.",,,,,
