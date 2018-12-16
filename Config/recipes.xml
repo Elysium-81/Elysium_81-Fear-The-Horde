@@ -12,6 +12,11 @@
 	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
 	
 	
+	<!-- Change existing recipes -->
+	
+	
+	
+	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
 	
