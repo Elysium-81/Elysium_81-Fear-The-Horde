@@ -12,8 +12,32 @@
 	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
 	
 	
+	<!-- Add costume recipes -->
+	<append xpath="/recipes">
+	
+		<recipe name="meleeToolweedCleaver" count="1">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceWood" count="5"/>
+		</recipe>
+	
+		<recipe name="dartTurret" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="dartTrap" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="9"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>
+
+		<recipe name="gatlingTurret" count="1" craft_area="workbench" tags="learnable"> <!-- trap -->
+			<ingredient name="motionsensor" count="1"/>
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceMechanicalParts" count="9"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>		
 	
 	
+	</append>
 	
 	
 </configs>
