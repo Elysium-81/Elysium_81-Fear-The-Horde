@@ -109,6 +109,7 @@ All point cost is to be determined and scaled
 
 
 #The Zombies
+
 	Day
 	
 	
@@ -119,14 +120,19 @@ All point cost is to be determined and scaled
 	
 	
 #The Building
-	Blocks
+
+	Blocks:
+	
 		Don't downgrade but inherits some HP from previous block and gets destroyed when it reache 0 HP
 	
-	Workstations
+	Workstations:
 		Probly need to have a few new workstations added to split up the handling of crafting items.
+		Tailor staion to make clothing
+		
 	
 	
 #The Weapons
+
 	Melee
 	 
 	Range
@@ -233,6 +239,7 @@ All point cost is to be determined and scaled
 			00 Pcs Forge Iron
 
 #Items added
+
 	Weed cleaver + recipes  (Needs icon)
 
 #Recipes
