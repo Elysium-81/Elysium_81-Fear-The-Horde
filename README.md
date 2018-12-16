@@ -10,47 +10,47 @@ All point cost is to be determined and scaled
 
 	Engineering (Engineering allows you to create advanced items using workstations.)
 		Tools
-			Scrapiron tools		1 Point
-			Iron tools			1 Point
-			Steel tools			1 Point
+			Scrapiron tools			1 Point
+			Iron tools				1 Point
+			Steel tools				1 Point
 		Workstations			
 			Forge				
-				Forge			2 Point
-				Iron			4 Point (Pehaps as it own perk)
-				Steel			8 Point	(Pehaps as it own perk)
-			Workbench			1 Point
-			Table Saw			1 Point
-			Cement Mixer		1 Point
-			Chemistry Station	1 Point
+				Forge				2 Point
+				Iron				4 Point (Pehaps as it own perk)
+				Steel				8 Point	(Pehaps as it own perk)
+			Workbench				1 Point
+			Table Saw				1 Point
+			Cement Mixer			1 Point
+			Chemistry Station		1 Point
 		Vehicles
-			Bicycle				1 Point
-			Minibike			3 Point
-			Motorcycle			5 Point
-			4x4 Truck			7 Point
-			GyroCopter			10 Point
+			Bicycle					1 Point
+			Minibike				3 Point
+			Motorcycle				5 Point
+			4x4 Truck				7 Point
+			GyroCopter				10 Point
 		
 		Eletric 
-			Basic (Wiretool)
-			Lights
-			Switch and Triggers
+			Basic (Wiretool)		1 Point
+			Lights					1 Point
+			Switch and Triggers		1 Point
 		
 		Power sources (Getting power for the eletric items)
-			Generator
-			Battery bank
-			Solar bank
-				Craft Solar cells (Pehaps as it own perk)
+			Generator				1 Point
+			Battery bank			1 Point
+			Solar bank				1 Point
+				Craft Solar cells	1 Point (Pehaps as it own perk)
 	Weapon and Ammo
 		Range Traps
-			Dart trap
-			Dart turret
-			Shotgun turret
-			Auto turret
-			Gatling turret
+			Dart trap				1 Point
+			Dart turret				1 Point
+			Shotgun turret			1 Point
+			Auto turret				1 Point
+			Gatling turret			1 Point
 			
 		Melee Trape
-			Eletric fence
-			Blade trap
-			Upgradet blade trap
+			Eletric fence			1 Point
+			Blade trap				1 Point
+			Upgradet blade trap		1 Point
 	
 	Food and Health
 	
