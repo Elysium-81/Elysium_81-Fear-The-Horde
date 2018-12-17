@@ -10,47 +10,47 @@ All point cost is to be determined and scaled
 
 	Engineering (Engineering allows you to create advanced items using workstations.)
 		Tools
-			Scrapiron tools			1 Point
-			Iron tools				1 Point
-			Steel tools				1 Point
+			Scrapiron tools				1 Point
+			Iron tools					2 Point
+			Steel tools					4 Point
 		Workstations			
 			Forge				
-				Forge				2 Point
-				Iron				4 Point (Pehaps as it own perk)
-				Steel				8 Point	(Pehaps as it own perk)
-			Workbench				1 Point
-			Table Saw				1 Point
-			Cement Mixer			1 Point
-			Chemistry Station		1 Point
+				Forge					2 Point
+				Iron					4 Point (Pehaps as it own perk)
+				Steel					8 Point	(Pehaps as it own perk)
+			Workbench					1 Point
+			Table Saw					2 Point
+			Cement Mixer				4 Point
+			Chemistry Station			8 Point
 		Vehicles
-			Bicycle					1 Point
-			Minibike				3 Point
-			Motorcycle				5 Point
-			4x4 Truck				7 Point
-			GyroCopter				10 Point
+			Bicycle						1 Point
+			Minibike					3 Point
+			Motorcycle					5 Point
+			4x4 Truck					7 Point
+			GyroCopter					10 Point
 		
 		Eletric 
-			Basic (Wiretool)		1 Point
-			Lights					1 Point
-			Switch and Triggers		1 Point
+			Basic (Wiretool)			1 Point
+			Lights						2 Point
+			Switch and Triggers			3 Point
 		
 		Power sources (Getting power for the eletric items)
-			Generator				1 Point
-			Battery bank			1 Point
-			Solar bank				1 Point
-				Craft Solar cells	1 Point (Pehaps as it own perk)
+			Generator					1 Point
+			Battery bank				1 Point
+			Solar bank					1 Point
+				Craft Solar cells		1 Point (Pehaps as it own perk)
 	Weapon and Ammo
 		Range Traps
-			Dart trap				1 Point
-			Dart turret				1 Point
-			Shotgun turret			1 Point
-			Auto turret				1 Point
-			Gatling turret			1 Point
+			Dart trap					1 Point
+			Dart turret					2 Point
+			Shotgun turret				4 Point
+			Auto turret					6 Point
+			Gatling turret				8 Point
 			
 		Melee Trape
-			Eletric fence			1 Point
-			Blade trap				1 Point
-			Upgradet blade trap		1 Point
+			1. Eletric fence			1 Point
+			2. Blade trap				2 Point
+			3. Upgradet blade trap		3 Point
 	
 	Food and Health
 	
