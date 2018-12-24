@@ -63,57 +63,18 @@ All point cost is to be determined and scaled
 	Intelligence
 	
 	
+	NOT Placed
 	
------ Vanilla system -----	
-	
-	Perception is the measure of your sensory awareness.
-
-	Fortitude is the measure of your physical resilience.
-
-	Agility is the measure of your athletic prowess.
-
-	Strength is the measure of your muscular might.	
-	
-	Intellect is the measure of your mental ability.
 		Master Haggler (Better Barter) (Getting a better deal at the treader)
-			1.
-			2.
-			3.
-			4.
-			5.
-			
+
 		Secret Stash 
-			1. 
-			2.
-			3.
-			4.
-			5.
-			
+
 		Master of Archaeology (Treasure Hunter) (Better at finding treasures)
-			1. 
-			2.
-			3.
-			4.
-			5.
-		
+
 		Lucky Looter (Better loot)
-			1. 
-			2.
-			3.
-			4.
-			5.
-	
+
 		Expert Looter (Incresas looting speed)
-			1. 
-			2.
-			3.
-			4.
-			5.
-		
-
-		
-
-
+	
 #The Zombies
 
 	Day
