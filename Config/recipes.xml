@@ -41,6 +41,11 @@
 			<ingredient name="resourceForgedIron" count="5"/>
 		</recipe>		
 	
+		<recipe name="meleeToolStoneHammer" count="1"> <!-- Toolsd -->
+			<ingredient name="resourceRockSmall" count="4"/>
+			<ingredient name="resourceYuccaFibers" count="2"/>
+			<ingredient name="resourceWood" count="2"/>
+		</recipe>
 	
 	</append>
 	
