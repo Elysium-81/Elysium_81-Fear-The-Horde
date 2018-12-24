@@ -129,6 +129,13 @@ All point cost is to be determined and scaled
 		Probly need to have a few new workstations added to split up the handling of crafting items.
 		Tailor staion to make clothing
 		
+	Tools:
+	
+		Stone hammer
+		Claw hammer
+		Wrench
+		Nailgun (Accu)
+		Nailgun (Gas)
 	
 	
 #The Weapons
@@ -241,5 +248,7 @@ All point cost is to be determined and scaled
 #Items added
 
 	Weed cleaver + recipes  (Needs icon)
+	Stone hammer
 
 #Recipes
+	Stone hammer
