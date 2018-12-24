@@ -1,7 +1,6 @@
 <configs>
 
 <!-- <setattribute xpath="/progression/level" name="max_level">500</setattribute> -->
-	<set xpath="perks/perk[@name='perkPackMule']/effect_group
 <!-- Remove existing skills, perks and parent categories -->
  	<remove xpath="/progression/perks/perk[@name='perkHammerForge']"/>
 	<remove xpath="/progression/perks/perk[@name='perkGreaseMonkey']"/>
