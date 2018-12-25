@@ -124,7 +124,7 @@
 			<drop event="Destroy" name="resourceRockSmall" count="2,5"/>
 			<property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
 			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/MortarandPestle.unity3d?Mortar_and_PestlePrefab" />
+			<property name="Model" value="#@modfolder:Resources/Workstations.unity3d?Mortar_and_PestlePrefab" />
 			<!-- <property name="CustomIcon" value="" /> -->
 		</block>
 		
