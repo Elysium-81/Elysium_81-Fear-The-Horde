@@ -93,7 +93,9 @@ All point cost is to be determined and scaled
 		Don't downgrade but inherits some HP from previous block and gets destroyed when it reache 0 HP
 	
 	Workstations:
+		
 		Probly need to have a few new workstations added to split up the handling of crafting items.
+		Mortar and Pastle
 		Tailor staion to make clothing
 		
 	Tools:
