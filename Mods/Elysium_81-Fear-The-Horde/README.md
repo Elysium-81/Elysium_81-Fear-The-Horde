@@ -6,7 +6,7 @@ Other Modlets used:
 		
 
 
-#Skill Tree (Vanilla user 278 points in total and 304 total available)
+#Skill Tree
 
 So I learned how to remove the parent categories, so all will be redone........
 
@@ -45,7 +45,10 @@ All point cost is to be determined and scaled
 			Battery bank				1 Point
 			Solar bank					1 Point
 				Craft Solar cells		1 Point (Pehaps as it own perk)
+
 	Weapon and Ammo
+		
+	
 		Range Traps
 			Dart trap					1 Point
 			Dart turret					2 Point
@@ -56,8 +59,38 @@ All point cost is to be determined and scaled
 		Melee Trape
 			1. Eletric fence			1 Point
 			2. Blade trap				2 Point
-			3. Upgradet blade trap		3 Point
+			3. Heavy blade trap			3 Point
 	
+		Weapons
+			Melee
+				Iron Spikeclub
+
+			Range
+				Crossbow
+				Compound bow
+				Pistol
+				Magnum
+				SMG
+				AK47
+				Marksman Rifel
+
+			Explosiv
+				Pipe bomb				1 Point
+				Molotov cocktail		1 Point
+				Flaming arrows/bolts	1 Point
+				Exploding arrows/bolts	1 Point
+
+		Ammo
+			Iron arrow tips				1 Point
+			Steel arrow tips			1 Point
+			Darts						1 Point
+			Blunder bush				1 Point
+			9 mm						1 Point
+			7.62 mm						1 Point
+			Shotgun shell				1 Point
+			Shotgun slug				1 Point
+			44 Magnum					44Magnum
+		
 	Food and Health
 	
 	Intelligence
@@ -95,8 +128,13 @@ All point cost is to be determined and scaled
 	Workstations:
 		
 		Probly need to have a few new workstations added to split up the handling of crafting items.
+		
 		Mortar and Pastle
 		Tailor staion to make clothing
+		Woodworking bench
+		Metalworking bench
+		Ammo Loading bench
+		
 		
 	Tools:
 	
