@@ -7171,6 +7171,13 @@ workstationsCraftingDesc,progression,Skill,New,Lean perks to begin crafting work
 workstationsCraftingName,progression,Skill,New,Workstations,,,,,
 vehicleCraftingDesc,progression,Skill,New,Lean this perks to begin crafting vehicles.,,,,,
 vehicleCraftingName,progression,Skill,New,Vehicles,,,,,
+trapsCraftingDesc,progression,Skill,New,Lean perks to begin crafting Traps.,,,,,
+trapsCraftingName,progression,Skill,New,Weapon,,,,,
+weaponsCraftingDesc,progression,Skill,New,Lean perks to begin crafting Weapons.,,,,,
+weaponsCraftingName,progression,Skill,New,Weapons,,,,,
+ammoCraftingDesc,progression,Skill,New,Lean this perks to begin crafting ammunition.,,,,,
+ammoCraftingName,progression,Skill,New,Ammunition,,,,,
+
 
 
 perkForgeDesc,progression,Perk,New,Craft a forges that kan be used to forge iron and steel item.,,,,,
