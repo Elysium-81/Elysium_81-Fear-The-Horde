@@ -259,3 +259,14 @@ All point cost is to be determined and scaled
 
 #Recipes
 	Stone hammer
+	
+	
+	
+	
+	
+#Vanilla skill tree
+Perception
+Strength
+Fortitude
+Agility
+Intellect

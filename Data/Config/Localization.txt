@@ -7136,6 +7136,9 @@ xuiDefault,UI,Options Video,New,Default,,,,,
 activeBlockPrompt,,Block prompt,New,([DECEA3]Active[-]) {0},,,,,
 inactiveBlockPrompt,,Block prompt,New,(Inactive) {0},,,,,
 
+attMainCharactersScreenName,progression,Attribute,New,Attribute: Main Characters Screen,,,,,
+attMainCharactersScreenDesc,progression,Attribute,New,"All the non class specific perks",,,,,
+attMainCharactersScreenLevel01,progression,Attribute,New,"1",,,,,
 
 newattEngineeringName,progression,Attribute,New,Attribute: Engineering,,,,,
 newattEngineeringDesc,progression,Attribute,New,"Engineering allows you to create advanced items using a forge workbench, tablesaw and Chemistry station.",,,,,

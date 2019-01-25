@@ -10,7 +10,19 @@
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
  	<append xpath="/progression/attributes">
-	
+		
+		<attribute name="Main Characters Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_misc_crafting" max_level="1">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements>
+<!-- 			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel04"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel05"/></level_requirements> -->
+			<effect_group>
+			</effect_group>
+		</attribute>
+		
+		
+		
 		<attribute name="Engineering" name_key="newattEngineeringName" desc_key="newattEngineeringDesc" icon="ui_game_symbol_misc_crafting" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel01"/></level_requirements>
 <!-- 			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel02"/></level_requirements>
