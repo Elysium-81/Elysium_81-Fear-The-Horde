@@ -24,7 +24,7 @@ Main Characters Screen
 			Dead Eye (Better handling of Hunting rifle and Marksman rifle)
 			Archery (Better handling of Bow, Compound bow and Crossbow)
 	
-	Mechanic Class (
+	Mechanic Class (Probably gives a bicycle as part of the quest)
 		Grease Monkey
 		Salvage Operations
 		
@@ -45,6 +45,7 @@ Main Characters Screen
 	Trader Class (Gets the trader as part of the quest)
 		Better Barter
 		Lucky Looter
+		Scavenging (Levels by Scavenging in the world)
 	
 	Survivor Class
 		Well Insulated
