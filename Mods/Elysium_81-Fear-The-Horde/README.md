@@ -9,6 +9,7 @@ All point cost is to be determined and scaled
 ----- New system -----	
 
 Main Characters Screen
+	
 	Main Skills
 		Perception
 		Strength
@@ -16,12 +17,12 @@ Main Characters Screen
 		Agility
 		Intellect
 	
-	Mechanic Class
+	Mechanic Class (
 		Grease Monkey
 		Salvage Operations
 		
 	Medic class
-		Healing Factor
+		Healing Factor 
 		Physician
 		Self Medicated
 		
@@ -34,10 +35,14 @@ Main Characters Screen
 	Master Smith Class
 		Hammer Forge
 	
-	Trader Class
+	Trader Class (Gets the trader as part of the quest)
 		Better Barter
 		Lucky Looter
 	
+	Survivor Class
+		Well Insulated
+		Slow Metabolism
+		Pain Tolerance
 	
 	
 	
