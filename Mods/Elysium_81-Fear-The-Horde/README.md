@@ -1,11 +1,5 @@
 # Fear The Horde (Working name)
 
-Other Modlets used:
-	
-	Simple UI by stedman420
-		
-
-
 #Skill Tree
 
 So I learned how to remove the parent categories, so all will be redone........
@@ -14,6 +8,39 @@ All point cost is to be determined and scaled
 
 ----- New system -----	
 
+Main Characters Screen
+	Main Skills
+		Perception
+		Strength
+		Fortitude
+		Agility
+		Intellect
+	
+	Mechanic Class
+		Grease Monkey
+		Salvage Operations
+		
+	Medic class
+		Healing Factor
+		Physician
+		Self Medicated
+		
+	Hunter Class
+		The Huntsman
+	
+	Farmer Class
+		Living Off The Land
+	
+	Master Smith Class
+		Hammer Forge
+	
+	Trader Class
+		Better Barter
+		
+	
+	
+	
+	
 	Engineering (Engineering allows you to create advanced items using workstations.)
 		Tools
 			Scrapiron tools				1 Point
