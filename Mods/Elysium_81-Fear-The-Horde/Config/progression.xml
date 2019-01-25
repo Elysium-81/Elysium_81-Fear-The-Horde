@@ -11,6 +11,7 @@
 <!-- Group Perks -->
  	<append xpath="/progression/attributes">
 		
+		<!-- Main Characters Screen -->
 		<attribute name="Main Characters Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_character" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements>
 <!-- 			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel02"/></level_requirements>
@@ -46,7 +47,10 @@
 	
 
 <!-- Parent Perks -->
-	<append xpath="/progression/skills">	
+	<append xpath="/progression/skills">
+	<!-- Main Characters Screen -->
+		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
+	
 	<!-- Engineering -->
 		<skill name="toolsCrafting" parent="Engineering" name_key="toolsCraftingName" desc_key="toolsCraftingDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
 		<skill name="workstationsCrafting" parent="Engineering" name_key="workstationsCraftingName" desc_key="workstationsCraftingDesc" icon="ui_game_symbol_workbench"><effect_group/></skill>
@@ -59,7 +63,11 @@
 
 <!-- Perks -->	
 	<append xpath="/progression/perks">
-
+	
+	
+	
+	
+	
 	<!-- Forge -->
 		<perk name="perkForge" parent="workstationsCrafting" max_level="3" name_key="perkForgeName" desc_key="perkForgeDesc" icon="ui_game_symbol_forge" base_skill_point_cost="1" cost_multiplier_per_level="1.5">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqIntellectLevel1"/></level_requirements>
