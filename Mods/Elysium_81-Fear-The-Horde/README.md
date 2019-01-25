@@ -36,7 +36,7 @@ Main Characters Screen
 	
 	Trader Class
 		Better Barter
-		
+		Lucky Looter
 	
 	
 	
@@ -290,8 +290,15 @@ Main Characters Screen
 	
 	
 	
+
 	
+	
+	
+	
+	
+
 #Vanilla skill tree
+
 	Perception
 		Marksmanship
 			Gunslinger
