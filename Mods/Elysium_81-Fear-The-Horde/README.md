@@ -16,6 +16,13 @@ Main Characters Screen
 		Fortitude
 		Agility
 		Intellect
+		
+		Action Skills (Levels only by using an item)
+			Gunslinger (Better handling of gun and magnumm)
+			Shotgun Messiah (Better handling of shotgun)
+			Automatic Weapons (Better handling of SMG and AK47)
+			Dead Eye (Better handling of Hunting rifle and Marksman rifle)
+			Archery (Better handling of Bow, Compound bow and Crossbow)
 	
 	Mechanic Class (
 		Grease Monkey
@@ -43,7 +50,7 @@ Main Characters Screen
 		Well Insulated
 		Slow Metabolism
 		Pain Tolerance
-	
+		
 	
 	
 	Engineering (Engineering allows you to create advanced items using workstations.)
