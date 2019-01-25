@@ -17,6 +17,10 @@ Main Characters Screen
 		Agility
 		Intellect
 		
+		Strength General
+			Sexual Trex
+			Pack Mule
+		
 		Action Skills (Levels only by using an item)
 			Gunslinger (Better handling of gun and magnumm)
 			Shotgun Messiah (Better handling of shotgun)
@@ -28,16 +32,18 @@ Main Characters Screen
 		Grease Monkey
 		Salvage Operations
 		
-	Medic class
+	Medic class (
 		Healing Factor 
 		Physician
 		Self Medicated
 		
 	Hunter Class
 		The Huntsman
+		Headshot
 	
-	Farmer Class
+	Farmer Class 
 		Living Off The Land
+		Master Chef
 	
 	Master Smith Class
 		Hammer Forge
@@ -46,14 +52,34 @@ Main Characters Screen
 		Better Barter
 		Lucky Looter
 		Scavenging (Levels by Scavenging in the world)
-	
+		Daring Adventurer
+		
 	Survivor Class
 		Well Insulated
 		Slow Metabolism
 		Pain Tolerance
+		Explosive Weapons
 		
+	Athlete Class
+		Rule One Cardio
+		Parkour
+		Olympic Swimmer
+	
+	Engineer Class
+		Advanced Engineering
+	
+	Scientist Class
+		Yeah Science
+		
+	Gun Smith Class
+	
+	Electrician Class
 	
 	
+	
+
+
+
 	Engineering (Engineering allows you to create advanced items using workstations.)
 		Tools
 			Scrapiron tools				1 Point
@@ -303,7 +329,6 @@ Main Characters Screen
 	
 	
 	
-
 	
 	
 	
@@ -377,3 +402,42 @@ Main Characters Screen
 			Yeah Science
 			Physician
 			Master Chef
+			
+			
+			
+#Vanilla skill not allocated to class			
+	
+	Perception
+		Marksmanship
+			Run And Gun
+
+	Strength
+		Melee Combat
+			Flurry Of Blows
+			Deep Cuts
+			Stay Down
+			Heavy Metal
+			Skull Crusher
+		Construction
+			Miner 69r
+			Mother Lode
+
+	Fortitude
+		Survival
+			Heavy Armor
+			Intrinsic Immunity
+		Recovery
+
+	Agility
+		Athletics
+			Light Armor
+			Charging Bull
+
+		Stealth
+			Ninja Movement
+			Hidden Strike
+			From The Shadows
+
+	Intellect
+		Influence
+			Charismatic Nature
