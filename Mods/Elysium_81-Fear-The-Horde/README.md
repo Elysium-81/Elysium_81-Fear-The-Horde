@@ -265,8 +265,68 @@ All point cost is to be determined and scaled
 	
 	
 #Vanilla skill tree
-Perception
-Strength
-Fortitude
-Agility
-Intellect
+	Perception
+		Marksmanship
+			Gunslinger
+			Shotgun Messiah
+			Automatic Weapons
+			Dead Eye
+			Archery
+			Explosive Weapons
+			Headshot
+			Run And Gun
+		Scavenging
+			Lucky Looter
+			Salvage Operations
+
+	Strength
+		Strength General
+			Sexual Trex
+			Pack Mule
+		Melee Combat
+			Flurry Of Blows
+			Deep Cuts
+			Stay Down
+			Heavy Metal
+			Skull Crusher
+		Construction
+			Miner 69r
+			Mother Lode
+
+	Fortitude
+		Survival
+			Heavy Armor
+			The Huntsman
+			Intrinsic Immunity
+			Well Insulated
+			Living Off The Land
+			Pain Tolerance
+		Recovery
+			Healing Factor
+			Slow Metabolism
+			Self Medicated
+
+	Agility
+		Athletics
+			Rule One Cardio
+			Light Armor
+			Charging Bull
+			Parkour
+			Olympic Swimmer
+		Stealth
+			Ninja Movement
+			Hidden Strike
+			From The Shadows
+			
+	Intellect
+		Influence
+			Better Barter
+			Daring Adventurer
+			Charismatic Nature
+		Craftsmanship
+			Hammer Forge
+			Grease Monkey
+			Advanced Engineering
+			Yeah Science
+			Physician
+			Master Chef
