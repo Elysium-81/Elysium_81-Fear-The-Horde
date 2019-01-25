@@ -7140,6 +7140,9 @@ attMainCharactersScreenName,progression,Attribute,New,Attribute: Main Characters
 attMainCharactersScreenDesc,progression,Attribute,New,"All the non class specific perks",,,,,
 attMainCharactersScreenLevel01,progression,Attribute,New,"1",,,,,
 
+skillMainSkillsName,progression,Skill,New,Main Characters Skills,,,,,
+skillMainSkillsDesc,progression,Skill,New,Main Characters Skills,,,,,
+
 newattEngineeringName,progression,Attribute,New,Attribute: Engineering,,,,,
 newattEngineeringDesc,progression,Attribute,New,"Engineering allows you to create advanced items using a forge workbench, tablesaw and Chemistry station.",,,,,
 newattEngineering,progression,Attribute,New,Engineering,,,,,
