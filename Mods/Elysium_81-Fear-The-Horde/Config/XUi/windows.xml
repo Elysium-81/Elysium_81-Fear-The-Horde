@@ -170,7 +170,7 @@
 			</rect>
 		</window>
 
-		<window name="FTHwindowSkillAttributeInfo" width="647" height="730" panel="Right" controller="SkillAttributeInfoWindow" cursor_area="true" hidden_entries_with_paging="2" >
+		<window name="FTHwindowSkillAttributeInfo" width="747" height="730" panel="Right" controller="SkillAttributeInfoWindow" cursor_area="true" hidden_entries_with_paging="2" >
 			<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 				<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
 				<label style="header.name" text="{groupname}" />
@@ -240,7 +240,7 @@
 			</rect>
 		</window>
 
-		<window name="FTHwindowSkillSkillInfo" width="647" height="730" panel="Right" controller="SkillSkillInfoWindow" cursor_area="true" >
+		<window name="FTHwindowSkillSkillInfo" width="747" height="730" panel="Right" controller="SkillSkillInfoWindow" cursor_area="true" >
 			<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 				<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
 				<label style="header.name" text="{groupname}" />
@@ -306,7 +306,7 @@
 			</rect>
 		</window>
 
-		<window name="FTHwindowSkillPerkInfo" width="647" height="730" panel="Right" controller="SkillPerkInfoWindow" cursor_area="true" hidden_entries_with_paging="1" >
+		<window name="FTHwindowSkillPerkInfo" width="747" height="730" panel="Right" controller="SkillPerkInfoWindow" cursor_area="true" hidden_entries_with_paging="1" >
 			<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 				<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
 				<label style="header.name" text="{groupname}" />
