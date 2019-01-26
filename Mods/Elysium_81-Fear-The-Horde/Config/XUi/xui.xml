@@ -4,7 +4,7 @@
 	<append xpath="/xui/ruleset[@name='default']">
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
 			<window name="FTHwindowSkillList"/>
-			<window name="windowSkillInfo"/>
+			<window name="FTHwindowSkillInfo"/>
 			<!-- <window name="windowSkillStats"/> -->
 			<window name="FTHwindowSkillAttributeInfo" />
 			<window name="windowSkillSkillInfo" />
