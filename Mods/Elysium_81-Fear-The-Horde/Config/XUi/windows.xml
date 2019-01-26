@@ -8,7 +8,7 @@
 				<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
 				<label style="header.name" text_key="xuiSkillList" />
 
-				<label pos="635, -9" depth="2" width="300" height="28" text="{skillpointsavailable}" font_size="26" color="[lightGrey]" justify="right" pivot="topright"/>
+				<label pos="735, -9" depth="2" width="300" height="28" text="{skillpointsavailable}" font_size="26" color="[lightGrey]" justify="right" pivot="topright"/>
 				<!--<label pos="635, -9" depth="2" name="unlockedCount" width="84" height="28" text="{totalskills}" font_size="26" color="[lightGrey]" justify="right" pivot="topright"/>-->
 			</panel>
 
