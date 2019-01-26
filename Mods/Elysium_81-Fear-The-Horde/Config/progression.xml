@@ -7,10 +7,7 @@
 	<remove xpath="/progression/attributes/attribute[@name='attFortitude']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/>
-	
- 	<remove xpath="/progression/perks/perk[@name='perkHammerForge']"/>
-	<remove xpath="/progression/perks/perk[@name='perkGreaseMonkey']"/>
-	<!-- <remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']"/> -->
+
  
  
 <!-- Adds the new  skills, perks and parent categories -->
@@ -35,26 +32,7 @@
 			<effect_group>
 			</effect_group>
 		</attribute>
-		
-		
-		<attribute name="Engineering" name_key="newattEngineeringName" desc_key="newattEngineeringDesc" icon="ui_game_symbol_misc_crafting" max_level="1">
-			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattEngineeringLevel01"/></level_requirements>
-			<effect_group>
-			</effect_group>
-		</attribute>
 
-		<attribute name="Weapons and Ammo" name_key="newattweaponsandAmmoName" desc_key="newattweaponsandAmmoDesc" icon="ui_game_symbol_knife" max_level="5">
-			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattweaponsandAmmoLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattweaponsandAmmoLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattweaponsandAmmoLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattweaponsandAmmoLevel04"/></level_requirements>
-			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="newattweaponsandAmmoLevel05"/></level_requirements>
-			<effect_group>
-			</effect_group>
-		</attribute>
-		
-		
-		
 		
 		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_stealth">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -266,14 +244,6 @@
 <!-- 		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
 		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill> -->
 	
-	<!-- Engineering -->
-		<skill name="toolsCrafting" parent="Engineering" name_key="toolsCraftingName" desc_key="toolsCraftingDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
-		<skill name="workstationsCrafting" parent="Engineering" name_key="workstationsCraftingName" desc_key="workstationsCraftingDesc" icon="ui_game_symbol_workbench"><effect_group/></skill>
-		<skill name="vehicleCrafting" parent="Engineering" name_key="vehicleCraftingName" desc_key="vehicleCraftingDesc" icon="ui_game_symbol_service"><effect_group/></skill>
-	<!-- Weapons and Ammo -->
-		<skill name="trapsCrafting" parent="Weapons and Ammo" name_key="trapsCraftingName" desc_key="trapsCraftingDesc" icon="ui_game_symbol_knife"><effect_group/></skill>
-		<skill name="weaponsCrafting" parent="Weapons and Ammo" name_key="weaponsCraftingName" desc_key="weaponsCraftingDesc" icon="ui_game_symbol_knife"><effect_group/></skill>
-		<skill name="ammoCrafting" parent="Weapons and Ammo" name_key="ammoCraftingName" desc_key="ammoCraftingDesc" icon="ui_game_symbol_knife"><effect_group/></skill>
 	</append>
 
 <!-- Perks -->	
@@ -316,9 +286,6 @@
 				<effect_description level="10" desc_key="perksPerceptionRank10Desc"/>
 			</effect_group>
 		</perk>	
-	
-	
-	
 	
 	</append>
 	
