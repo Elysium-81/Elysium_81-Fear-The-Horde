@@ -7136,9 +7136,19 @@ xuiDefault,UI,Options Video,New,Default,,,,,
 activeBlockPrompt,,Block prompt,New,([DECEA3]Active[-]) {0},,,,,
 inactiveBlockPrompt,,Block prompt,New,(Inactive) {0},,,,,
 
-attMainCharactersScreenName,progression,Attribute,New,Attribute: Main Characters Screen,,,,,
-attMainCharactersScreenDesc,progression,Attribute,New,"All the non class specific perks",,,,,
+attMainCharactersScreenName,progression,Attribute,New,Attribute: Main Characters skills,,,,,
+attMainCharactersScreenDesc,progression,Attribute,New,"All the non class specific character perks",,,,,
 attMainCharactersScreenLevel01,progression,Attribute,New,"1",,,,,
+attActivityskillsName,progression,Attribute,New,Attribute: Activity skills,,,,,
+attActivityskillsDesc,progression,Attribute,New,"Activity skills, levels when used",,,,,
+attActivityskillsLevel01,progression,Attribute,New,"1",,,,,
+
+
+
+
+
+
+
 
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
 skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
