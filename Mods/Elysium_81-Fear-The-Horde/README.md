@@ -10,71 +10,74 @@ All point cost is to be determined and scaled
 
 Main Characters Screen
 	
-	Main Skills
+	General haracter skills
 		Perception
 		Strength
 		Fortitude
 		Agility
 		Intellect
 		
-		Strength General
-			Sexual Trex
-			Pack Mule
+	General Strength
+		Sexual Trex
+		Pack Mule
 		
-		Action Skills (Levels only by using an item)
-			Gunslinger (Better handling of gun and magnumm)
-			Shotgun Messiah (Better handling of shotgun)
-			Automatic Weapons (Better handling of SMG and AK47)
-			Dead Eye (Better handling of Hunting rifle and Marksman rifle)
-			Archery (Better handling of Bow, Compound bow and Crossbow)
+Action Skills (Levels only by using an item)
+	Armour
+	Mining
+	Running
+	Gunslinger (Better handling of gun and magnumm)
+	Shotgun Messiah (Better handling of shotgun)
+	Automatic Weapons (Better handling of SMG and AK47)
+	Dead Eye (Better handling of Hunting rifle and Marksman rifle)
+	Archery (Better handling of Bow, Compound bow and Crossbow)
 	
-	Mechanic Class (Probably gives a bicycle as part of the quest)
-		Grease Monkey
-		Salvage Operations
+Mechanic Class (Probably gives a bicycle as part of the quest)
+	Grease Monkey
+	Salvage Operations
 		
-	Medic class (
-		Healing Factor 
-		Physician
-		Self Medicated
+Medic class (
+	Healing Factor 
+	Physician
+	Self Medicated
 		
-	Hunter Class
-		The Huntsman
-		Headshot
+Hunter Class
+	The Huntsman
+	Headshot
 	
-	Farmer Class 
-		Living Off The Land
-		Master Chef
+Farmer Class 
+	Living Off The Land
+	Master Chef
 	
-	Master Smith Class
-		Hammer Forge
+Master Smith Class
+	Hammer Forge
 	
-	Trader Class (Gets the trader as part of the quest)
-		Better Barter
-		Lucky Looter
-		Scavenging (Levels by Scavenging in the world)
-		Daring Adventurer
+Trader Class (Gets the trader as part of the quest)
+	Better Barter
+	Lucky Looter
+	Scavenging (Levels by Scavenging in the world)
+	Daring Adventurer
 		
-	Survivor Class
-		Well Insulated
-		Slow Metabolism
-		Pain Tolerance
-		Explosive Weapons
+Survivor Class
+	Well Insulated
+	Slow Metabolism
+	Pain Tolerance
+	Explosive Weapons
 		
-	Athlete Class
-		Rule One Cardio
-		Parkour
-		Olympic Swimmer
-	
-	Engineer Class
-		Advanced Engineering
-	
-	Scientist Class
-		Yeah Science
+Athlete Class
+	Rule One Cardio
+	Parkour
+	Olympic Swimmer
+
+Engineer Class
+	Advanced Engineering
+
+Scientist Class
+	Yeah Science
 		
-	Gun Smith Class
+Gun Smith Class
 	
-	Electrician Class
-	
+Electrician Class
+		
 	
 	
 
