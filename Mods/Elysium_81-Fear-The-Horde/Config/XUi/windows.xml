@@ -19,7 +19,7 @@
 					<sprite depth="1" name="background"  color="[mediumGrey]" type="sliced"/>
 
 					<panel depth="1" pos="3,-3" width="510" height="37" disableautobackground="true">
-						<grid name="categories" pos="-3,-6" rows="1" cols="10" width="663" height="34" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
+						<grid name="categories" pos="-3,-6" rows="1" cols="11" width="663" height="34" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
 							<category_icon />
 						</grid>
 					</panel>
