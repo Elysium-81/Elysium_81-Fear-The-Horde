@@ -8,7 +8,7 @@
 			<!-- <window name="windowSkillStats"/> -->
 			<window name="FTHwindowSkillAttributeInfo" />
 			<window name="FTHwindowSkillSkillInfo" />
-			<window name="windowSkillPerkInfo" />
+			<window name="FTHwindowSkillPerkInfo" />
 		</window_group>
 	</append>
 
