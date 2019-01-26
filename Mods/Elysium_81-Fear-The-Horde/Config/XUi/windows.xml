@@ -1,6 +1,6 @@
 <configs>
 	
-	<append xpath="/progression/attributes">
+	<append xpath="/windows">
 		
 		<window name="FTHwindowSkillList" panel="Center" width="647" height="730" controller="SkillListWindow" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
