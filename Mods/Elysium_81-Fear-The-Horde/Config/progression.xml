@@ -90,16 +90,16 @@
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.0,0.40" level="1,9"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.5" level="10"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.52,0.70" level="11,20"/> -->
-				<effect_description level="1" desc_key="attPerceptionRank1Desc"/>
-				<effect_description level="2" desc_key="attPerceptionRank2Desc"/>
-				<effect_description level="3" desc_key="attPerceptionRank3Desc"/>
-				<effect_description level="4" desc_key="attPerceptionRank4Desc"/>
-				<effect_description level="5" desc_key="attPerceptionRank5Desc"/>
-				<effect_description level="6" desc_key="attPerceptionRank6Desc"/>
-				<effect_description level="7" desc_key="attPerceptionRank7Desc"/>
-				<effect_description level="8" desc_key="attPerceptionRank8Desc"/>
-				<effect_description level="9" desc_key="attPerceptionRank9Desc"/>
-				<effect_description level="10" desc_key="attPerceptionRank10Desc"/>
+				<effect_description level="1" desc_key="perksPerceptionRank1Desc"/>
+				<effect_description level="2" desc_key="perksPerceptionRank2Desc"/>
+				<effect_description level="3" desc_key="perksPerceptionRank3Desc"/>
+				<effect_description level="4" desc_key="perksPerceptionRank4Desc"/>
+				<effect_description level="5" desc_key="perksPerceptionRank5Desc"/>
+				<effect_description level="6" desc_key="perksPerceptionRank6Desc"/>
+				<effect_description level="7" desc_key="perksPerceptionRank7Desc"/>
+				<effect_description level="8" desc_key="perksPerceptionRank8Desc"/>
+				<effect_description level="9" desc_key="perksPerceptionRank9Desc"/>
+				<effect_description level="10" desc_key="perksPerceptionRank10Desc"/>
 			</effect_group>
 		</perk>	
 	
