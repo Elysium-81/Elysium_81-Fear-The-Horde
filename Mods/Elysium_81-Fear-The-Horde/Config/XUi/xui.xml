@@ -6,7 +6,7 @@
 			<window name="FTHwindowSkillList"/>
 			<window name="windowSkillInfo"/>
 			<!-- <window name="windowSkillStats"/> -->
-			<!-- <window name="windowSkillAttributeInfo" /> -->
+			<window name="FTHwindowSkillAttributeInfo" />
 			<window name="windowSkillSkillInfo" />
 			<window name="windowSkillPerkInfo" />
 		</window_group>
