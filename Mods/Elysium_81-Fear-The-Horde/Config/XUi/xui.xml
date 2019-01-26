@@ -3,12 +3,12 @@
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='skills']"/>
 	<append xpath="/xui/ruleset[@name='default']">
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
-			<window name="FTHwindowSkillList"/>
+			<window name="FTHwindowSkillList"/> <!-- Overskrift venstre side -->
 			<window name="windowSkillInfo"/>
 			<!-- <window name="windowSkillStats"/> -->
-			<window name="windowSkillAttributeInfo" />
+			<window name="windowSkillAttributeInfo" /> <!-- Infopanel Attribute højre side -->
 			<window name="windowSkillSkillInfo" />
-			<window name="windowSkillPerkInfo" />
+			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks højre side -->
 		</window_group>
 	</append>
 
