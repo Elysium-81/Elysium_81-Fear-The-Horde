@@ -7145,6 +7145,17 @@ skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,
 
 perksPerceptionName,progression,Perk,New,Attribute: Perception,,,,,
 perksPerceptionDesc,progression,Perk,New,"Perception is the measure of your sensory awareness.\nIncreasing Perception raises damage and accuracy with ranged weapons.",,,,,
+perksPerceptionRank1Desc,progression,Attribute,New,You might hit your target but you aren't doing much damage.,,,,,
+perksPerceptionRank2Desc,progression,Attribute,New,Ranged weapon damage 5% and accuracy 2%.,,,,,
+perksPerceptionRank3Desc,progression,Attribute,New,Ranged weapon damage 10% and accuracy 4%.,,,,,
+perksPerceptionRank4Desc,progression,Attribute,New,Ranged weapon damage 15% and accuracy 6%.,,,,,
+perksPerceptionRank5Desc,progression,Attribute,New,Ranged weapon damage 20% and accuracy 8%.,,,,,
+perksPerceptionRank6Desc,progression,Attribute,New,Ranged weapon damage 25% and accuracy 10%.,,,,,
+perksPerceptionRank7Desc,progression,Attribute,New,Ranged weapon damage 30% and accuracy 12%.,,,,,
+perksPerceptionRank8Desc,progression,Attribute,New,Ranged weapon damage 35% and accuracy 14%.,,,,,
+perksPerceptionRank9Desc,progression,Attribute,New,Ranged weapon damage 40% and accuracy 16%.,,,,,
+perksPerceptionRank10Desc,progression,Attribute,New,Ranged weapon damage 50% and accuracy 18%.,,,,,
+
 
 newattEngineeringName,progression,Attribute,New,Attribute: Engineering,,,,,
 newattEngineeringDesc,progression,Attribute,New,"Engineering allows you to create advanced items using a forge workbench, tablesaw and Chemistry station.",,,,,
