@@ -2,6 +2,12 @@
 
 <!-- <setattribute xpath="/progression/level" name="max_level">500</setattribute> -->
 <!-- Remove existing skills, perks and parent categories -->
+	<remove xpath="/progression/attributes/attribute[@name='attPerception']"/>
+	<remove xpath="/progression/attributes/attribute[@name='attStrength']"/>
+	<remove xpath="/progression/attributes/attribute[@name='attFortitude']"/>
+	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
+	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/>
+	
  	<remove xpath="/progression/perks/perk[@name='perkHammerForge']"/>
 	<remove xpath="/progression/perks/perk[@name='perkGreaseMonkey']"/>
 	<!-- <remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']"/> -->
@@ -18,13 +24,17 @@
 			</effect_group>
 		</attribute>
 		
-<!-- 		<attribute name="Main Characters Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
-			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements>
+		<attribute name="Activity skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
-		</attribute>	 -->	
+		</attribute>		
 		
-		
+		<attribute name="Tool skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
+			<effect_group>
+			</effect_group>
+		</attribute>
 		
 		
 		<attribute name="Engineering" name_key="newattEngineeringName" desc_key="newattEngineeringDesc" icon="ui_game_symbol_misc_crafting" max_level="1">
@@ -42,6 +52,210 @@
 			<effect_group>
 			</effect_group>
 		</attribute>
+		
+		
+		
+		
+		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_stealth">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints05"/></level_requirements>
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+			<requirement name="HoldingItemHasTags" tags="shotgun" invert="true"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value=".18,.02" level="1,9"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value=".18,.02" level="1,9"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".18,.02" level="1,9"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".18,.02" level="1,9"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".18,.02" level="1,9"/>
+				<passive_effect name="SpreadMultiplierIdle" operation="perc_add" value=".18,.02" level="1,9"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.0,0.40" level="1,9"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.5" level="10"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.52,0.70" level="11,20"/>
+			<effect_description level="1" desc_key="attPerceptionRank1Desc"/>
+			<effect_description level="2" desc_key="attPerceptionRank2Desc"/>
+			<effect_description level="3" desc_key="attPerceptionRank3Desc"/>
+			<effect_description level="4" desc_key="attPerceptionRank4Desc"/>
+			<effect_description level="5" desc_key="attPerceptionRank5Desc"/>
+			<effect_description level="6" desc_key="attPerceptionRank6Desc"/>
+			<effect_description level="7" desc_key="attPerceptionRank7Desc"/>
+			<effect_description level="8" desc_key="attPerceptionRank8Desc"/>
+			<effect_description level="9" desc_key="attPerceptionRank9Desc"/>
+			<effect_description level="10" desc_key="attPerceptionRank10Desc"/>
+		</effect_group>
+
+			<!--
+			This part needs more work. The OOO may be wrong for how the modifier is used.
+			Also, no headshot bonus at Perc 1 is silly as well as the melee bonus being way weaker than this one on it's own.
+
+			If AN ENTITY is doing something, using items, or merely standing around:
+				1. Entity Class
+				2. the item in question including installed mods (if an item is passed in)
+				3. held item  including installed mods, if not equal to the item in question
+				4. worn items  including installed mods
+				5. player progression (skills, perks...)
+				6. buffs
+				7. bonus damage such as for headshots or attacking specific block materials (see below)
+
+		<effect_group>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_subtract" value="0.0,0.45" level="1,10"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_subtract" value="0.47,0.56" level="11,20"/>
+
+			<passive_effect name="ScavengingTime" operation="perc_subtract" value="0.0,0.45" level="1,10"/>
+			<passive_effect name="ScavengingTime" operation="perc_subtract" value="0.47,0.56" level="11,20"/>
+		</effect_group>
+			-->
+	</attribute>
+
+	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_muscle">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints05"/></level_requirements>
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.0,0.40" level="1,9"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.5" level="10"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="0.52,0.70" level="11,20"/>
+
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.0,0.40" level="1,9"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.5" level="10"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value="0.52,0.70" level="11,20"/>
+
+			<effect_description level="1" desc_key="attStrengthRank1Desc"/>
+			<effect_description level="2" desc_key="attStrengthRank2Desc"/>
+			<effect_description level="3" desc_key="attStrengthRank3Desc"/>
+			<effect_description level="4" desc_key="attStrengthRank4Desc"/>
+			<effect_description level="5" desc_key="attStrengthRank5Desc"/>
+			<effect_description level="6" desc_key="attStrengthRank6Desc"/>
+			<effect_description level="7" desc_key="attStrengthRank7Desc"/>
+			<effect_description level="8" desc_key="attStrengthRank8Desc"/>
+			<effect_description level="9" desc_key="attStrengthRank9Desc"/>
+			<effect_description level="10" desc_key="attStrengthRank10Desc"/>
+		</effect_group>
+	</attribute>
+
+	<attribute name="attFortitude" name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_add">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints05"/></level_requirements>
+		<effect_group>
+			<passive_effect name="HealthMax" operation="base_set" value="100,180" level="1,9"/>
+			<passive_effect name="HealthMax" operation="base_set" value="200" level="10"/>
+			<passive_effect name="HealthMax" operation="base_set" value="205,250" level="11,20"/>
+
+			<passive_effect name="HealthLossMaxMult" operation="perc_add" value="0.0,0.24" level="1,9"/>
+			<passive_effect name="HealthLossMaxMult" operation="perc_add" value="0.3" level="10"/>
+			<passive_effect name="HealthLossMaxMult" operation="perc_add" value="0.31,0.40" level="11,20"/>
+
+			<passive_effect name="WaterMax" operation="base_set" value="100,180" level="1,9"/>
+			<passive_effect name="WaterMax" operation="base_set" value="200" level="10"/>
+			<passive_effect name="WaterMax" operation="base_set" value="205,250" level="11,20"/>
+
+			<effect_description level="1" desc_key="attFortitudeRank1Desc"/>
+			<effect_description level="2" desc_key="attFortitudeRank2Desc"/>
+			<effect_description level="3" desc_key="attFortitudeRank3Desc"/>
+			<effect_description level="4" desc_key="attFortitudeRank4Desc"/>
+			<effect_description level="5" desc_key="attFortitudeRank5Desc"/>
+			<effect_description level="6" desc_key="attFortitudeRank6Desc"/>
+			<effect_description level="7" desc_key="attFortitudeRank7Desc"/>
+			<effect_description level="8" desc_key="attFortitudeRank8Desc"/>
+			<effect_description level="9" desc_key="attFortitudeRank9Desc"/>
+			<effect_description level="10" desc_key="attFortitudeRank10Desc"/>
+		</effect_group>
+	</attribute>
+
+	<attribute name="attAgility" name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_agility">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints05"/></level_requirements>
+		<effect_group>
+			<passive_effect name="StaminaMax" operation="base_set" value="100,180" level="1,9"/>
+			<passive_effect name="StaminaMax" operation="base_set" value="200" level="10"/>
+			<passive_effect name="StaminaMax" operation="base_set" value="205,250" level="11,20"/>
+			<!-- "swimming" works now so stamina needs another complete pass so that all the tags and multipliers line up -->
+
+			<effect_description level="1" desc_key="attAgilityRank1Desc"/>
+			<effect_description level="2" desc_key="attAgilityRank2Desc"/>
+			<effect_description level="3" desc_key="attAgilityRank3Desc"/>
+			<effect_description level="4" desc_key="attAgilityRank4Desc"/>
+			<effect_description level="5" desc_key="attAgilityRank5Desc"/>
+			<effect_description level="6" desc_key="attAgilityRank6Desc"/>
+			<effect_description level="7" desc_key="attAgilityRank7Desc"/>
+			<effect_description level="8" desc_key="attAgilityRank8Desc"/>
+			<effect_description level="9" desc_key="attAgilityRank9Desc"/>
+			<effect_description level="10" desc_key="attAgilityRank10Desc"/>
+		</effect_group>
+	</attribute>
+
+	<attribute name="attIntellect" name_key="attIntellectName" desc_key="attIntellectDesc" icon="ui_game_symbol_intellect">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints05"/></level_requirements>
+		<effect_group>
+			<!-- <passive_effect name="PlayerExpGain" operation="perc_add" value="0.0,0.40" level="1,9"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="0.5" level="10"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="0.52,0.70" level="11,20"/>-->
+
+			<passive_effect name="CraftingTier" operation="base_add" level="2,10" value="1,5"/>
+			<passive_effect name="CraftingTier" operation="base_add" level="11,20" value="5"/>
+
+			<passive_effect name="CraftingTime" operation="perc_subtract" level="2,6" value=".05,.45"/>
+			<passive_effect name="CraftingTime" operation="perc_subtract" level="7,10" value=".5,.65"/>
+			<passive_effect name="CraftingTime" operation="perc_subtract" level="11,20" value=".65"/>
+
+			<effect_description level="1" desc_key="attIntellectRank1Desc"/>
+			<effect_description level="2" desc_key="attIntellectRank2Desc"/>
+			<effect_description level="3" desc_key="attIntellectRank3Desc"/>
+			<effect_description level="4" desc_key="attIntellectRank4Desc"/>
+			<effect_description level="5" desc_key="attIntellectRank5Desc"/>
+			<effect_description level="6" desc_key="attIntellectRank6Desc"/>
+			<effect_description level="7" desc_key="attIntellectRank7Desc"/>
+			<effect_description level="8" desc_key="attIntellectRank8Desc"/>
+			<effect_description level="9" desc_key="attIntellectRank9Desc"/>
+			<effect_description level="10" desc_key="attIntellectRank10Desc"/>
+		</effect_group>
+	</attribute>
+		
+		
 	</append>
 	
 
@@ -102,6 +316,9 @@
 				<effect_description level="10" desc_key="perksPerceptionRank10Desc"/>
 			</effect_group>
 		</perk>	
+	
+	
+	
 	
 	</append>
 	
