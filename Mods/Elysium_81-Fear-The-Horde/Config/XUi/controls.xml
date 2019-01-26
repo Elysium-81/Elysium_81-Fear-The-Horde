@@ -4,10 +4,10 @@
 	<append xpath="/controls">
 
 		<skill_entry>
-			<panel disableautobackground="true" depth="2" width="645" height="46" controller="SkillEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]">
+			<panel disableautobackground="true" depth="2" width="745" height="46" controller="SkillEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]">
 				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="647" height="48" color="[black]" type="sliced" fillcenter="false" />
 				
-				<sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" width="644"  height="45" type="sliced" />
+				<sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" width="744"  height="45" type="sliced" />
 				
 				<sprite depth="2" name="groupIcon" sprite="{groupicon}" style="icon32px" pos="6, -3" color="{statuscolor}" foregroundlayer="true"/>
 				<label width="386" name="groupName" pos="44,-7" depth="2" text="{groupname}" color="{statuscolor}"/>
