@@ -78,7 +78,7 @@
 					</rect> -->
 				</rect>
 
-				<grid name="skills" rows="13" cols="1" pos="106,-91" cell_width="745" cell_height="46" controller="SkillList" repeat_content="true" arrangement="vertical" >
+				<grid name="skills" rows="13" cols="1" pos="106,-89" cell_width="745" cell_height="46" controller="SkillList" repeat_content="true" arrangement="vertical" >
 					<skill_entry name="0"/>
 				</grid>
 			</panel>
