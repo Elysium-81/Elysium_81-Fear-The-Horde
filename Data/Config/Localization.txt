@@ -7145,7 +7145,7 @@ skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,
 
 perksPerceptionName,progression,Perk,New,Attribute: Perception,,,,,
 perksPerceptionDesc,progression,Perk,New,"Perception is the measure of your sensory awareness.\nIncreasing Perception raises damage and accuracy with ranged weapons.",,,,,
-perksPerceptionRank1Desc,progression,Attribute,New,You might hit your target but you aren't doing much damage.,,,,,
+perksPerceptionRank1Desc,progression,Attribute,New,you aren't doing much damage.,,,,,
 perksPerceptionRank2Desc,progression,Attribute,New,Ranged weapon damage 5% and accuracy 2%.,,,,,
 perksPerceptionRank3Desc,progression,Attribute,New,Ranged weapon damage 10% and accuracy 4%.,,,,,
 perksPerceptionRank4Desc,progression,Attribute,New,Ranged weapon damage 15% and accuracy 6%.,,,,,
