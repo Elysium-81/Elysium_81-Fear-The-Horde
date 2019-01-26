@@ -10,18 +10,18 @@
 				<sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" width="744"  height="45" type="sliced" />
 				
 				<sprite depth="2" name="groupIcon" sprite="{groupicon}" style="icon32px" pos="6, -3" color="{statuscolor}" foregroundlayer="true"/>
-				<label width="486" name="groupName" pos="44,-7" depth="2" text="{groupname}" color="{statuscolor}"/>
+				<label width="586" name="groupName" pos="44,-7" depth="2" text="{groupname}" color="{statuscolor}"/>
 				
 				<!-- <sprite depth="3" pos="0,-39" height="3" width="640" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" /> -->
 				<!-- <sprite depth="3" pos="0,-39" height="3" width="640" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" /> -->
 				
-				<sprite depth="2" pos="486,-19" sprite="ui_game_symbol_lock" visible="{islocked}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true"/>
-				<label width="125" pos="486,-19" depth="2" text="{grouplevel}" visible="{isnotlocked}" pivot="center" justify="center" color="{statuscolor}"/>
+				<sprite depth="2" pos="586,-19" sprite="ui_game_symbol_lock" visible="{islocked}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true"/>
+				<label width="125" pos="586,-19" depth="2" text="{grouplevel}" visible="{isnotlocked}" pivot="center" justify="center" color="{statuscolor}"/>
 				
 				<!--<sprite pos="492,-19" depth="2" sprite="{grouptypeicon}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true"/>-->
 				
-				<sprite depth="2" pos="593,-19" sprite="ui_game_symbol_lock" visible="{cannotpurchase}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true" />
-				<label width="90" pos="593,-19" depth="2" text="{grouppointcost}" visible="{canpurchase}" pivot="center" justify="center" color="{statuscolor}"/>
+				<sprite depth="2" pos="693,-19" sprite="ui_game_symbol_lock" visible="{cannotpurchase}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true" />
+				<label width="90" pos="693,-19" depth="2" text="{grouppointcost}" visible="{canpurchase}" pivot="center" justify="center" color="{statuscolor}"/>
 			</panel>
 		</skill_entry>
 
