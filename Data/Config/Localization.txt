@@ -7140,8 +7140,11 @@ attMainCharactersScreenName,progression,Attribute,New,Attribute: Main Characters
 attMainCharactersScreenDesc,progression,Attribute,New,"All the non class specific perks",,,,,
 attMainCharactersScreenLevel01,progression,Attribute,New,"1",,,,,
 
-skillMainSkillsName,progression,Skill,New,Main Characters Skills,,,,,
-skillMainSkillsDesc,progression,Skill,New,Main Characters Skills,,,,,
+skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
+skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
+
+perksPerceptionName,progression,Perk,New,Attribute: Perception,,,,,
+perksPerceptionDesc,progression,Perk,New,"Perception is the measure of your sensory awareness.\nIncreasing Perception raises damage and accuracy with ranged weapons.",,,,,
 
 newattEngineeringName,progression,Attribute,New,Attribute: Engineering,,,,,
 newattEngineeringDesc,progression,Attribute,New,"Engineering allows you to create advanced items using a forge workbench, tablesaw and Chemistry station.",,,,,
@@ -7186,59 +7189,4 @@ ammoCraftingName,progression,Skill,New,Ammunition,,,,,
 
 
 
-perkForgeDesc,progression,Perk,New,Craft a forges that kan be used to forge iron and steel item.,,,,,
-perkForgeName,progression,Perk,New,Forge,,,,,
-perkForgeRank1Desc,progression,Perk,New,"You can craft a forges.",,,,,
-perkForgeRank2Desc,progression,Perk,New,"Iron Chef. You can now craft forged iron, that can be used to craft Iron tools and weapons.",,,,,
-perkForgeRank3Desc,progression,Perk,New,"Steel Master! You can now craft forged steel, that can be used to craft steel tools and weapons.",,,,,
-
-perkWorkbenchDesc,progression,Perk,New,Craft Workbench. Thise a very hand tools as they allows you to craft advanced items.,,,,,
-perkWorkbenchName,progression,Perk,New,Workbench,,,,,
-perkWorkbenchRank1Desc,progression,Perk,New,"Workbench.",,,,,
-
-perktableSawDesc,progression,Perk,New,Craft Tablesaw. Thise a very hand tools that allows you to cut up wood to craft furniture and advanced block shapes.,,,,,
-perktableSawName,progression,Perk,New,Tablesaw,,,,,
-perktableSawRank1Desc,progression,Perk,New,"Tablesaw.",,,,,
-
-perkcementMixerDesc,progression,Perk,New,Craft Cement Mixer. Thise a very hand tools that allows you to mix various items together.,,,,,
-perkcementMixerName,progression,Perk,New,Cement Mixer,,,,,
-perkcementMixerRank1Desc,progression,Perk,New,"Cement Mixer.",,,,,
-
-perkchemistryStationDesc,progression,Perk,New,Craft Chemistry Station. Thise could be a very hand station that allows you to make various chemically item.,,,,,
-perkchemistryStationName,progression,Perk,New,Chemistry Station,,,,,
-perkchemistryStationRank1Desc,progression,Perk,New,"Chemistry Station.",,,,,
-
-perkBicycleDesc,progression,Perk,New,Craft your self a bicycle to get around.,,,,,
-perkBicycleName,progression,Perk,New,Bicycle,,,,,
-perkBicycleRank1Desc,progression,Perk,New,"Bicycle.",,,,,
-
-perkMinibikeDesc,progression,Perk,New,Craft a minibike to get around with out using stamina.,,,,,
-perkMinibikeName,progression,Perk,New,Minibike,,,,,
-perkMinibikeRank1Desc,progression,Perk,New,"Minibike.",,,,,
-
-perkMotorcycleDesc,progression,Perk,New,Craft a Motorcycle to get around with out using stamina.,,,,,
-perkMotorcycleName,progression,Perk,New,Motorcycle,,,,,
-perkMotorcycleRank1Desc,progression,Perk,New,"Motorcycle.",,,,,
-
-perk4x4Desc,progression,Perk,New,Craft a 4x4Truck to get around with out using stamina.,,,,,
-perk4x4Name,progression,Perk,New,4x4Truck,,,,,
-perk4x4Rank1Desc,progression,Perk,New,"4x4Truck.",,,,,
-
-perkGyroCopterDesc,progression,Perk,New,Craft a GyroCopter to get around with out using stamina.,,,,,
-perkGyroCopterName,progression,Perk,New,GyroCopter,,,,,
-perkGyroCopterRank1Desc,progression,Perk,New,"GyroCopter.",,,,,
-
-perkIronToolsDesc,progression,Perk,New,This perk allows you to craft iron tools.,,,,,
-perkIronToolsName,progression,Perk,New,Iron Tools,,,,,
-perkIronToolsRank1Desc,progression,Perk,New,"Unlock Claw hammer, Pickaxe, Shovel and Fireaxe.",,,,,
-perkSteelToolsDesc,progression,Perk,New,This perk allows you to craft steel tools.,,,,,
-perkSteelToolsName,progression,Perk,New,Steel Tools,,,,,
-perkSteelToolsRank1Desc,progression,Perk,New,"Unlock Pickaxe, Shovel, Fireaxe and Wrench.",,,,,
-
-perkPowerToolsDesc,progression,Perk,New,Craft power tools.,,,,,
-perkPowerToolsName,progression,Perk,New,Power Tools,,,,,
-perkPowerToolsRank1Desc,progression,Perk,New,"Craft Nail gun.",,,,,
-perkPowerToolsRank2Desc,progression,Perk,New,"Craft Chainsaw.",,,,,
-perkPowerToolsRank3Desc,progression,Perk,New,"Craft Auger.",,,,,
-perkPowerToolsRank4Desc,progression,Perk,New,"Craft HD Powertools.",,,,,
 
