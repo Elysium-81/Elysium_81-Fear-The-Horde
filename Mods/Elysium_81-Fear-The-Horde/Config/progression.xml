@@ -18,11 +18,11 @@
 			</effect_group>
 		</attribute>
 		
-		<attribute name="Main Characters Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+<!-- 		<attribute name="Main Characters Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
-		</attribute>		
+		</attribute>	 -->	
 		
 		
 		
@@ -49,8 +49,8 @@
 	<append xpath="/progression/skills">
 	<!-- Main Characters Screen -->
 		<skill name="skillGeneralCharacterSkills" parent="Main Characters Screen" name_key="skillGeneralcharacterskillsName" desc_key="skillGeneralcharacterskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
-		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
-		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
+<!-- 		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
+		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill> -->
 	
 	<!-- Engineering -->
 		<skill name="toolsCrafting" parent="Engineering" name_key="toolsCraftingName" desc_key="toolsCraftingDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
@@ -103,28 +103,6 @@
 			</effect_group>
 		</perk>	
 	
-	
-	
-
-	<!-- GyroCopter tools -->
-		<perk name="perkGyroCopter" parent="vehicleCrafting" max_level="1" name_key="perkGyroCopterName" desc_key="perkGyroCopterDesc" icon="ui_game_symbol_service" base_skill_point_cost="10">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Engineering" operation="GTE" value="1" desc_key="reqIntellectLevel1"/></level_requirements>
-			<effect_group>
-				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="vehicleGyroCopterChassis,vehicleGyroCopterAccessories,vehicleGyrocopterPlaceable"/>
-				<effect_description level="1" desc_key="perkGyroCopterRank1Desc"/>
-			</effect_group>
-		</perk>	
-
-		
-		
-		
-		
-		
-		
-
-
-
-		
 	</append>
 	
 </configs>
