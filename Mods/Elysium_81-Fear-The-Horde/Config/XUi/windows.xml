@@ -252,11 +252,11 @@
 				<sprite depth="1" pos="2,-2" name="preview" width="148" height="162" color="[darkGrey]" type="sliced" />
 				<sprite depth="3" pos="77,-77" width="100" height="100" sprite="{groupicon}" pivot="center" foregroundlayer="true"/>
 
-				<rect name="descriptionBox" depth="1" pos="148,0" width="498" height="162" >
+				<rect name="descriptionBox" depth="1" pos="148,0" width="598" height="162" >
 					<sprite depth="1" name="background" color="[mediumGrey]" type="sliced"/>
 					<sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="499" height="163" color="[black]" type="sliced" fillcenter="false" />
 
-					<label depth="2" name="descriptionText" pos="6,-8" width="486" height="144" text="{groupdescription}"/>
+					<label depth="2" name="descriptionText" pos="6,-8" width="586" height="144" text="{groupdescription}"/>
 				</rect>
 
 				<rect name="currentProgressBox" depth="1" pos="0,-160" height="44">
@@ -264,9 +264,9 @@
 					<sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pos="0,0" height="46" color="[black]" type="sliced" fillcenter="false" />
 
 					<label depth="2" pos="10,-22" width="80" height="32" text="{currentlevel} {skillLevel}" justify="right" pivot="left" />
-					<sprite depth="2" pos="99,-22" height="18" width="452" color="[black]" type="sliced" pivot="left" />
-					<sprite depth="3" pos="100,-22" height="16" width="450" color="[darkGrey]" type="sliced" pivot="left" foregroundlayer="true" />
-					<sprite depth="3" pos="100,-22" height="16" width="450" color="[red]" type="filled" pivot="left" foregroundlayer="true" fill="{skillpercentthislevel}" />
+					<sprite depth="2" pos="99,-22" height="18" width="552" color="[black]" type="sliced" pivot="left" />
+					<sprite depth="3" pos="100,-22" height="16" width="550" color="[darkGrey]" type="sliced" pivot="left" foregroundlayer="true" />
+					<sprite depth="3" pos="100,-22" height="16" width="550" color="[red]" type="filled" pivot="left" foregroundlayer="true" fill="{skillpercentthislevel}" />
 					<label depth="2" pos="640,-22" width="80" height="32" text="{currentlevel} {nextSkillLevel}" justify="left" pivot="right" visible="{notmaxlevel}" />
 
 					<rect pos="200,0" width="250" depth="4" name="locked" visible="{nextSkillLevelLocked}">
@@ -281,7 +281,7 @@
 
 					<rect name="header" height="43">
 						<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/>
-						<sprite depth="3" pos="0,1" width="647" height="46" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+						<sprite depth="3" pos="0,1" width="747" height="46" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 						<label depth="2" pos="14,-10" text_key="xuiSkillEffects"  height="34" />
 					</rect>
 
@@ -289,17 +289,17 @@
 					<label depth="2" pos="331,-47" width="310" height="84" text="{effectsCol2}" />
 				</rect>
 
-				<rect name="milestones" depth="1" pos="0,-336" width="647" height="348">
+				<rect name="milestones" depth="1" pos="0,-336" width="747" height="348">
 					<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/>
 					<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 
 					<rect name="header" height="43">
 						<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/>
-						<sprite depth="3" pos="0,1" width="647" height="46" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+						<sprite depth="3" pos="0,1" width="747" height="46" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 						<label depth="2" pos="14,-10" text_key="xuiSkillMilestones"  height="34" />
 					</rect>
 
-					<grid depth="2" rows="5" cols="1" pos="0,-45" width="647" cell_width="647" cell_height="60" repeat_content="true">
+					<grid depth="2" rows="5" cols="1" pos="0,-45" width="747" cell_width="647" cell_height="60" repeat_content="true">
 						<skill_skill_milestone depth="2" width="647" height="60" />
 					</grid>
 				</rect>
