@@ -10,7 +10,7 @@
 				<sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" width="744"  height="45" type="sliced" />
 				
 				<sprite depth="2" name="groupIcon" sprite="{groupicon}" style="icon32px" pos="6, -3" color="{statuscolor}" foregroundlayer="true"/>
-				<label width="386" name="groupName" pos="44,-7" depth="2" text="{groupname}" color="{statuscolor}"/>
+				<label width="486" name="groupName" pos="44,-7" depth="2" text="{groupname}" color="{statuscolor}"/>
 				
 				<!-- <sprite depth="3" pos="0,-39" height="3" width="640" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" /> -->
 				<!-- <sprite depth="3" pos="0,-39" height="3" width="640" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" /> -->
