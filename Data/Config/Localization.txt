@@ -7147,11 +7147,14 @@ attActivityskillsLevel01,progression,Attribute,New,"1",,,,,
 
 
 
-
-
-
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
 skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
+skillActivityskillsName,progression,Skill,New,Activity skills,,,,,
+skillActivityskillsDesc,progression,Skill,New,Activity skills,,,,,
+skillCraftingrecipesName,progression,Skill,New,Crafting recipes,,,,,
+skillCraftingrecipesDesc,progression,Skill,New,Crafting recipes,,,,,
+
+
 
 perksPerceptionName,progression,Perk,New,Attribute: Perception,,,,,
 perksPerceptionDesc,progression,Perk,New,"Perception is the measure of your sensory awareness.\nIncreasing Perception raises damage and accuracy with ranged weapons.",,,,,
