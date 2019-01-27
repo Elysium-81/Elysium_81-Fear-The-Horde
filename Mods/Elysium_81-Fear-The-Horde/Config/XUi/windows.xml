@@ -15,7 +15,7 @@
 			<panel name="content" pos="-3,-43" height="769" depth="1" disableautobackground="true"> <!-- backgroundcolor="[lightGrey]" bordercolor="[black]" borderthickness="3" -->
 
 				<rect name="categoryHeader" pos="6,-3" width="744" height="43">
-					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="747" height="46" color="[black]" type="sliced" fillcenter="false" />
+					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="747" height="92" color="[black]" type="sliced" fillcenter="false" />
 					<sprite depth="1" name="background"  color="[mediumGrey]" type="sliced"/>
 
 					<panel depth="1" pos="3,-3" width="510" height="37" disableautobackground="true">
