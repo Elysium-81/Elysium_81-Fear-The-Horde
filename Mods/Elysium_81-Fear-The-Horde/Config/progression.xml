@@ -8,6 +8,18 @@
 	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/>
 	
+	<remove xpath="/progression/skills/skill[@name='skillMarksmanship']"/>
+	<remove xpath="/progression/skills/skill[@name='skillScavenging']"/>
+	<remove xpath="/progression/skills/skill[@name='skillStrengthGeneral']"/>
+	<remove xpath="/progression/skills/skill[@name='skillMeleeCombat']"/>
+	<remove xpath="/progression/skills/skill[@name='skillConstruction']"/>
+	<remove xpath="/progression/skills/skill[@name='skillSurvival']"/>
+	<remove xpath="/progression/skills/skill[@name='skillRecovery']"/>
+	<remove xpath="/progression/skills/skill[@name='skillAthletics']"/>
+	<remove xpath="/progression/skills/skill[@name='skillStealth']"/>
+	<remove xpath="/progression/skills/skill[@name='skillInfluence']"/>
+	<remove xpath="/progression/skills/skill[@name='skillCraftsmanship']"/>
+	
 	
 	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
 <!-- Adds the new  skills, perks and parent categories -->
@@ -51,7 +63,7 @@
 			</effect_group>
 		</attribute>
 		
-		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_intellect">
+		<attribute name="Class4 skills" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -113,7 +125,7 @@
 			-->
 	</attribute>
 
-	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect">
+	<attribute name="Class5 skills" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -147,7 +159,7 @@
 		</effect_group>
 	</attribute>
 
-	<attribute name="attFortitude" name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_intellect">
+	<attribute name="Class6 skills" name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -184,7 +196,7 @@
 		</effect_group>
 	</attribute>
 
-	<attribute name="attAgility" name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_intellect">
+	<attribute name="Class7 skills" name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -214,7 +226,7 @@
 		</effect_group>
 	</attribute>
 
-	<attribute name="attIntellect" name_key="attIntellectName" desc_key="attIntellectDesc" icon="ui_game_symbol_intellect">
+	<attribute name="Class8 skills" name_key="attIntellectName" desc_key="attIntellectDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -260,7 +272,27 @@
 		<skill name="skillGeneralCharacterSkills" parent="Main Character Screen" name_key="skillGeneralcharacterskillsName" desc_key="skillGeneralcharacterskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
 		<skill name="skillActivityskills" parent="Activity skills" name_key="skillActivityskillsName" desc_key="skillActivityskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
 		<skill name="skillCraftingrecipes" parent="Crafting recipes" name_key="skillCraftingrecipesName" desc_key="skillCraftingrecipesDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
-	
+
+		
+		
+			<skill name="skillMarksmanship" parent="Class4 skills" name_key="skillMarksmanshipName" desc_key="skillMarksmanshipDesc" icon="ui_game_symbol_marksmanship"><effect_group/></skill>
+			<skill name="skillScavenging" parent="Class4 skills" name_key="skillScavengingName" desc_key="skillScavengingDesc" icon="ui_game_symbol_hand"><effect_group/></skill>
+
+			<skill name="skillStrengthGeneral" parent="Class5 skills" name_key="skillStrengthGeneralName" desc_key="skillStrengthGeneralDesc" icon="ui_game_symbol_muscle"><effect_group/></skill>
+			<skill name="skillMeleeCombat" parent="Class5 skills" name_key="skillMeleeCombatName" desc_key="skillMeleeCombatDesc" icon="ui_game_symbol_melee"><effect_group/></skill>
+			<skill name="skillConstruction" parent="Class5 skills" name_key="skillConstructionName" desc_key="skillConstructionDesc" icon="ui_game_symbol_resource"><effect_group/></skill>
+
+			<skill name="skillSurvival" parent="Class6 skills" name_key="skillSurvivalName" desc_key="skillSurvivalDesc" icon="ui_game_symbol_survival"><effect_group/></skill>
+			<skill name="skillRecovery" parent="Class6 skills" name_key="skillRecoveryName" desc_key="skillRecoveryDesc" icon="ui_game_symbol_water"><effect_group/></skill>
+
+			<skill name="skillAthletics" parent="Class7 skills" name_key="skillAthleticsName" desc_key="skillAthleticsDesc" icon="ui_game_symbol_run"><effect_group/></skill>
+			<skill name="skillStealth" parent="Class7 skills" name_key="skillStealthName" desc_key="skillStealthDesc" icon="ui_game_symbol_stealth2"><effect_group/></skill>
+
+			<skill name="skillInfluence" parent="Class8 skills" name_key="skillInfluenceName" desc_key="skillInfluenceDesc" icon="ui_game_symbol_influence"><effect_group/></skill>
+			<skill name="skillCraftsmanship" parent="Class8 skills" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
+
+
+		
 	</append>
 
 <!-- Perks -->	
