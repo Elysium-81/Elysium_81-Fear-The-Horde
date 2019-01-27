@@ -15,11 +15,11 @@
 			<panel name="content" pos="-3,-43" height="769" depth="1" disableautobackground="true"> <!-- backgroundcolor="[lightGrey]" bordercolor="[black]" borderthickness="3" -->
 
 				<rect name="categoryHeader" pos="6,-3" width="744" height="43">
-					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="747" height="92" color="[black]" type="sliced" fillcenter="false" />
+					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="747" height="46" color="[black]" type="sliced" fillcenter="false" />
 					<sprite depth="1" name="background"  color="[mediumGrey]" type="sliced"/>
 
 					<panel depth="1" pos="3,-3" width="510" height="37" disableautobackground="true">
-						<grid name="categories" pos="-3,-6" rows="2" cols="7" width="663" height="34" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
+						<grid name="categories" pos="-3,-6" rows="1" cols="11" width="663" height="34" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
 							<category_icon />
 						</grid>
 					</panel>
@@ -39,7 +39,7 @@
 					</panel>
 				</rect>
 
-				<rect name="tableHeader" pos="5,-98" width="745" height="43">
+				<rect name="tableHeader" pos="5,-49" width="745" height="43">
 					<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/>
 
 					<rect depth="1" width="539" height="40">
@@ -78,7 +78,7 @@
 					</rect> -->
 				</rect>
 
-				<grid name="skills" rows="12" cols="1" pos="6,-136" cell_width="745" cell_height="46" controller="SkillList" repeat_content="true" arrangement="vertical" >
+				<grid name="skills" rows="13" cols="1" pos="6,-90" cell_width="745" cell_height="46" controller="SkillList" repeat_content="true" arrangement="vertical" >
 					<skill_entry name="0"/>
 				</grid>
 			</panel>
