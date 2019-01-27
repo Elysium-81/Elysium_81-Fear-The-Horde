@@ -17,9 +17,7 @@
 	<remove xpath="/progression/skills/skill[@name='skillRecovery']"/>
 	<remove xpath="/progression/skills/skill[@name='skillAthletics']"/>
 	<remove xpath="/progression/skills/skill[@name='skillStealth']"/>
-	<remove xpath="/progression/skills/skill[@name='skillInfluence']"/>
-	<remove xpath="/progression/skills/skill[@name='skillMarksmanship']"/>
-	
+	<remove xpath="/progression/skills/skill[@name='skillInfluence']"/>	
 	
 	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
 <!-- Adds the new  skills, perks and parent categories -->
