@@ -33,25 +33,25 @@
 			</effect_group>
 		</attribute>
 
-		<attribute name="Class 1 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Class 1 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
 
-		<attribute name="Class2 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Class2 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>		
 		
-		<attribute name="Class skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Class3 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
 		
-		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_stealth">
+		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -113,7 +113,7 @@
 			-->
 	</attribute>
 
-	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_muscle">
+	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -147,7 +147,7 @@
 		</effect_group>
 	</attribute>
 
-	<attribute name="attFortitude" name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_add">
+	<attribute name="attFortitude" name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -184,7 +184,7 @@
 		</effect_group>
 	</attribute>
 
-	<attribute name="attAgility" name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_agility">
+	<attribute name="attAgility" name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
