@@ -62,7 +62,7 @@
 			</effect_group>
 		</attribute>
 
-		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_intellect">
+	<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -124,7 +124,7 @@
 			-->
 	</attribute>
 
-	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect" min_level="0">
+	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -294,7 +294,7 @@
 
 <!-- Perks -->	
 	<append xpath="/progression/perks">
-		<perk name="perksPerception" parent="skillGeneralCharacterSkills" name_key="perksPerceptionName" desc_key="perksPerceptionDesc" icon="ui_game_symbol_stealth" min_level="0" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<perk name="perksPerception" parent="skillGeneralCharacterSkills" name_key="perksPerceptionName" desc_key="perksPerceptionDesc" icon="ui_game_symbol_stealth" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
