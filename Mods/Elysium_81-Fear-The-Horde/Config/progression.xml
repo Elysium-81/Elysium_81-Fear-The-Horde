@@ -27,7 +27,7 @@
 			</effect_group>
 		</attribute>		
 		
-		<attribute name="Tool skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Crafting recipes" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_misc_crafting" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
@@ -258,8 +258,8 @@
 	<append xpath="/progression/skills">
 	<!-- Main Characters Screen -->
 		<skill name="skillGeneralCharacterSkills" parent="Main Characters Screen" name_key="skillGeneralcharacterskillsName" desc_key="skillGeneralcharacterskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
-<!-- 		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
-		<skill name="skillMainSkills" parent="Main Characters Screen" name_key="skillMainSkillsName" desc_key="skillMainSkillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill> -->
+		<skill name="skillActivityskills" parent="Activity skills" name_key="skillActivityskillsName" desc_key="skillActivityskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
+		<skill name="skillCraftingrecipes" parent="Crafting recipes" name_key="skillCraftingrecipesName" desc_key="skillCraftingrecipesDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
 	
 	</append>
 
