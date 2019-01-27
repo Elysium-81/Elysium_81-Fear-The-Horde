@@ -8,6 +8,8 @@
 	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/>
 	
+	
+	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
  	<append xpath="/progression/attributes">
