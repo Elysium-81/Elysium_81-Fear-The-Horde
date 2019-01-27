@@ -7,10 +7,6 @@
 	<remove xpath="/progression/attributes/attribute[@name='attFortitude']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/>
-
-	
-	<remove xpath="/progression/attributes[@min_level='1']/@base_skill_point_cost='1'"/>
-	<!-- <set xpath="/progression/attributes[@min_level='1']/@base_skill_point_cost">0</set> -->
 	
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
@@ -53,7 +49,7 @@
 			</effect_group>
 		</attribute>
 		
-		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_stealth">
+		<attribute name="attPerception" name_key="attPerceptionName" desc_key="attPerceptionDesc" icon="ui_game_symbol_stealth" base_skill_point_cost="0">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
