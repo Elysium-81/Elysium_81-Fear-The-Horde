@@ -48,7 +48,7 @@ Farmer Class
 	Living Off The Land
 	Master Chef
 	
-Master Smith Class
+Smith Class
 	Hammer Forge
 	
 Trader Class (Gets the trader as part of the quest)
