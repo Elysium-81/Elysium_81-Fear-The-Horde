@@ -274,21 +274,21 @@
 
 
 
-			<skill name="Class4 skills" parent="attPerception" name_key="skillMarksmanshipName" desc_key="skillMarksmanshipDesc" icon="ui_game_symbol_marksmanship"><effect_group/></skill>
-			<skill name="Class4 skills" parent="attPerception" name_key="skillScavengingName" desc_key="skillScavengingDesc" icon="ui_game_symbol_hand"><effect_group/></skill>
+			<skill name="skillMarksmanship" parent="Class4 skills" name_key="skillMarksmanshipName" desc_key="skillMarksmanshipDesc" icon="ui_game_symbol_marksmanship"><effect_group/></skill>
+			<skill name="skillScavenging" parent="Class4 skills" name_key="skillScavengingName" desc_key="skillScavengingDesc" icon="ui_game_symbol_hand"><effect_group/></skill>
 
-			<skill name="Class5 skills" parent="attStrength" name_key="skillStrengthGeneralName" desc_key="skillStrengthGeneralDesc" icon="ui_game_symbol_muscle"><effect_group/></skill>
-			<skill name="Class5 skills" parent="attStrength" name_key="skillMeleeCombatName" desc_key="skillMeleeCombatDesc" icon="ui_game_symbol_melee"><effect_group/></skill>
-			<skill name="Class5 skills" parent="attStrength" name_key="skillConstructionName" desc_key="skillConstructionDesc" icon="ui_game_symbol_resource"><effect_group/></skill>
+			<skill name="skillStrengthGeneral" parent="Class5 skills" name_key="skillStrengthGeneralName" desc_key="skillStrengthGeneralDesc" icon="ui_game_symbol_muscle"><effect_group/></skill>
+			<skill name="skillMeleeCombat" parent="Class5 skills" name_key="skillMeleeCombatName" desc_key="skillMeleeCombatDesc" icon="ui_game_symbol_melee"><effect_group/></skill>
+			<skill name="skillConstruction" parent="Class5 skills" name_key="skillConstructionName" desc_key="skillConstructionDesc" icon="ui_game_symbol_resource"><effect_group/></skill>
 
-			<skill name="Class6 skills" parent="attFortitude" name_key="skillSurvivalName" desc_key="skillSurvivalDesc" icon="ui_game_symbol_survival"><effect_group/></skill>
-			<skill name="Class6 skills" parent="attFortitude" name_key="skillRecoveryName" desc_key="skillRecoveryDesc" icon="ui_game_symbol_water"><effect_group/></skill>
+			<skill name="skillSurvival" parent="Class6 skills" name_key="skillSurvivalName" desc_key="skillSurvivalDesc" icon="ui_game_symbol_survival"><effect_group/></skill>
+			<skill name="skillRecovery" parent="Class6 skills" name_key="skillRecoveryName" desc_key="skillRecoveryDesc" icon="ui_game_symbol_water"><effect_group/></skill>
 
-			<skill name="Class7 skills" parent="attAgility" name_key="skillAthleticsName" desc_key="skillAthleticsDesc" icon="ui_game_symbol_run"><effect_group/></skill>
-			<skill name="Class7 skills" parent="attAgility" name_key="skillStealthName" desc_key="skillStealthDesc" icon="ui_game_symbol_stealth2"><effect_group/></skill>
+			<skill name="skillAthletics" parent="Class7 skills" name_key="skillAthleticsName" desc_key="skillAthleticsDesc" icon="ui_game_symbol_run"><effect_group/></skill>
+			<skill name="skillStealth" parent="Class7 skills" name_key="skillStealthName" desc_key="skillStealthDesc" icon="ui_game_symbol_stealth2"><effect_group/></skill>
 
-			<skill name="Class8 skills" parent="attIntellect" name_key="skillInfluenceName" desc_key="skillInfluenceDesc" icon="ui_game_symbol_influence"><effect_group/></skill>
-			<skill name="Class8 skills" parent="attIntellect" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
+			<skill name="skillInfluence" parent="Class8 skills" name_key="skillInfluenceName" desc_key="skillInfluenceDesc" icon="ui_game_symbol_influence"><effect_group/></skill>
+			<skill name="skillCraftsmanship" parent="Class8 skills" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
 
 
 
