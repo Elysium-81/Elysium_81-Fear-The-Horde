@@ -7142,9 +7142,9 @@ attMainCharactersScreenLevel01,progression,Attribute,New,"1",,,,,
 attActivityskillsName,progression,Attribute,New,Attribute: Activity skills,,,,,
 attActivityskillsDesc,progression,Attribute,New,"Activity skills, levels when used",,,,,
 attActivityskillsLevel01,progression,Attribute,New,"1",,,,,
-
-
-
+attCraftingrecipesName,progression,Attribute,New,Attribute: Crafting recipes,,,,,
+attCraftingrecipesDesc,progression,Attribute,New,"Crafting recipes, allows you to lean recipes",,,,,
+attCraftingrecipesLevel01,progression,Attribute,New,"1",,,,,
 
 
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
