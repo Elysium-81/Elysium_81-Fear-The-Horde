@@ -7170,8 +7170,10 @@ attSmithClassRank5Desc,progression,Attribute,New,"5, Complete the Smithing class
 
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
 skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
-skillActivityskillsName,progression,Skill,New,Activity skills,,,,,
-skillActivityskillsDesc,progression,Skill,New,Activity skills,,,,,
+skillActivityToolsskillsName,progression,Skill,New,Tools activity skills,,,,,
+skillActivityToolsskillsDesc,progression,Skill,New,Tools activity skills,,,,,
+skillActivityweaponsskillsName,progression,Skill,New,Weapon activity skills,,,,,
+skillActivityweaponsskillsDesc,progression,Skill,New,Waepon activity skills,,,,,
 skillCraftingrecipesName,progression,Skill,New,Crafting recipes,,,,,
 skillCraftingrecipesDesc,progression,Skill,New,Crafting recipes,,,,,
 
