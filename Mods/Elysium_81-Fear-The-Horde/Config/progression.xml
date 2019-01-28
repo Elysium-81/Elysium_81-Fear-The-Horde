@@ -275,7 +275,9 @@
 </append>
 
 <!-- Parent Perks -->
-	<append xpath="/progression/skills">
+<append xpath="/progression">
+	
+	<skills min_level="1" max_level="1">
 	<!-- Main Characters Screen -->
 		<skill name="skillGeneralCharacterSkills" parent="Main Character Screen" name_key="skillGeneralcharacterskillsName" desc_key="skillGeneralcharacterskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
 		<skill name="skillActivityskills" parent="Activity skills" name_key="skillActivityskillsName" desc_key="skillActivityskillsDesc" icon="ui_game_symbol_tool"><effect_group/></skill>
@@ -298,10 +300,9 @@
 
 			<skill name="skillInfluence" parent="attIntellect" name_key="skillInfluenceName" desc_key="skillInfluenceDesc" icon="ui_game_symbol_influence"><effect_group/></skill>
 			<skill name="skillCraftsmanship" parent="attIntellect" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
+	</skills>
 
-
-
-	</append>
+</append>
 
 <!-- Perks -->	
 	<append xpath="/progression/perks">
