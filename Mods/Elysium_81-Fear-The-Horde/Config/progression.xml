@@ -20,6 +20,11 @@
 	<remove xpath="/progression/skills/skill[@name='skillInfluence']"/>	
 	<remove xpath="/progression/skills/skill[@name='skillCraftsmanship']"/>	
 
+	<remove xpath="/progression/perks/perk[@name='perkCharismaticNature']"/>
+	
+	
+	
+	
 	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
@@ -44,8 +49,8 @@
 			</effect_group>
 		</attribute>
 
-		<attribute name="Class 1 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
-			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
+		<attribute name="Smith Class" name_key="attSmithClassName" desc_key="attSmithClassDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
