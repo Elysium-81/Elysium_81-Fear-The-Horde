@@ -99,7 +99,7 @@
 				<panel name="actionsBox" depth="2" pos="3,-153" width="146" height="78" disableautobackground="true">
 					<sprite depth="1" pos="-3,8" width="151" height="91" name="background" color="[mediumGrey]" type="sliced"/>
 					<grid rows="2" cols="1" pos="0,5" width="144" cell_width="144" cell_height="43" controller="ItemActionList">
-						<skill_action_entry />
+						<!-- <skill_action_entry /> -->
 						<!-- <skill_action_entry />  -->
 					</grid>
 					<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="-3,8" width="151" height="91" color="[black]" type="sliced" fillcenter="false" />
