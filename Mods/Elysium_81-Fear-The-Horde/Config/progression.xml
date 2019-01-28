@@ -393,7 +393,7 @@
 
 <!-- Tools -->
 	
-	<perk name="perkASArmorUse" parent="skillActivityToolsskills" max_level="100" name_key="Armor Usage" desc_key="perkASArmorUseDesc" icon="ui_game_symbol_armor_iron">
+	<perk name="perkASArmorUse" parent="skillActivityToolsskills" max_level="100" name_key="Armor Usage" desc_key="perkASArmorUseDesc" icon="ui_game_symbol_armor_iron" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.10,0.50" level="1,100" tags="armor"/>
 			<passive_effect name="DegradationMax" operation="perc_add" value="0.20,1" level="1,100" tags="armor"/>
