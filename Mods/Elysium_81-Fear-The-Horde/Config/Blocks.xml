@@ -2,6 +2,7 @@
 	<!-- Remove downgrade path -->
 	<remove xpath="/blocks/block/property[@name='DowngradeBlock']"/>
 	
+	<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='Texture']/@value">289</set>
 	
 	
 	<!-- Add costume items -->
