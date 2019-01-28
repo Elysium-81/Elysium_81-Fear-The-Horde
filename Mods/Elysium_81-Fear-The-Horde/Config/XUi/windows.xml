@@ -112,7 +112,7 @@
 					<label depth="2" name="descriptionText" pos="6,-8" width="486" height="149" text="{groupdescription}"/>
 				</rect>
 
-				<rect name="tableBox" depth="1" pos="0,-150" width="646" height="450">
+				<rect name="tableBox" depth="1" pos="0,-149" width="646" height="450">
 					<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/>
 					<sprite depth="5" pos="0,1" width="647" height="451" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 
@@ -128,11 +128,11 @@
 						</rect>
 						<rect depth="1" pos="572,0" width="75" height="40">
 							<sprite depth="0" name="backgroundMain" sprite="menu_empty3px" height="46" color="[black]" type="sliced" fillcenter="false" />
-							<label depth="1" pos="5,-23" text_key="xuiSkillBuy" pivot="left" justify="center" width="65" />
-						</rect>
+<!-- 							<label depth="1" pos="5,-23" text_key="xuiSkillBuy" pivot="left" justify="center" width="65" />
+ -->						</rect>
 					</rect>
 
-					<grid rows="10" cols="1" pos="0,-46" width="644" cell_width="644" cell_height="40" repeat_content="true">
+					<grid rows="13" cols="1" pos="0,-46" width="644" cell_width="644" cell_height="40" repeat_content="true">
 						<skill_attribute_level width="646" height="40" />
 					</grid>
 				</rect>
