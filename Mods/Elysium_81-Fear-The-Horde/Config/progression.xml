@@ -448,7 +448,7 @@
 		</effect_group>
 	</perk>
 
-	<perk name="perkASConstructionTools" parent="skillActivityToolsskills" max_level="100" name_key="Construction Tools" desc_key="perkASConstructionToolsDesc" icon="ui_game_symbol_hammer">
+	<perk name="perkASConstructionTools" parent="skillActivityToolsskills" max_level="100" name_key="Construction Tools" desc_key="perkASConstructionToolsDesc" icon="ui_game_symbol_hammer" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="construction"/>
 				<passive_effect name="BlockDamage" operation="perc_add" value="0.01,1" level="1,100" />
@@ -478,7 +478,7 @@
 		</effect_group>
 	</perk>
 
-	<perk name="perkASMiningTools" parent="skillActivityToolsskills" max_level="100" name_key="Mining Tools" desc_key="perkASMiningToolsDesc" icon="ui_game_symbol_mining">
+	<perk name="perkASMiningTools" parent="skillActivityToolsskills" max_level="100" name_key="Mining Tools" desc_key="perkASMiningToolsDesc" icon="ui_game_symbol_mining" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="mining"/>
 				<passive_effect name="BlockDamage" operation="perc_add" value="0.01,1" level="1,100"/>
@@ -502,7 +502,7 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkASScavenging" parent="skillActivityToolsskills" max_level="100" name_key="Scavenging" desc_key="perkASScavengingDesc" icon="ui_game_symbol_loot_sack">
+	<perk name="perkASScavenging" parent="skillActivityToolsskills" max_level="100" name_key="Scavenging" desc_key="perkASScavengingDesc" icon="ui_game_symbol_loot_sack" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>			
 			<passive_effect name="TreasureRadius" operation="base_set" value="9"/>
 			<passive_effect name="TreasureRadius" operation="base_subtract" value="2,6" level="1,100"/>
@@ -533,7 +533,7 @@
 	</perk>
 		
 <!-- Weapons -->
-	<perk name="perkASArchery" parent="skillActivityweaponsskills" max_level="100" name_key="Archery Weapons" desc_key="perkASArcheryDesc" icon="ui_game_symbol_archery">
+	<perk name="perkASArchery" parent="skillActivityweaponsskills" max_level="100" name_key="Archery Weapons" desc_key="perkASArcheryDesc" icon="ui_game_symbol_archery" base_skill_point_cost="0" cost_multiplier_per_level="1">
 	
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="bowDrawPenalty"/>
@@ -581,7 +581,7 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkASAutomatics" parent="skillActivityweaponsskills" max_level="100" name_key="Automatic Weapons" desc_key="perkASAutomaticsDesc" icon="ui_game_symbol_rifle">
+	<perk name="perkASAutomatics" parent="skillActivityweaponsskills" max_level="100" name_key="Automatic Weapons" desc_key="perkASAutomaticsDesc" icon="ui_game_symbol_rifle" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="perkAutomaticWeapons"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
@@ -690,7 +690,7 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkASBladed" parent="skillActivityweaponsskills" max_level="100" name_key="Bladed Weapons" desc_key="perkASBladedDesc" icon="ui_game_symbol_knife">
+	<perk name="perkASBladed" parent="skillActivityweaponsskills" max_level="100" name_key="Bladed Weapons" desc_key="perkASBladedDesc" icon="ui_game_symbol_knife" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="perkDeepCuts"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
@@ -780,7 +780,7 @@
 		
 	</perk>
 	
-	<perk name="perkASPistols" parent="skillActivityweaponsskills" max_level="100" name_key="Pistol Weapons" desc_key="perkASPistolsDesc" icon="ui_game_symbol_gunslinger">
+	<perk name="perkASPistols" parent="skillActivityweaponsskills" max_level="100" name_key="Pistol Weapons" desc_key="perkASPistolsDesc" icon="ui_game_symbol_gunslinger" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
@@ -816,7 +816,7 @@
 		</effect_group>
 	</perk>
 		
-	<perk name="perkASShotguns" parent="skillActivityweaponsskills" max_level="100" name_key="Shotgun Weapons" desc_key="perkASShotgunsDesc" icon="ui_game_symbol_shotgun">
+	<perk name="perkASShotguns" parent="skillActivityweaponsskills" max_level="100" name_key="Shotgun Weapons" desc_key="perkASShotgunsDesc" icon="ui_game_symbol_shotgun" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="perkShotgunMessiah"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
@@ -846,7 +846,7 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkASRifles" parent="skillActivityweaponsskills" max_level="100" name_key="Rifle Weapons" desc_key="perkASRiflesDesc" icon="ui_game_symbol_map_cursor">
+	<perk name="perkASRifles" parent="skillActivityweaponsskills" max_level="100" name_key="Rifle Weapons" desc_key="perkASRiflesDesc" icon="ui_game_symbol_map_cursor" base_skill_point_cost="0" cost_multiplier_per_level="1">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
