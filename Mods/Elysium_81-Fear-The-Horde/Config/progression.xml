@@ -1,6 +1,12 @@
 <configs>
 
-<!-- <setattribute xpath="/progression/level" name="max_level">500</setattribute> -->
+ 
+	<setattribute xpath="/progression/level" name="max_level">500</setattribute>
+<!--	<setattribute xpath="/progression/level" name="exp_to_level">500</setattribute>
+	<setattribute xpath="/progression/level" name="experience_multiplier">500</setattribute>
+	<setattribute xpath="/progression/level" name="skill_points_per_level">500</setattribute>
+-->
+
 <!-- Remove existing attributes, skills, perks and parent categories -->
 	<remove xpath="/progression/attributes"/>
 	<remove xpath="/progression/skills"/>
@@ -15,7 +21,6 @@
 	
 		<!-- Main Characters Screen -->
 		<attribute name="Main Character Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_character"  max_level="1">
-			<!-- <level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements> -->
 			<effect_group>
 			</effect_group>
 		</attribute>
