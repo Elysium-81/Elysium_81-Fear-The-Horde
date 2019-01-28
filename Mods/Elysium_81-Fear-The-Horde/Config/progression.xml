@@ -25,54 +25,54 @@
 	
 	
 	
-	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
-	<set xpath="/progression/attributes[@min_level='1']/@base_skill_point_cost">0</set>
+<!-- 	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
+	<set xpath="/progression/attributes[@min_level='1']/@base_skill_point_cost">0</set> -->
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
  	<append xpath="/progression/attributes">
 
 		<!-- Main Characters Screen -->
-		<attribute name="Main Character Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_character"  max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Main Character Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_character"  max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
 
-		<attribute name="Activity skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_run" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Activity skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_run" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>		
 
-		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="5" base_skill_point_cost="0">
+		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel04"/></level_requirements>
-			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel05"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
 
-		<attribute name="Smith Class" name_key="attSmithClassName" desc_key="attSmithClassDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Smith Class" name_key="attSmithClassName" desc_key="attSmithClassDesc" icon="ui_game_symbol_intellect" max_level="5">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel04"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel05"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
 
-		<attribute name="Class2 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Class2 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>		
 
-		<attribute name="Class3 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Class3 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
 
-		<attribute name="Class4 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1" base_skill_point_cost="1" cost_multiplier_per_level="1">
+		<attribute name="Class4 skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_intellect" max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
 			</effect_group>
