@@ -7203,8 +7203,6 @@ perkASPistolsDesc,progression,Perk,New,Pistol Weapons,,,,,
 perkASShotgunsDesc,progression,Perk,New,Shotgun Weapons,,,,,
 perkASRiflesDesc,progression,Perk,New,Rifle Weapons,,,,,
 
-
-
 meleeToolweedCleaver,items,Melee,KgNone,Weed Cleaver,,,,,
 meleeToolweedCleaverDesc,items,Melee,KgNone,User for cutting grass like a boss.,,,,,
 meleeToolStoneHammer,items,Melee,KgNone,Stone hammer,,,,,
