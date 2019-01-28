@@ -112,9 +112,9 @@
 					<label depth="2" name="descriptionText" pos="6,-8" width="486" height="149" text="{groupdescription}"/>
 				</rect>
 
-				<rect name="tableBox" depth="1" pos="0,-147" width="646" height="530">
+				<rect name="tableBox" depth="1" pos="0,-147" width="646" height="495">
 					<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/>
-					<sprite depth="5" pos="0,1" width="647" height="530" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+					<sprite depth="5" pos="0,1" width="647" height="495" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 
 					<rect name="tableHeader" pos="0,0" width="644" height="43">
 						<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/>
