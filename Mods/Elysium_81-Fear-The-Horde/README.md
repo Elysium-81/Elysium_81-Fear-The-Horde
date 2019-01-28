@@ -30,11 +30,47 @@ Action Skills (Levels only by using an item)
 	Automatic Weapons (Better handling of SMG and AK47)
 	Dead Eye (Better handling of Hunting rifle and Marksman rifle)
 	Archery (Better handling of Bow, Compound bow and Crossbow)
+
+Crafting recipes
+	Crafting
+		Crude forged
+		Crude Iron tools
+	Vehicle
+		Bicycle for dummies
+		Mini-bike for dummies
 	
+	Crude farming (Harvest probability 25%)
+		Seeds crafting 
+	
+	Weapons
+	
+	Ammo
+		Gunpowder
+		Darts
+		Blunder bush
+		9 mm
+		7.62 mm
+		Shotgun shell
+		Shotgun slug
+		44 Magnum
+
 Mechanic Class (Probably gives a bicycle as part of the quest)
 	Grease Monkey
-	Salvage Operations
+		Motorcycle
+		4x4
+		Gyrocopter
 		
+	Salvage Operations
+
+Smith Class
+	Hammer Forge
+		Small Forged
+		Big forged
+	Iron tools
+	Steel tools
+	Iron arrow tips
+	Steel arrow tips
+	
 Medic class (
 	Healing Factor 
 	Physician
@@ -48,15 +84,16 @@ Farmer Class
 	Living Off The Land
 	Master Chef
 	
-Smith Class
-	Hammer Forge
-	
 Trader Class (Gets the trader as part of the quest)
 	Better Barter
+		Secret Stash
 	Lucky Looter
+		Lucky Looter (Better loot)
+		Expert Looter (Incresas looting speed)
 	Scavenging (Levels by Scavenging in the world)
 	Daring Adventurer
-		
+		Master of Archaeology (Treasure Hunter) (Better at finding treasures)
+	
 Survivor Class
 	Well Insulated
 	Slow Metabolism
@@ -84,10 +121,6 @@ Electrician Class
 
 
 	Engineering (Engineering allows you to create advanced items using workstations.)
-		Tools
-			Scrapiron tools				1 Point
-			Iron tools					2 Point
-			Steel tools					4 Point
 		Workstations			
 			Forge				
 				Forge					2 Point
@@ -97,12 +130,6 @@ Electrician Class
 			Table Saw					2 Point
 			Cement Mixer				4 Point
 			Chemistry Station			8 Point
-		Vehicles
-			Bicycle						1 Point
-			Minibike					3 Point
-			Motorcycle					5 Point
-			4x4 Truck					7 Point
-			GyroCopter					10 Point
 		
 		Eletric 
 			Basic (Wiretool)			1 Point
@@ -131,9 +158,6 @@ Electrician Class
 			3. Heavy blade trap			3 Point
 	
 		Weapons
-			Melee
-				Iron Spikeclub
-
 			Range
 				Crossbow
 				Compound bow
@@ -162,20 +186,10 @@ Electrician Class
 		
 	Food and Health
 	
-	Intelligence
-	
-	
+
 	NOT Placed
 	
-		Master Haggler (Better Barter) (Getting a better deal at the treader)
 
-		Secret Stash 
-
-		Master of Archaeology (Treasure Hunter) (Better at finding treasures)
-
-		Lucky Looter (Better loot)
-
-		Expert Looter (Incresas looting speed)
 	
 #The Zombies
 
@@ -328,15 +342,6 @@ Electrician Class
 
 #Recipes
 	Stone hammer
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 #Vanilla skill tree
 
