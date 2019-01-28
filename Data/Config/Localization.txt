@@ -7145,7 +7145,9 @@ attActivityskillsLevel01,progression,Attribute,New,"1",,,,,
 attCraftingrecipesName,progression,Attribute,New,Attribute: Crafting recipes,,,,,
 attCraftingrecipesDesc,progression,Attribute,New,"Crafting recipes, allows you to lean recipes",,,,,
 attCraftingrecipesLevel01,progression,Attribute,New,"1",,,,,
-
+attSmithClassName,progression,Attribute,New,Class: Smith,,,,,
+attSmithClassDesc,progression,Attribute,New,"The Smith is able to craft more advanced metal items.",,,,,
+attSmithClassLevel01,progression,Attribute,New,"1",,,,,
 
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
 skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
