@@ -941,11 +941,11 @@
 
 	<!-- Marksmanship Perks (Perception) -->
 		<perk name="perkGunslinger" parent="skillMarksmanship" max_level="5" name_key="perkGunslingerName" desc_key="perkGunslingerDesc" icon="ui_game_symbol_gunslinger">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
@@ -970,11 +970,11 @@
 		</perk>
 
 		<perk name="perkShotgunMessiah" parent="skillMarksmanship" name_key="perkShotgunMessiahName" desc_key="perkShotgunMessiahDesc" icon="ui_game_symbol_shotgun">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<effect_description level="1" desc_key="perkShotgunMessiahRank1Desc"/>
@@ -1017,11 +1017,11 @@
 		</perk>
 
 		<perk name="perkAutomaticWeapons" parent="skillMarksmanship" name_key="perkAutomaticWeaponsName" desc_key="perkAutomaticWeaponsDesc" icon="ui_game_symbol_rifle">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<effect_description level="1" desc_key="perkAutomaticWeaponsRank1Desc"/>
@@ -1052,11 +1052,11 @@
 		</perk>
 
 		<perk name="perkDeadEye" parent="skillMarksmanship" name_key="perkDeadEyeName" desc_key="perkDeadEyeDesc" icon="ui_game_symbol_map_cursor">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="KillStreakTargetCounter" operation="add" value="1"/>
@@ -1088,11 +1088,11 @@
 		</perk>
 
 		<perk name="perkArchery" parent="skillMarksmanship" name_key="perkArcheryName" desc_key="perkArcheryDesc" icon="ui_game_symbol_archery">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="bowDrawPenalty"/>
@@ -1160,11 +1160,11 @@
 
 		</perk>
 		<perk name="perkExplosiveWeapons" parent="skillMarksmanship" name_key="perkExplosiveWeaponsName" desc_key="perkExplosiveWeaponsDesc" icon="ui_game_symbol_explosion">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="perkExplosiveWeapons"/>
@@ -1184,11 +1184,11 @@
 		</perk>
 
 		<perk name="perkHeadshot" parent="skillMarksmanship" name_key="perkHeadshotName" desc_key="perkHeadshotDesc" icon="ui_game_symbol_head_shot">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="ranged"/>
@@ -1203,11 +1203,11 @@
 		</perk>
 
 		<perk name="perkRunAndGun" parent="skillMarksmanship" name_key="perkRunAndGunName" desc_key="perkRunandGunDesc" icon="ui_game_symbol_run_and_gun">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="ranged"/>
@@ -1225,11 +1225,11 @@
 
 	<!-- Scavenging Perks (Perception) -->
 		<perk name="perkLuckyLooter" parent="skillScavenging" name_key="perkLuckyLooterName" desc_key="perkLuckyLooterDesc" icon="ui_game_symbol_shopping_cart">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="reqPerceptionLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="2" desc_key="reqPerceptionLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="TreasureRadius" operation="base_subtract" value="2,6" level="1,5"/>
@@ -1250,11 +1250,11 @@
 		</perk>
 
 		<perk name="perkSalvageOperations" parent="skillScavenging" name_key="perkSalvageOperationsName" desc_key="perkSalvageOperationsDesc" icon="ui_game_symbol_scrap">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="reqPerceptionLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="2" desc_key="reqPerceptionLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="3" desc_key="reqPerceptionLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="5" desc_key="reqPerceptionLevel05"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="7" desc_key="reqPerceptionLevel07"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="perkSalvageOperations"/>
@@ -1273,11 +1273,11 @@
 		</perk>
 
 		<perk name="perkSexualTrex" parent="skillStrengthGeneral" name_key="perkSexualTrexName" desc_key="perkSexualTrexDesc" icon="ui_game_symbol_trex">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="melee"/>
@@ -1295,11 +1295,11 @@
 		</perk>
 
 		<perk name="perkFlurryOfBlows" parent="skillMeleeCombat" name_key="perkFlurryOfBlowsName" desc_key="perkFlurryOfBlowsDesc" icon="ui_game_symbol_knunchuck">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="melee,light" has_all_tags="true"/>
@@ -1314,11 +1314,11 @@
 		</perk>
 
 		<perk name="perkDeepCuts" parent="skillMeleeCombat" name_key="perkDeepCutsName" desc_key="perkDeepCutsDesc" icon="ui_game_symbol_deep_cuts">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="perkDeepCuts"/>
@@ -1394,11 +1394,11 @@
 		</perk>
 
 		<perk name="perkStayDown" parent="skillMeleeCombat" name_key="perkStayDownName" desc_key="perkStayDownDesc" icon="ui_game_symbol_stunned">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="perkStayDown"/>
@@ -1485,11 +1485,11 @@
 		</perk>
 
 		<perk name="perkHeavyMetal" parent="skillMeleeCombat" name_key="perkHeavyMetalName" desc_key="perkHeavyMetalDesc" icon="ui_game_symbol_sledge">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="perkHeavyMetal"/>
@@ -1543,11 +1543,11 @@
 		</perk>
 
 		<perk name="perkSkullCrusher" parent="skillMeleeCombat" name_key="perkSkullCrusher" desc_key="perkSkullCrusherDesc" icon="ui_game_symbol_skull_crusher">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HoldingItemHasTags" tags="melee"/>
@@ -1563,11 +1563,11 @@
 
 	<!-- Construction Perks (Strength) -->
 		<perk name="perkMiner69r" parent="skillConstruction" name_key="perkMiner69rName" desc_key="perkMiner69rDesc" icon="ui_game_symbol_mining">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="BlockDamage" operation="perc_add" value=".2,1" level="1,5" />
@@ -1582,11 +1582,11 @@
 		</perk>
 
 		<perk name="perkPackMule" parent="skillStrengthGeneral" name_key="perkPackMuleName" desc_key="perkPackMuleDesc" icon="ui_game_symbol_pack_mule">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="CarryCapacity" operation="base_add" value="4" level="1"/>
@@ -1605,11 +1605,11 @@
 
 	<!-- Survival Perks (Fortitude) -->
 		<perk name="perkHeavyArmor" parent="skillSurvival" name_key="perkHeavyArmorName" desc_key="perkHeavyArmorDesc" icon="ui_game_symbol_armor_iron">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.1,0.5" level="1,5" tags="heavyarmor"/>
@@ -1624,11 +1624,11 @@
 		</perk>
 
 		<perk name="perkTheHuntsman" parent="skillSurvival" name_key="perkTheHuntsman" desc_key="perkTheHuntsmanDesc" icon="ui_game_symbol_archery">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 			<effect_group>
 				<!-- stone axe, knives, etc do the base_set 1 -->
@@ -1647,11 +1647,11 @@
 		</perk>
 
 		<perk name="perkIntrinsicImmunity" parent="skillSurvival" name_key="perkIntrinsicImmunityName" desc_key="perkIntrinsicImmunityDesc" icon="ui_game_symbol_infection">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 			<effect_group>
 				<!-- see <buff name="buffPerkAbilityUpdate"> for cvar based ability changes -->
@@ -1666,11 +1666,11 @@
 		</perk>
 
 		<perk name="perkWellInsulated" parent="skillSurvival" name_key="perkWellInsulatedName" desc_key="perkWellInsulatedDesc" icon="ui_game_symbol_temperature">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="HypothermalResist" operation="base_add" value="5,25" level="1,5"/>
@@ -1685,11 +1685,11 @@
 		</perk>
 
 		<perk name="perkLivingOffTheLand" parent="skillSurvival" name_key="perkLivingOffTheLandName" desc_key="perkLivingOffTheLandDesc" icon="ui_game_symbol_tree">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="HarvestCount" operation="perc_add" value="2,8" level="2,5" tags="cropHarvest"/>
@@ -1707,11 +1707,11 @@
 		</perk>
 
 		<perk name="perkPainTolerance" parent="skillSurvival" name_key="perkPainTolerance" desc_key="perkPainToleranceDesc" icon="ui_game_symbol_boxer">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 			<effect_group>
 				<passive_effect name="HealthLoss" operation="perc_subtract" value=".05,.25" level="1,5"/>
 
@@ -1808,11 +1808,11 @@
 		</perk>-->
 	<!-- Recovery Perks (Fortitude) -->
 		<perk name="perkHealingFactor" parent="skillRecovery" name_key="perkHealingFactor" desc_key="perkHealingFactorDesc" icon="ui_game_symbol_healing_factor">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 			<effect_group>
 				<requirement name="StatComparePercModMaxToMax" stat="stamina" operation="GTE" value=".26"/>
 				<requirement name="StatComparePercCurrentToMax" stat="Water" operation="GTE" value=".26"/>
@@ -1842,11 +1842,11 @@
 		</perk>
 
 		<perk name="perkSlowMetabolism" parent="skillRecovery" name_key="perkSlowMetabolism" desc_key="perkSlowMetabolismDesc" icon="ui_game_symbol_stomach">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="StaminaLossMaxMult" operation="perc_subtract" value="0.1,0.5" level="1,5"/>
@@ -1869,11 +1869,11 @@
 			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
 			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
 			-->
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="99" desc_key="goDisabled"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="WaterChangeOT" operation="perc_subtract" value="0.5,0.9" level="1,5" tags="drug"/>
@@ -1887,11 +1887,11 @@
 
 	<!-- Athletics Perks (Agility) -->
 		<perk name="perkRuleOneCardio" parent="skillAthletics" name_key="perkRuleOneCardioName" desc_key="perkRuleOneCardioDesc" icon="ui_game_symbol_cardio">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 			<effect_group>
 				<effect_description level="1" desc_key="perkRuleOneCardioNameRank1Desc" desc_base="Increases stamina regeneration by"/>
@@ -1905,11 +1905,11 @@
 		</perk>
 
 		<perk name="perkLightArmor" parent="skillAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 			<effect_group>
 				<passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.10,0.50" level="1,5" tags="lightarmor"/>
 				<passive_effect name="DegradationMax" operation="perc_add" value="0.20,1" level="1,5" tags="lightarmor"/>
@@ -1922,11 +1922,11 @@
 		</perk>
 
 		<perk name="perkChargingBull" parent="skillAthletics" name_key="perkChargingBullName" desc_key="perkChargingBullDesc" icon="ui_game_symbol_bull">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.2,0.4" level="1,5" tags="melee,running"/>
@@ -1940,11 +1940,11 @@
 		</perk>
 
 		<perk name="perkParkour" parent="skillAthletics" name_key="perkParkourName" desc_key="perkParkourDesc" icon="ui_game_symbol_parkour">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="JumpStrength" operation="perc_add" value=".39,.39" level="3,4"/>
@@ -1963,11 +1963,11 @@
 		</perk>
 
 		<perk name="perkOlympicSwimmer" parent="skillAthletics" name_key="perkOlympicSwimmerName" desc_key="perkOlympicSwimmerDesc" icon="ui_game_symbol_swim">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 			<effect_group>
 				<!--passive_effect name="SwimSpeed" operation="perc_add" value="0.1,0.3" level="1,5"/-->
@@ -1988,11 +1988,11 @@
 
 	<!-- Stealth Perks (Agility) -->
 		<perk name="perkNinjaMovement" parent="skillStealth" name_key="perkNinjaMovementName" desc_key="perkNinjaMovementDesc" icon="ui_game_symbol_ninja">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="CrouchSpeed" operation="perc_add" value="0.2,0.5" level="1,5"/>
@@ -2006,11 +2006,11 @@
 		</perk>
 
 		<perk name="perkHiddenStrike" parent="skillStealth" name_key="perkHiddenStrikeName" desc_key="perkHiddenStrikeDesc" icon="ui_game_symbol_sneak_attack">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 
 			<effect_group>
 				<requirement name="HasBuff" buff="buffCrouching" target="self"/>
@@ -2028,11 +2028,11 @@
 		</perk>
 
 		<perk name="perkFromTheShadows" parent="skillStealth" name_key="perkFromTheShadowsName" desc_key="perkFromTheShadowsDesc" icon="ui_game_symbol_bat">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10"/></level_requirements>
 			<effect_group>
 				<requirement name="CVarCompare" cvar="_lightlevel" operation="LTE" value="50"/>
 				<passive_effect name="LightMultiplier" operation="perc_subtract" value="0.15,0.75" level="1,5"/>
@@ -2047,11 +2047,11 @@
 
 	<!-- Influence Perks (Intellect) -->
 		<perk name="perkBetterBarter" parent="skillInfluence" name_key="perkBetterBarterName" desc_key="perkBetterBarterDesc" icon="ui_game_symbol_barter">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="Bartering" operation="base_add" level="1,2,3,4,5" value="0.1,0.2,0.3,0.4,0.5"/>
@@ -2065,11 +2065,11 @@
 		</perk>
 
 		<perk name="perkDaringAdventurer" parent="skillInfluence" name_key="perkDaringAdventurerName" desc_key="perkDaringAdventurerDesc" icon="ui_game_symbol_adventure">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="QuestRewardOptionCount" operation="base_add" level="1,2,3,4,5" value="1,2,3,3,3"/>
@@ -2085,15 +2085,15 @@
 
 	<!-- Craftsmanship Perks (Intellect) -->
 		<perk name="perkHammerForge" parent="skillCraftsmanship" name_key="perkHammerForgeName" desc_key="perkHammerForgeDesc" icon="ui_game_symbol_forge">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04-10"/>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04-10"/>
 									<requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05-20"/>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05-20"/>
 									<requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06-35"/>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06-35"/>
 									<requirement name="PlayerLevel" operation="GTE" value="35" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08-70"/>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08-70"/>
 									<requirement name="PlayerLevel" operation="GTE" value="70" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10-100"/>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10-100"/>
 									<requirement name="PlayerLevel" operation="GTE" value="100" desc_key="reqAttributeLevelDummy"/></level_requirements>
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="forge,toolAnvil"/>
@@ -2110,14 +2110,14 @@
 		</perk>
 
 		<perk name="perkGreaseMonkey" parent="skillCraftsmanship" name_key="perkGreaseMonkeyName" desc_key="perkGreaseMonkeyDesc" icon="ui_game_symbol_service">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05-25"/>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05-25"/>
 									<requirement name="PlayerLevel" operation="GTE" value="25" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07-50"/>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07-50"/>
 									<requirement name="PlayerLevel" operation="GTE" value="50" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09-85"/>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09-85"/>
 									<requirement name="PlayerLevel" operation="GTE" value="85" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10-120"/>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10-120"/>
 									<requirement name="PlayerLevel" operation="GTE" value="120" desc_key="reqAttributeLevelDummy"/></level_requirements>
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="vehicleWheels,vehicleBicycleChassis,vehicleBicycleHandlebars"/>
@@ -2134,15 +2134,15 @@
 		</perk>
 
 		<perk name="perkAdvancedEngineering" parent="skillCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05-25"/>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05-25"/>
 									<requirement name="PlayerLevel" operation="GTE" value="25" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07-40"/>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07-40"/>
 									<requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08-60"/>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08-60"/>
 									<requirement name="PlayerLevel" operation="GTE" value="60" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09-80"/>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09-80"/>
 									<requirement name="PlayerLevel" operation="GTE" value="80" desc_key="reqAttributeLevelDummy"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10-100"/>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10-100"/>
 									<requirement name="PlayerLevel" operation="GTE" value="100" desc_key="reqAttributeLevelDummy"/></level_requirements>
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
@@ -2161,11 +2161,11 @@
 		</perk>
 
 		<perk name="perkYeahScience" parent="skillCraftsmanship" name_key="perkYeahScienceName" desc_key="perkYeahScienceDesc" icon="ui_game_symbol_chemistry">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
@@ -2205,11 +2205,11 @@
 		</perk>
 
 		<perk name="perkPhysician" parent="skillCraftsmanship" name_key="perkPhysicianName" desc_key="perkPhysicianDesc" icon="ui_game_symbol_medical">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="9" desc_key="reqIntellectLevel09"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="medicalFirstAidBandage,medicalPlasterCast"/>
@@ -2230,11 +2230,11 @@
 		</perk>
 
 		<perk name="perkMasterChef" parent="skillCraftsmanship" name_key="perkMasterChefName" desc_key="perkMasterChefDesc" icon="ui_game_symbol_spatula">
-			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
-			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
-			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
-			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
-			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
 			<effect_group>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="foodBaconAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea"/>
