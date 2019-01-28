@@ -311,7 +311,7 @@
 		</perk>	
 
 		
-		<perk name="perkStrength" parent="skillGeneralCharacterSkills"  name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect">
+		<perk name="perkStrength" parent="skillGeneralCharacterSkills"  name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -345,7 +345,7 @@
 			</effect_group>
 		</perk>
 
-		<perk name="perkFortitude" parent="skillGeneralCharacterSkills"  name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_intellect">
+		<perk name="perkFortitude" parent="skillGeneralCharacterSkills"  name_key="attFortitudeName" desc_key="attFortitudeDesc" icon="ui_game_symbol_intellect" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -382,7 +382,7 @@
 			</effect_group>
 		</perk>
 
-		<perk name="perkAgility" parent="skillGeneralCharacterSkills"  name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_intellect">
+		<perk name="perkAgility" parent="skillGeneralCharacterSkills"  name_key="attAgilityName" desc_key="attAgilityDesc" icon="ui_game_symbol_intellect" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -410,7 +410,7 @@
 			</effect_group>
 		</perk>
 
-		<perk name="perkIntellect" parent="skillGeneralCharacterSkills"  name_key="attIntellectName" desc_key="attIntellectDesc" icon="ui_game_symbol_intellect">
+		<perk name="perkIntellect" parent="skillGeneralCharacterSkills"  name_key="attIntellectName" desc_key="attIntellectDesc" icon="ui_game_symbol_intellect" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 			<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
