@@ -44,7 +44,7 @@
 			</effect_group>
 		</attribute>		
 
-		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="5" base_skill_point_cost="0" cost_multiplier_per_level="1">
+		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="5" base_skill_point_cost="0">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel01"/></level_requirements>
 			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel02"/></level_requirements>
 			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel03"/></level_requirements>
