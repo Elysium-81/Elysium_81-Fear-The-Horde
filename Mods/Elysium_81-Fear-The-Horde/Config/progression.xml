@@ -2,9 +2,9 @@
 
  
 	<setattribute xpath="/progression/level" name="max_level">500</setattribute>
-<!--	<setattribute xpath="/progression/level" name="exp_to_level">500</setattribute>
-	<setattribute xpath="/progression/level" name="experience_multiplier">500</setattribute>
-	<setattribute xpath="/progression/level" name="skill_points_per_level">500</setattribute>
+<!--	<setattribute xpath="/progression/level" name="exp_to_level">10000</setattribute>
+	<setattribute xpath="/progression/level" name="experience_multiplier">1.0149</setattribute>
+	<setattribute xpath="/progression/level" name="skill_points_per_level">1</setattribute>
 -->
 
 <!-- Remove existing attributes, skills, perks and parent categories -->
@@ -65,7 +65,6 @@
 					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Automatics_LvlNextAdd" operation="set" value="500"/>
 					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Automatics_LvlNextTotal" operation="set" value="500"/>
 			</effect_group>
-			
 		</attribute>		
 
 		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="1">
@@ -130,7 +129,6 @@
 			<effect_description level="9" desc_key="attPerceptionRank9Desc"/>
 			<effect_description level="10" desc_key="attPerceptionRank10Desc"/>
 		</effect_group>
-
 	</attribute>
 
 	<attribute name="attStrength" name_key="attStrengthName" desc_key="attStrengthDesc" icon="ui_game_symbol_intellect">
@@ -1695,7 +1693,7 @@
 
 			<effect_group>
 				<passive_effect name="HarvestCount" operation="perc_add" value="2,8" level="2,5" tags="cropHarvest"/>
-				<passive_effect name="HarvestCount" operation="perc_add" value="0,0" level="1,5" tags="wildCropsHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" value="1" level="1,5" tags="wildCropsHarvest" prob="0.65"/>
 
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="plantedAloe1,plantedBlueberry1,plantedChrysanthemum1,plantedCoffee1,plantedCorn1,plantedCotton1,plantedGoldenrod1,plantedMushroom1,plantedPotato1,plantedYucca1,plantedHop1"/>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="plantedGraceCorn1"/>
