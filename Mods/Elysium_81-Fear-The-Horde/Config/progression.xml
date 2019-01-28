@@ -2,11 +2,11 @@
 
 <!-- <setattribute xpath="/progression/level" name="max_level">500</setattribute> -->
 <!-- Remove existing skills, perks and parent categories -->
-	<remove xpath="/progression/attributes/attribute[@name='attPerception']"/>
-	<remove xpath="/progression/attributes/attribute[@name='attStrength']"/>
+	<remove xpath="/progression/attributes"/>
+<!-- 	<remove xpath="/progression/attributes/attribute[@name='attStrength']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attFortitude']"/>
 	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
-	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/>
+	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/> -->
 
 	<remove xpath="/progression/skills/skill[@name='skillMarksmanship']"/>
 	<remove xpath="/progression/skills/skill[@name='skillScavenging']"/>
@@ -29,8 +29,12 @@
 	<set xpath="/progression/attributes[@min_level='1']/@base_skill_point_cost">0</set> -->
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
- 	<append xpath="/progression/attributes">
 
+
+<append xpath="/progression">
+
+	<attributes min_level="0" max_level="5" base_skill_point_cost="0" cost_multiplier_per_level="1">
+	
 		<!-- Main Characters Screen -->
 		<attribute name="Main Character Screen" name_key="attMainCharactersScreenName" desc_key="attMainCharactersScreenDesc" icon="ui_game_symbol_character"  max_level="1">
 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attMainCharactersScreenLevel01"/></level_requirements>
@@ -57,6 +61,11 @@
 			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel04"/></level_requirements>
 			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attSmithClassLevel05"/></level_requirements>
 			<effect_group>
+				<effect_description level="1" desc_key="attSmithClassRank1Desc"/>
+				<effect_description level="2" desc_key="attSmithClassRank2Desc"/>
+				<effect_description level="3" desc_key="attSmithClassRank3Desc"/>
+				<effect_description level="4" desc_key="attSmithClassRank4Desc"/>
+				<effect_description level="5" desc_key="attSmithClassRank5Desc"/>
 			</effect_group>
 		</attribute>
 
@@ -277,8 +286,8 @@
 			<effect_description level="10" desc_key="attIntellectRank10Desc"/>
 		</effect_group>
 	</attribute>
-
-	</append>
+	</attributes>
+</append>
 
 <!-- Parent Perks -->
 	<append xpath="/progression/skills">
