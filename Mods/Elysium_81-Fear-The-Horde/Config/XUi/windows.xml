@@ -112,7 +112,7 @@
 					<label depth="2" name="descriptionText" pos="6,-8" width="486" height="149" text="{groupdescription}"/>
 				</rect>
 
-				<rect name="tableBox" depth="1" pos="0,-148" width="646" height="450">
+				<rect name="tableBox" depth="1" pos="0,-147" width="646" height="495">
 					<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/>
 					<sprite depth="5" pos="0,1" width="647" height="451" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 
@@ -132,8 +132,8 @@
  -->						</rect>
 					</rect>
 
-					<grid rows="10" cols="1" pos="0,-46" width="644" cell_width="644" cell_height="50" repeat_content="true">
-						<skill_attribute_level width="646" height="40" />
+					<grid rows="10" cols="1" pos="0,-46" width="644" cell_width="644" cell_height="45" repeat_content="true">
+						<skill_attribute_level width="646" height="45" />
 					</grid>
 				</rect>
 
