@@ -3,22 +3,7 @@
 <!-- <setattribute xpath="/progression/level" name="max_level">500</setattribute> -->
 <!-- Remove existing skills, perks and parent categories -->
 	<remove xpath="/progression/attributes"/>
-<!-- 	<remove xpath="/progression/attributes/attribute[@name='attStrength']"/>
-	<remove xpath="/progression/attributes/attribute[@name='attFortitude']"/>
-	<remove xpath="/progression/attributes/attribute[@name='attAgility']"/>
-	<remove xpath="/progression/attributes/attribute[@name='attIntellect']"/> -->
-
-	<remove xpath="/progression/skills/skill[@name='skillMarksmanship']"/>
-	<remove xpath="/progression/skills/skill[@name='skillScavenging']"/>
-	<remove xpath="/progression/skills/skill[@name='skillStrengthGeneral']"/>
-	<remove xpath="/progression/skills/skill[@name='skillMeleeCombat']"/>
-	<remove xpath="/progression/skills/skill[@name='skillConstruction']"/>
-	<remove xpath="/progression/skills/skill[@name='skillSurvival']"/>
-	<remove xpath="/progression/skills/skill[@name='skillRecovery']"/>
-	<remove xpath="/progression/skills/skill[@name='skillAthletics']"/>
-	<remove xpath="/progression/skills/skill[@name='skillStealth']"/>
-	<remove xpath="/progression/skills/skill[@name='skillInfluence']"/>	
-	<remove xpath="/progression/skills/skill[@name='skillCraftsmanship']"/>	
+	<remove xpath="/progression/skills"/>
 
 	<remove xpath="/progression/perks/perk[@name='perkCharismaticNature']"/>
 	
