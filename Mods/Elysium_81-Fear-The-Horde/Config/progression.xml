@@ -28,9 +28,49 @@
 		</attribute>
 
 		<attribute name="Activity skills" name_key="attActivityskillsName" desc_key="attActivityskillsDesc" icon="ui_game_symbol_run" max_level="1">
-			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
+<!-- 			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attActivityskillsLevel01"/></level_requirements>
 			<effect_group>
+			</effect_group> -->
+			<effect_group name="Action Skills Lvl 0 Set">
+				<requirement name="CVarCompare" cvar="AS_ArmorUse_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Athletics_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_ConstructionTools_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_MiningTools_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Scavenging_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Blunt_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Bladed_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Archery_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Pistols_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Shotguns_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Rifles_XP" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="AS_Automatics_XP" operation="Equals" value="0"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_XP_Mult" operation="set" value="1.015"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_ArmorUse_LvlNextAdd" operation="set" value="150"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_ArmorUse_LvlNextTotal" operation="set" value="150"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Athletics_LvlNextAdd" operation="set" value="70"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Athletics_LvlNextTotal" operation="set" value="70"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_ConstructionTools_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_ConstructionTools_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_MiningTools_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_MiningTools_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Scavenging_LvlNextAdd" operation="set" value="30"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Scavenging_LvlNextTotal" operation="set" value="30"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Blunt_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Blunt_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Bladed_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Bladed_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Archery_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Archery_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Pistols_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Pistols_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Shotguns_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Shotguns_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Rifles_LvlNextAdd" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Rifles_LvlNextTotal" operation="set" value="200"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Automatics_LvlNextAdd" operation="set" value="500"/>
+					<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="AS_Automatics_LvlNextTotal" operation="set" value="500"/>
 			</effect_group>
+			
 		</attribute>		
 
 		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="1">
