@@ -132,7 +132,7 @@
  -->						</rect>
 					</rect>
 
-					<grid rows="13" cols="1" pos="0,-46" width="644" cell_width="644" cell_height="40" repeat_content="true">
+					<grid rows="10" cols="1" pos="0,-46" width="644" cell_width="644" cell_height="50" repeat_content="true">
 						<skill_attribute_level width="646" height="40" />
 					</grid>
 				</rect>
