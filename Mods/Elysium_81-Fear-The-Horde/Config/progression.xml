@@ -1684,7 +1684,7 @@
 			</effect_group>
 		</perk>
 
-		<perk name="perkLivingOffTheLand" parent="skillSurvival" name_key="perkLivingOffTheLandName" desc_key="perkLivingOffTheLandDesc" icon="ui_game_symbol_tree">
+		<perk name="perkLivingOffTheLand" parent="skillSurvival" name_key="perkLivingOffTheLandName" desc_key="perkLivingOffTheLandDesc" icon="ui_game_symbol_tree" base_skill_point_cost="1" cost_multiplier_per_level="1">
 			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
 			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
 			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
@@ -1693,7 +1693,7 @@
 
 			<effect_group>
 				<passive_effect name="HarvestCount" operation="perc_add" value="2,8" level="2,5" tags="cropHarvest"/>
-				<passive_effect name="HarvestCount" operation="perc_add" value="1,1000" level="1,5" tags="wildCropsHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" value="1" level="1,5" tags="wildCropsHarvest"/>
 
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="plantedAloe1,plantedBlueberry1,plantedChrysanthemum1,plantedCoffee1,plantedCorn1,plantedCotton1,plantedGoldenrod1,plantedMushroom1,plantedPotato1,plantedYucca1,plantedHop1"/>
 				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="plantedGraceCorn1"/>
