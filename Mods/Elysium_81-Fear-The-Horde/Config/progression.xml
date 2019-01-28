@@ -393,7 +393,7 @@
 
 <!-- Tools -->
 	
-	<perk name="perkASArmorUse" parent="skillActivityToolsskills" max_level="100" name_key="Armor Usage" desc_key="perkASArmorUseDesc" icon="ui_game_symbol_armor_leather">
+	<perk name="perkASArmorUse" parent="skillActivityToolsskills" max_level="100" name_key="Armor Usage" desc_key="perkASArmorUseDesc" icon="ui_game_symbol_armor_iron">
 		<effect_group>
 			<passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.10,0.50" level="1,100" tags="armor"/>
 			<passive_effect name="DegradationMax" operation="perc_add" value="0.20,1" level="1,100" tags="armor"/>
@@ -617,7 +617,7 @@
 		</effect_group>
 	</perk>
 
-	<perk name="perkASBlunt" parent="skillActivityweaponsskills" max_level="100" name_key="Blunt Weapons" desc_key="perkASBluntDesc" icon="ui_game_symbol_sledge">
+	<perk name="perkASBlunt" parent="skillActivityweaponsskills" max_level="100" name_key="Blunt Weapons" desc_key="perkASBluntDesc" icon="ui_game_symbol_club">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="blunt"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
@@ -690,7 +690,7 @@
 		</effect_group>
 	</perk>
 	
-	<perk name="perkASBladed" parent="skillActivityweaponsskills" max_level="100" name_key="Bladed Weapons" desc_key="perkASBladedDesc" icon="ui_game_symbol_deep_cuts">
+	<perk name="perkASBladed" parent="skillActivityweaponsskills" max_level="100" name_key="Bladed Weapons" desc_key="perkASBladedDesc" icon="ui_game_symbol_knife">
 		<effect_group>
 			<requirement name="HoldingItemHasTags" tags="perkDeepCuts"/>
 				<passive_effect name="EntityDamage" operation="perc_add" value="0.003,0.3" level="1,100"/>
