@@ -1,7 +1,7 @@
 <configs>
 
 <!-- <setattribute xpath="/progression/level" name="max_level">500</setattribute> -->
-<!-- Remove existing skills, perks and parent categories -->
+<!-- Remove existing attributes, skills, perks and parent categories -->
 	<remove xpath="/progression/attributes"/>
 	<remove xpath="/progression/skills"/>
 
