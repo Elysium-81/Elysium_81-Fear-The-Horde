@@ -26,6 +26,7 @@
 	
 	
 	<set xpath="/progression/attributes[@min_level='1']/@min_level">0</set>
+	<set xpath="/progression/attributes[@min_level='1']/@base_skill_point_cost">0</set>
 <!-- Adds the new  skills, perks and parent categories -->
 <!-- Group Perks -->
  	<append xpath="/progression/attributes">
@@ -44,7 +45,11 @@
 		</attribute>		
 
 		<attribute name="Crafting recipes" name_key="attCraftingrecipesName" desc_key="attCraftingrecipesDesc" icon="ui_game_symbol_skills" max_level="5" base_skill_point_cost="0" cost_multiplier_per_level="1">
-			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="attCraftingrecipesLevel01"/></level_requirements>
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" desc_key="attCraftingrecipesLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" desc_key="attCraftingrecipesLevel02"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" desc_key="attCraftingrecipesLevel03"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" desc_key="attCraftingrecipesLevel04"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" desc_key="attCraftingrecipesLevel05"/></level_requirements>
 			<effect_group>
 			</effect_group>
 		</attribute>
