@@ -1,5 +1,9 @@
 <configs>
-
+	
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='HealthMax']/@value">70</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaMax']/@value">70</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterMax']/@value">70</set>
+	
 	<append xpath="/entity_classes/entity_class[@name='playerMale']">
 	
 		<effect_group name="Action Skills">
