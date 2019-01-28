@@ -88,7 +88,7 @@
 			<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 				<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
 				<label style="header.name" text="{groupname}" />
-				<label pos="635, -9" depth="2" width="300" height="28" text="{currentlevel} {skillLevel} / {maxSkillLevel}" font_size="26" color="[lightGrey]" justify="right" pivot="topright"/>
+				<label pos="635, -9" depth="2" width="100" height="28" text="{currentlevel} {skillLevel} / {maxSkillLevel}" font_size="26" color="[lightGrey]" justify="right" pivot="topright"/>
 			</panel>
 			<rect name="content" pos="0,-46" height="669" depth="1">
 
@@ -106,7 +106,7 @@
 					<label depth="8" pos="75,-59" width="150" height="43" text="{buycost}" pivot="center" justify="center" />
 				</panel> -->
 
-				<rect name="descriptionBox" depth="1" pos="148,0" width="498" height="234" >
+				<rect name="descriptionBox" depth="1" pos="148,0" width="498" height="134" >
 					<sprite depth="1" name="background" color="[mediumGrey]" type="sliced"/>
 					<sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="499" height="236" color="[black]" type="sliced" fillcenter="false" />
 					<label depth="2" name="descriptionText" pos="6,-8" width="486" height="218" text="{groupdescription}"/>
