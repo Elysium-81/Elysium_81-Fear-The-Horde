@@ -16,20 +16,59 @@ Main Characters Screen
 		Fortitude
 		Agility
 		Intellect
-		
-	General Strength
+
+	General Perks
 		Sexual Trex
 		Pack Mule
-		
+		Run And Gun
+		Light Armor
+		Heavy Armor
+		Flurry Of Blows
+		Heavy Metal
+		Skull Crusher
+		Miner 69r
+		Survival
+		Intrinsic Immunity
+		Ninja Movement
+		Hidden Strike
+		From The Shadows
+		Healing Factor 
+		Physician
+		Self Medicated		
+		The Huntsman
+		Headshot		
+		Well Insulated
+		Slow Metabolism
+		Pain Tolerance
+		Explosive Weapons		
+		Yeah Science
+		Living Off The Land
+		Master Chef
+		Advanced Engineering
+		Gunslinger
+		Shotgun Messiah
+		Automatic Weapons
+		Dead Eye
+		Archery
+		Explosive Weapons
+		Headshot
+		Run And Gun
+
 Action Skills (Levels only by using an item)
-	Armour
-	Mining
-	Running
-	Gunslinger (Better handling of gun and magnumm)
-	Shotgun Messiah (Better handling of shotgun)
-	Automatic Weapons (Better handling of SMG and AK47)
-	Dead Eye (Better handling of Hunting rifle and Marksman rifle)
-	Archery (Better handling of Bow, Compound bow and Crossbow)
+	Tools
+		Armor
+		Athletics
+		Construction Tools
+		Mining Tools
+		Scavenging
+	Weapon
+		Archery
+		Automatics
+		Blunt
+		Bladed
+		Pistols
+		Shotguns
+		Rifles
 
 Crafting recipes
 	Crafting
@@ -38,12 +77,12 @@ Crafting recipes
 	Vehicle
 		Bicycle for dummies
 		Mini-bike for dummies
-	
+
 	Crude farming (Harvest probability 25%)
 		Seeds crafting 
-	
+
 	Weapons
-	
+
 	Ammo
 		Gunpowder
 		Darts
@@ -59,7 +98,7 @@ Mechanic Class (Probably gives a bicycle as part of the quest)
 		Motorcycle
 		4x4
 		Gyrocopter
-		
+
 	Salvage Operations
 
 Smith Class
@@ -70,54 +109,22 @@ Smith Class
 	Steel tools
 	Iron arrow tips
 	Steel arrow tips
-	
-Medic class (
-	Healing Factor 
-	Physician
-	Self Medicated
-		
+
+Medic class
+
 Hunter Class
-	The Huntsman
-	Headshot
-	
+
 Farmer Class 
-	Living Off The Land
-	Master Chef
-	
+
 Trader Class (Gets the trader as part of the quest)
-	Better Barter
-		Secret Stash
-	Lucky Looter
-		Lucky Looter (Better loot)
-		Expert Looter (Incresas looting speed)
-	Scavenging (Levels by Scavenging in the world)
-	Daring Adventurer
-		Master of Archaeology (Treasure Hunter) (Better at finding treasures)
-	
+
 Survivor Class
-	Well Insulated
-	Slow Metabolism
-	Pain Tolerance
-	Explosive Weapons
-		
-Athlete Class
-	Rule One Cardio
-	Parkour
-	Olympic Swimmer
 
 Engineer Class
-	Advanced Engineering
 
 Scientist Class
-	Yeah Science
-		
-Gun Smith Class
-	
-Electrician Class
-		
-	
-	
 
+Electrician Class
 
 
 	Engineering (Engineering allows you to create advanced items using workstations.)
@@ -410,42 +417,3 @@ Electrician Class
 			Yeah Science
 			Physician
 			Master Chef
-			
-			
-			
-#Vanilla skill not allocated to class			
-	
-	Perception
-		Marksmanship
-			Run And Gun
-
-	Strength
-		Melee Combat
-			Flurry Of Blows
-			Deep Cuts
-			Stay Down
-			Heavy Metal
-			Skull Crusher
-		Construction
-			Miner 69r
-			Mother Lode
-
-	Fortitude
-		Survival
-			Heavy Armor
-			Intrinsic Immunity
-		Recovery
-
-	Agility
-		Athletics
-			Light Armor
-			Charging Bull
-
-		Stealth
-			Ninja Movement
-			Hidden Strike
-			From The Shadows
-
-	Intellect
-		Influence
-			Charismatic Nature
