@@ -6,9 +6,9 @@
 			<window name="FTHwindowSkillList"/> <!-- Overskrift venstre side -->
 			<window name="windowSkillInfo"/>
 			<!-- <window name="windowSkillStats"/> -->
-			<window name="FTHwindowSkillAttributeInfo" /> <!-- Infopanel Attribute højre side -->
+			<window name="FTHwindowSkillAttributeInfo" /> <!-- Infopanel Attribute right side -->
 			<window name="windowSkillSkillInfo" />
-			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks højre side -->
+			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks right side -->
 		</window_group>
 	</append>
 	
