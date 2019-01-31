@@ -11,7 +11,7 @@
 			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks højre side -->
 		</window_group>
 	</append>
-
+	
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
 	</append>
