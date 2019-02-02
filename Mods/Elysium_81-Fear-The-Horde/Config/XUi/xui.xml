@@ -14,11 +14,11 @@
 		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCrudeForgeCraftingQueue"/>
-			<window name="windowToolsCrudeForge" />
-			<window name="windowCrudeForgeFuel" />
-			<window name="windowCrudeForgeInput" />
-			<window name="windowCrudeForgeOutput" />
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowForgeInput" />
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 	
