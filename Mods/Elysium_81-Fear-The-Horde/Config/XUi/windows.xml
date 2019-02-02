@@ -20,6 +20,8 @@
 			</window>
 		</append>
 		<!-- Player backpack window -->
+		<set xpath="/windows/window[@name='craftingInfoPanel']/@width">683</set>
+		
 		<set xpath="/windows/window[@name='windowBackpack']/@width">683</set>
 		<set xpath="/windows/window[@name='windowBackpack']/@height">552</set>
 		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">506</set>
