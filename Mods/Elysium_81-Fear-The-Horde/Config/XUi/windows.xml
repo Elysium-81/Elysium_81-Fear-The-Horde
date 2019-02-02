@@ -212,7 +212,7 @@
 			</rect>
 		</window>	
 
-		<window name="windowCrudeForgeInput" width="228" height="204" panel="Right"
+		<window name="windowCrudeForgeInput" width="228" height="129" panel="Right"
 			controller="WorkstationMaterialInputWindow" materials_accepted="iron,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
 			<panel style="header.panel">
