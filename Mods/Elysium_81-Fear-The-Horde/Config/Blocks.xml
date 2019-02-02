@@ -22,9 +22,9 @@
 			<property name="ParticleOffset" value="0.5,0,0.5"/>
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="HeatMapStrength" value="1.5"/>
-			<property name="HeatMapTime" value="1200"/>
-			<property name="HeatMapFrequency" value="25"/>
+			<property name="HeatMapStrength" value="1.1"/>
+			<property name="HeatMapTime" value="400"/>
+			<property name="HeatMapFrequency" value="50"/>
 			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 
