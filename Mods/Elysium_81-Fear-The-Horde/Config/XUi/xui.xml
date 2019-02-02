@@ -23,6 +23,9 @@
 		</window_group>
 	
 	</append>
+	
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='crafting']/window[@name='windowCraftingQueue']/@name">windowPlayerCraftingQueue</set>
+	
 	<!-- Health bar -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
