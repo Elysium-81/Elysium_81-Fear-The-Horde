@@ -202,6 +202,20 @@
 			</rect>
 		</window>		
 		
+		<window name="windowCrudeForgeCraftingQueue" width="397" height="78" panel="Left" cursor_area="true" >
+		<!--#$-IGS END.-$#-->
+			<rect depth="0" pos="96,0" width="303" controller="CraftingQueue">
+				<!-- <sprite name="background" color="[black]" type="sliced" pos="0,-10" /> -->
+				<grid name="queue" rows="1" cols="1" pos="3,-13" cell_width="75" cell_height="75" repeat_content="true">
+					<recipe_stack name="0"/>
+				</grid>
+			</rect>
+		</window>	
+
+
+
+
+
 		
 		
 		
@@ -267,17 +281,7 @@
 					<label depth="2" name="onoff" pos="0,-6" justify="center" text="TURN ON" text_key="xuiTurnOn" font_size="26" />
 				</rect>
 			</panel>
-		</window>
-		
-		<window name="windowCrudeForgeCraftingQueue" width="397" height="78" panel="Left" cursor_area="true" >
-		<!--#$-IGS END.-$#-->
-			<rect depth="0" pos="96,0" width="303" controller="CraftingQueue">
-				<!-- <sprite name="background" color="[black]" type="sliced" pos="0,-10" /> -->
-				<grid name="queue" rows="1" cols="1" pos="3,-13" cell_width="75" cell_height="75" repeat_content="true">
-					<recipe_stack name="0"/>
-				</grid>
-			</rect>
-		</window>		
+		</window>	
 		
 	</append>
 
