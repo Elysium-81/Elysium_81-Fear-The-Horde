@@ -10,7 +10,7 @@
 			<property name="CustomIcon" value="forge"/>
 			<property name="DescriptionKey" value="crudeforgeDesc"/>
 			<property name="Material" value="Mstone_scrap"/>
-			<property name="MaxDamage" value="800"/>
+			<property name="MaxDamage" value="200"/>
 			<property name="StabilitySupport" value="true"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Path" value="solid"/>
