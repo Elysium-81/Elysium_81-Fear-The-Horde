@@ -18,7 +18,7 @@
 			<window name="windowToolsCrudeForge" />
 			<window name="windowFuel" />
 			<window name="windowForgeInput" />
-			<window name="windowOutput" />
+			<window name="windowCrudeForgeOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 	
