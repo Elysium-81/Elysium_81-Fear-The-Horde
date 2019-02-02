@@ -344,7 +344,7 @@
 				<passive_effect name="CarryCapacity" operation="base_add" value="8" level="4"/>
 				<passive_effect name="CarryCapacity" operation="base_add" value="12" level="6"/>
 				<passive_effect name="CarryCapacity" operation="base_add" value="16" level="8"/>
-				<passive_effect name="CarryCapacity" operation="base_add" value="60" level="10"/>
+				<passive_effect name="CarryCapacity" operation="base_add" value="40" level="10"/>
 			</effect_group>
 				
 			<effect_group>
