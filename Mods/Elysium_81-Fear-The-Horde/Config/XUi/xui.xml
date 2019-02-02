@@ -10,6 +10,18 @@
 			<window name="windowSkillSkillInfo" />
 			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks right side -->
 		</window_group>
+	
+		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsCrudeForge" />
+			<window name="windowFuel" />
+			<window name="windowCrudeForgeInput" />
+			<window name="windowCrudeForgeOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	
 	</append>
 	
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
