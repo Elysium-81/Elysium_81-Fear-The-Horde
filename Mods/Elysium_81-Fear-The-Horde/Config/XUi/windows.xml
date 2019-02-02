@@ -20,11 +20,11 @@
 			</window>
 		</append>
 		<!-- Player backpack window -->
-		<set xpath="/windows/window[@name='windowBackpack']/@width">693</set>
-		<set xpath="/windows/window[@name='windowBackpack']/@height">550</set>
-		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">504</set>
-		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">693</set>
-		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">537</set>
+		<set xpath="/windows/window[@name='windowBackpack']/@width">683</set>
+		<set xpath="/windows/window[@name='windowBackpack']/@height">552</set>
+		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">506</set>
+		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">683</set>
+		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">539</set>
 		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">8</set>
 		<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">10</set>
 
