@@ -24,8 +24,8 @@
 	
 	</append>
 
-	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and notcontains(@name, 'crude')]/window[@name='windowCraftingQueue']/@name">windowWorkstationCraftingQueue</set>
-	
+<!-- 	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and notcontains(@name, 'crude')]/window[@name='windowCraftingQueue']/@name">windowWorkstationCraftingQueue</set>
+ -->	
 	<!-- Health bar -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
