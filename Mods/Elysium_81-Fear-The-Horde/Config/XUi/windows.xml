@@ -220,7 +220,7 @@
 				<label style="header.name" text="INPUT" text_key="xuiSmelting" />
 			</panel>
 
-			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="153" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="75" color="[black]" type="sliced" fillcenter="false" on_press="true" />
 			<rect name="content" depth="1" pos="0,-46" height="153">
 
 				<grid depth="7" rows="1" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
@@ -229,9 +229,9 @@
 
 			</rect>
 
-			<rect name="content2" depth="0" pos="78, -49" width="147" height="148">
+			<rect name="content2" depth="0" pos="78, -49" width="75" height="148">
 				<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true"/>
-				<grid rows="6" cols="1" pos="3,-3" cell_width="147" cell_height="24"  repeat_content="true">
+				<grid rows="2" cols="1" pos="3,-3" cell_width="147" cell_height="24"  repeat_content="true">
 					<forge_material name="0"/>
 				</grid>
 			</rect>
