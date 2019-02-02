@@ -39,7 +39,7 @@
 				<sprite color="[lightGrey]" type="sliced" />
 				<label depth="3" name="name" pos="117,-20" width="309" height="26" font_size="26" color="[labelColor]" justify="center" pivot="center" text="{itemname}"/>
 			</rect>
-			<rect depth="2" width="139" height="43" pos="374,0">
+			<rect depth="2" width="139" height="43" pos="379,0">
 				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="144" height="47" color="[black]" type="sliced" fillcenter="false" />	
 				<sprite color="[lightGrey]" type="sliced" />
 				<label depth="3" name="needCount" pos="70,-20" width="139" height="26" font_size="26" color="[labelColor]" justify="center" pivot="center" text="{haveneedcount}"/>
