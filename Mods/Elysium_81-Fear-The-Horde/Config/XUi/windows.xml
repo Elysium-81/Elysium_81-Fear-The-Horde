@@ -26,8 +26,8 @@
 		
 		<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@width">520</set>
 		<!-- <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">673</set> -->
-		<!-- <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@width">673</set> -->
-		<!-- <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@width">673</set> -->
+		<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@width">673</set>
+		<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid/@width">673</set>
 		
 		
 		<set xpath="/windows/window[@name='emptyInfoPanel']/@width">673</set>
