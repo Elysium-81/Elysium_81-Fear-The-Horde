@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
 
-	<append xpath="/entity_classes/entity_class[@name='playerMale']">
+<!-- 	<append xpath="/entity_classes/entity_class[@name='playerMale']">
 
 		<material id="Miron_crude">
 			<property name="damage_category" value="metal"/>
 			<property name="surface_category" value="metal"/>
-			<property name="forge_category" value="iron"/>
+			<property name="forge_category" value="crudeiron"/>
 			<property name="Hardness" type="float" value="1"/>
 			<property name="stepsound" value="metal"/>
 			<property name="StabilitySupport" value="false"/>
@@ -16,6 +16,6 @@
 			<property name="Experience" value="1"/>
 		</material>
 		
-	</append>
+	</append> -->
 	
 </configs>
