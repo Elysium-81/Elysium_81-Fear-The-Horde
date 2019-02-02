@@ -23,7 +23,7 @@
 		</window_group>
 	
 	</append>
-	
+	<!-- Health bar -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
 	</append>
@@ -32,7 +32,7 @@
 	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
 	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.93</set>
 	<!-- Looting window -->
-	<set xpath="/xui/ruleset[@name='default']/window_group[@name='looting']/window[@name='windowLooting']/@name">S420windowLooting</set>
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='looting']/window[@name='windowLooting']/@name">FTHwindowLooting</set>
 	
 	
 	
