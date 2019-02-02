@@ -21,7 +21,7 @@
 		</append>
 		<!-- Player backpack window -->
 		<set xpath="/windows/window[@name='craftingInfoPanel']/@width">673</set>
-		
+		<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">673</set>
 		
 		<set xpath="/windows/window[@name='emptyInfoPanel']/@width">673</set>
 		<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">673</set>
