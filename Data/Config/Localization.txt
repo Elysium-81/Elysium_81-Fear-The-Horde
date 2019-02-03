@@ -7168,6 +7168,7 @@ attSmithClassRank3Desc,progression,Attribute,New,"3, Complete the Smithing class
 attSmithClassRank4Desc,progression,Attribute,New,"4, Complete the Smithing class quest nr. 4 to unlock",,,,,
 attSmithClassRank5Desc,progression,Attribute,New,"5, Complete the Smithing class quest nr. 5 to unlock",,,,,
 
+
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
 skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
 skillActivityToolsskillsName,progression,Skill,New,Tools activity skills,,,,,
@@ -7176,6 +7177,7 @@ skillActivityweaponsskillsName,progression,Skill,New,Weapon activity skills,,,,,
 skillActivityweaponsskillsDesc,progression,Skill,New,Waepon activity skills,,,,,
 skillCraftingrecipesName,progression,Skill,New,Crafting recipes,,,,,
 skillCraftingrecipesDesc,progression,Skill,New,Crafting recipes,,,,,
+
 
 perksPerceptionName,progression,Perk,New,Attribute: Perception,,,,,
 perksPerceptionDesc,progression,Perk,New,"Perception is the measure of your sensory awareness.\nIncreasing Perception raises damage and accuracy with ranged weapons.",,,,,
@@ -7190,11 +7192,10 @@ perksPerceptionRank8Desc,progression,Attribute,New,Ranged weapon damage 35% and 
 perksPerceptionRank9Desc,progression,Attribute,New,Ranged weapon damage 40% and accuracy 16%.,,,,,
 perksPerceptionRank10Desc,progression,Attribute,New,Ranged weapon damage 50% and accuracy 18%.,,,,,
 
+
 perkConcreteCraftingDesc,progression,Perk,New,Allows you to begin crafting blocks of concrete.,,,,,
 perkConcreteCraftingName,progression,Perk,New,Concrete Crafting,,,,,
 perkConcreteCraftingRank1Desc,progression,Perk,New,You can craft cement and concrete.,,,,,
-
-
 
 
 perkASArmorUseDesc,progression,Perk,New,Armor Usage,,,,,
@@ -7209,6 +7210,7 @@ perkASBladedDesc,progression,Perk,New,Bladed Weapons,,,,,
 perkASPistolsDesc,progression,Perk,New,Pistol Weapons,,,,,
 perkASShotgunsDesc,progression,Perk,New,Shotgun Weapons,,,,,
 perkASRiflesDesc,progression,Perk,New,Rifle Weapons,,,,,
+
 
 meleeToolweedCleaver,items,Melee,KgNone,Weed Cleaver,,,,,
 meleeToolweedCleaverDesc,items,Melee,KgNone,User for cutting grass like a boss.,,,,,
