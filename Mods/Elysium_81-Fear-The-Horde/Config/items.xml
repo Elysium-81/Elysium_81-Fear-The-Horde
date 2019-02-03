@@ -29,6 +29,7 @@
 		</item>
 		
 		<item name="toolfirepit">
+			<property name="DescriptionKey" value="toolfirepitDesc"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon" value="campfire"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -42,6 +43,7 @@
 		</item>
 	
 		<item name="toolfirepitlarge">
+			<property name="DescriptionKey" value="toolfirepitlargeDesc"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon" value="campfire"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
