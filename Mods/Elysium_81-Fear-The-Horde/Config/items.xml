@@ -27,6 +27,32 @@
 			<property name="Group" value="Resources"/>
 			<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		</item>
+		
+		<item name="toolfirepit">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="campfire"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="1"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="405"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>
+		</item>
+	
+		<item name="toolfirepitlarge">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="campfire"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="1"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="405"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>
+		</item>
 
 		<item name="meleeToolweedCleaver">
 			<property name="DescriptionKey" value="meleeToolweedCleaverDesc"/>			
