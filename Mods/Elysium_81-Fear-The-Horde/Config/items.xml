@@ -14,6 +14,50 @@
 
 	<!-- Add costume items -->
 	<append xpath="/items">
+	
+		<item name="resourceCopperFragment">
+			<property name="CustomIcon" value="resourceIronFragment"/>
+			<property name="CustomIconTint" value="ff7700"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mresourcecopper"/>
+			<property name="Weight" value="0.5"/>
+			<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+			<property name="SellableToTrader" value="false"/>
+			<property name="HoldType" value="45"/>
+			<property name="DropScale" value="3"/>
+			<property name="DescriptionKey" value="copperFragmentDesc"/>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		<item name="resourceZincFragment">
+			<property name="CustomIcon" value="resourceIronFragment"/>
+			<property name="CustomIconTint" value="91a3c1"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mresourcezinc"/>
+			<property name="Weight" value="0.5"/>
+			<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+			<property name="SellableToTrader" value="false"/>
+			<property name="HoldType" value="45"/>
+			<property name="DropScale" value="3"/>
+			<property name="DescriptionKey" value="zincFragmentDesc"/>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		<item name="resourceBrassMix">
+			<property name="CustomIcon" value="resourceCrushedSand"/>
+			<property name="CustomIconTint" value="f9cc27"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mbrass_scrap"/>
+			<property name="Weight" value="5"/>
+			<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	
 		<item name="unit_lime">
 			<property name="Extends" value="unit_iron"/>
 			<property name="CustomIcon" value="resourceRockSmall"/>
