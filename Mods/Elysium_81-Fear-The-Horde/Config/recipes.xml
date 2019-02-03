@@ -46,6 +46,7 @@
 			<ingredient name="toolBellows" count="1"/>
 			<ingredient name="resourceMetalPipe" count="5"/>
 			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="resourceScrapIron" count="100"/>
 		</recipe>
 		
 		<recipe name="toolfirepit" count="1" tags="learnable" craft_area="workbench">
