@@ -71,6 +71,8 @@
 			<property name="CustomIconTint" value="0,255,0"/>
 			<property name="RandomTintColor1" value="0,255,0"/>
 			<property name="DescriptionKey" value="largeforgeDesc"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="2,2,3"/>
 			<property name="CustomIcon" value="forge"/>
 			<property name="Material" value="Mstone_scrap"/>
 			<property name="MaxDamage" value="800"/>
@@ -94,7 +96,7 @@
 			<property class="Workstation">
 				<property name="CraftingAreaRecipes" value="largeforge"/>
 				<property name="Modules" value="tools,output,fuel,material_input"/>
-				<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
+				<property name="InputMaterials" value="iron,brass,lead,glass,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
 			<property name="OpenSound" value="forge_open" />
@@ -151,7 +153,7 @@
 			<property class="Workstation">
 				<property name="CraftingAreaRecipes" value="bigforge"/>
 				<property name="Modules" value="tools,output,fuel,material_input"/>
-				<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
+				<property name="InputMaterials" value="iron,brass,lead,glass,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
 			<property name="OpenSound" value="forge_open" />
