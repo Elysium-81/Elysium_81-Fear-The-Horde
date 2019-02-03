@@ -982,7 +982,18 @@
 				<triggered_effect trigger="onPerkLevelChanged" action="ModifyCVar" cvar="AS_Rifles_Lvl_Perm" operation="add" value="1"/>
 			</effect_group>
 		</perk>
+		
+		<!-- Crafting recipes -->
+		<perk name="perkConcreteCrafting" parent="skillCraftingrecipes" name_key="perkConcreteCraftingName" desc_key="perkConcreteCraftingDesc" icon="ui_game_symbol_forge">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04-10"/>
+									<requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqAttributeLevelDummy"/></level_requirements>
+			<effect_group>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="cementforge,resourceCement,resourceConcreteMix"/>
+				<effect_description level="1" desc_key="perkConcreteCraftingRank1Desc"/>
+			</effect_group>
+		</perk>
 
+		
 	<!-- Marksmanship Perks (Perception) -->
 		<perk name="perkGunslinger" parent="skillMarksmanship" max_level="5" name_key="perkGunslingerName" desc_key="perkGunslingerDesc" icon="ui_game_symbol_gunslinger">
 			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPerception" operation="GTE" value="1" desc_key="reqPerceptionLevel01"/></level_requirements>
