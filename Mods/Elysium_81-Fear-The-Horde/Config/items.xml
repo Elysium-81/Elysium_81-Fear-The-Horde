@@ -22,6 +22,39 @@
 			<property name="CreativeMode" value="None"/>
 		</item>
 	
+		<item name="resourcelimestone"> <!-- scrap material -->
+			<property name="DescriptionKey" value="resourcelimestoneDesc"/>	
+			<property name="CustomIcon" value="resourceRockSmall"/>
+			<property name="CustomIconTint" value="0,255,255"/>
+			<property name="HoldType" value="40"/>
+			<property name="Meshfile" value="Items/Crafting/rock_smallPrefab"/>
+			<property name="DropScale" value="6"/>
+			<property name="Material" value="MresourceLime"/>
+			<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+			<property name="RepairAmount" value="300"/>
+			<property name="RepairTime" value="0.5"/>
+			<property name="Weight" value="5"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="50"/>
+			<property class="Action0">
+				<property name="Class" value="ThrowAway"/>
+				<property name="Delay" value="1.2"/> <!-- obsolete if rounds per minute exists -->
+				<property name="Throw_strength_default" value="8"/>
+				<property name="Throw_strength_max" value="25"/>
+				<property name="Max_strain_time" value="1.5"/>
+				<property name="Sound_start" value="swoosh"/>
+			</property>
+			<property name="ThrowableDecoy" value="true"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientTime" value="0.5"/>
+			<property name="DistractionTags" value="zombie,requires_contact"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="DistractionRadius" operation="base_set" value="25"/>
+				<passive_effect name="DistractionLifetime" operation="base_set" value="1"/>
+				<passive_effect name="DistractionStrength" operation="base_set" value="100"/>
+			</effect_group>
+		</item>
+	
 		<item name="toolforgeairblowerunit">
 			<property name="DescriptionKey" value="toolforgeairblowerunitDesc"/>	
 			<property name="CustomIcon" value="toolBellows"/>
