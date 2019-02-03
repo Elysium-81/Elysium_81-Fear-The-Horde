@@ -11,8 +11,12 @@
 	<setattribute xpath="/recipes/recipe[@name='meleeToolShovelSteel']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" name="tags">learnable</setattribute>
-	
 
+
+	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" craft_tool="tags">toolAnvil</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='resourceScrapIron']" name="craft_area">crudeforge</setattribute>
+	
 	<!-- Change existing recipes -->
 
 	<remove xpath="/recipes/recipe[@name='forge']"/>
