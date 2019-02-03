@@ -2,7 +2,7 @@
 
 	<append xpath="/materials">
 
-		<material id="lime">
+		<material id="MresourceLime">
 		<property name="damage_category" value="stone"/>
 		<property name="surface_category" value="stone"/>
 		<property name="particle_category" value="stone"/>
