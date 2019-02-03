@@ -1,0 +1,141 @@
+<configs>
+	<append xpath="/worldgeneration/biomes/biome[@name='snow']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome[@name='desert']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrSandStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrSandStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrSandStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrSandStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+	</append>
+		
+	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome[@name='city']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome[@name='city_wasteland']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome[@name='wasteland_hub']">
+	
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+		
+		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
+			<layers>
+				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"/>
+				<layer depth="3" blockname="terrBedrock"/>
+			</layers>
+		</subbiome>
+
+	</append>
+</configs>
