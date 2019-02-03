@@ -10,6 +10,8 @@
 	<setattribute xpath="/recipes/recipe[@name='meleeToolPickaxeSteel']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolShovelSteel']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" name="tags">learnable</setattribute>
+	
 
 	<!-- Change existing recipes -->
 
@@ -19,7 +21,7 @@
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
-		<recipe name="resourceCement" count="1" craft_area="cementforge" material_based="true">
+		<recipe name="resourceCement" count="1" craft_area="cementforge" material_based="true" tags="learnable">
 			<ingredient name="unit_lime" count="3"/>
 			<ingredient name="unit_clay" count="1"/>
 		</recipe>
