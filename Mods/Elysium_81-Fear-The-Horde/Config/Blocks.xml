@@ -187,6 +187,8 @@
 		<block name="cementforge">
 			<property name="Class" value="Forge"/>
 			<property name="CustomIcon" value="forge"/>
+			<property name="CustomIconTint" value="255,0,0"/>
+			<property name="RandomTintColor1" value="255,0,0"/>
 			<property name="DescriptionKey" value="cementforgeDesc"/>
 			<property name="Material" value="Mstone_scrap"/>
 			<property name="MaxDamage" value="200"/>
