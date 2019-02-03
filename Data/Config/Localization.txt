@@ -7214,9 +7214,11 @@ dartTurret,blocks,Electricity,New,Dart Turret,,,,,
 dartTurretDesc,blocks,Electricity,New,"A dart trap on a tripod. Fast but power and ammo hungry.....",,,,,
 gatlingTurret,blocks,Electricity,New,Gatling Turret,,,,,
 gatlingTurretDesc,blocks,Electricity,New,"Gatling Turret. It a bullet boss.",,,,,
-crudeforge,blocks,Electricity,New,Crude Forge,,,,,
-crudeforgeDesc,blocks,Electricity,New,"Crude Forge can be used to make crude scrap iron.",,,,,
-
-
+crudeforge,blocks,Workstation,New,Crude Forge,,,,,
+crudeforgeDesc,blocks,Workstation,New,"Crude Forge can be used to make crude scrap iron.",,,,,
+largeforge,blocks,Workstation,New,Large Forge,,,,,
+largeforgeDesc,blocks,Workstation,New,"Large Forge can be used to make crude scrap iron.",,,,,
+bigforge,blocks,Workstation,New,Big Forge,,,,,
+bigforgeDesc,blocks,Workstation,New,"Big Forge can be used to make crude scrap iron.",,,,,
 
 
