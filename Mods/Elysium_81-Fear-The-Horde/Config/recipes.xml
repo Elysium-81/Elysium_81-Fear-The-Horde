@@ -14,8 +14,9 @@
 
 
 	<setattribute xpath="/recipes/recipe[@name='toolAnvil']" name="craft_tool">toolAnvil</setattribute>
-
-	<!-- <set xpath="/recipes/recipe[@name='resourceScrapIron']/@craft_area">crudeforge</set> -->
+	<setattribute xpath="/recipes/recipe[@name='toolCookingPot']" name="craft_tool">toolAnvil</setattribute>
+	
+	
 	
 	<!-- Change existing recipes -->
 
@@ -25,6 +26,9 @@
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
+		<recipe name="resourceScrapIron" count="1" craft_area="crudeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_iron" count="1"/>
+		</recipe>
 		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
 			<ingredient name="resourceZincFragment" count="1"/>
 			<ingredient name="resourceCopperFragment" count="1"/>
