@@ -21,6 +21,11 @@
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
+		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer">
+			<ingredient name="resourceZincFragment" count="1"/>
+			<ingredient name="resourceCopperFragment" count="1"/>
+		</recipe>
+		
 		<recipe name="resourceCement" count="1" craft_area="cementforge" material_based="true" tags="learnable">
 			<ingredient name="unit_lime" count="3"/>
 			<ingredient name="unit_clay" count="1"/>
