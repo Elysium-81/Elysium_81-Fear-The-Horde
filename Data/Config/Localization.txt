@@ -7234,3 +7234,7 @@ toolfirepitlarge,items,Item,New,Large forge firepit,,,,,
 toolfirepitlargeDesc,items,Item,New,"Used to make the big forge.",,,,,
 toolfirepitbig,items,Item,New,Big forge firepit,,,,,
 toolfirepitbigDesc,items,Item,New,"Used to make the big forge.",,,,,
+
+
+resourcelimestone,items,Item,KgNone,Lime Stone,,,,,
+resourcelimestoneDesc,items,Item,KgNone,"Used cement crafting".",,,,,
