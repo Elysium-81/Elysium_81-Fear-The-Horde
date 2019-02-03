@@ -13,7 +13,7 @@
 	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" name="tags">learnable</setattribute>
 
 
-	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" craft_tool="tags">toolAnvil</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='toolAnvil']" craft_tool="tags">toolAnvil</setattribute>
 
 	<set xpath="/recipes/recipe[@name='resourceScrapIron']/@craft_area">crudeforge</set>
 	
