@@ -7239,4 +7239,4 @@ toolfirepitbigDesc,items,Item,New,"Used to make the big forge.",,,,,
 
 
 resourcelimestone,items,Item,KgNone,Lime Stone,,,,,
-resourcelimestoneDesc,items,Item,KgNone,"Used cement crafting".",,,,,
+resourcelimestoneDesc,items,Item,KgNone,"Used cement crafting",,,,,
