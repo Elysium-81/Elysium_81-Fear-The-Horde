@@ -3,7 +3,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="4" blockname="terrSnow"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDirt"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -11,7 +14,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="4" blockname="terrSnow"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDirt"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -23,7 +29,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrForestGround"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="6" blockname="terrDirt"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -31,7 +40,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrForestGround"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="6" blockname="terrDirt"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -43,7 +55,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrSandStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrDesertGround"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="6" blockname="terrSandStone"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrSandStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrSandStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrSandStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -51,7 +66,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrSandStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrDesertGround"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="6" blockname="terrSandStone"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrSandStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrSandStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrSandStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -63,7 +81,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrBurntForestGround"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="8" blockname="terrDirt"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -71,7 +92,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrBurntForestGround"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="8" blockname="terrDirt"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -83,7 +107,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrAsphalt"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="4" blockname="terrDirt"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -91,7 +118,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrAsphalt"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="4" blockname="terrDirt"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -103,7 +133,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrAsphalt"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="4" blockname="terrDirt"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -111,7 +144,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrAsphalt"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="4" blockname="terrDirt"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -123,7 +159,10 @@
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDestroyedStone"> <resource blockname="GravelCopper" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDirt"> <resource blockname="GravelCopper" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="CopperOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelCopper" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
@@ -131,7 +170,10 @@
 		
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Zinc -->
 			<layers>
-				<layer depth="*" blockname="terrStone"> <resource blockname="terrLime" prob="0.1300" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDestroyedStone"> <resource blockname="GravelZinc" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDirt"> <resource blockname="GravelZinc" prob="0.811" rwgGenerationType="all"/> </layer>
+				<layer depth="1" blockname="terrStone"> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
+				<layer depth="*" blockname="terrStone"> <resource blockname="ZincOre" prob="0.1300" rwgGenerationType="all"/> <resource blockname="GravelZinc" prob="0.8130" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"/>
 				<layer depth="3" blockname="terrBedrock"/>
 			</layers>
