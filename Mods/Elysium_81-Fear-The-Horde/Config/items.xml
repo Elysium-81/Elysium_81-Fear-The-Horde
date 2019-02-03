@@ -25,7 +25,7 @@
 		<item name="resourcelimestone"> <!-- scrap material -->
 			<property name="DescriptionKey" value="resourcelimestoneDesc"/>	
 			<property name="CustomIcon" value="resourceRockSmall"/>
-			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CustomIconTint" value="0,255,255"/>
 			<property name="HoldType" value="40"/>
 			<property name="Meshfile" value="Items/Crafting/rock_smallPrefab"/>
 			<property name="DropScale" value="6"/>
