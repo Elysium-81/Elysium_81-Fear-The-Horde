@@ -1,5 +1,5 @@
 <configs>
-	
+
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='skills']"/>
 	<append xpath="/xui/ruleset[@name='default']">
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
@@ -10,7 +10,7 @@
 			<window name="windowSkillSkillInfo" />
 			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks right side -->
 		</window_group>
-	
+
 		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
@@ -42,8 +42,8 @@
 			<window name="windowForgeInput" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
-		</window_group>		
-		
+		</window_group>	
+
 		<window_group name="workstation_cementforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
@@ -56,18 +56,16 @@
 	</append>
 
 	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and not(contains(@name, 'crude'))]/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
-	
+
 	<!-- Health bar -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
 	</append>
-	
+
 	<!-- Main scale of UI -->
 	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
 	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.93</set>
 	<!-- Looting window -->
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='looting']/window[@name='windowLooting']/@name">FTHwindowLooting</set>
-	
-	
-	
+
 </configs>
