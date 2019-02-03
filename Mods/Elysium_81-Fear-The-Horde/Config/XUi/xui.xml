@@ -48,7 +48,6 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowworkstationCraftingQueue"/>
-			<window name="windowToolsForge" />
 			<window name="windowFuel" />
 			<window name="windowCrudeForgeInput" />
 			<window name="windowOutput" />
