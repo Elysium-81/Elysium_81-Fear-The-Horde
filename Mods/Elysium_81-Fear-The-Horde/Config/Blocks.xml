@@ -2,6 +2,12 @@
 	<!-- Remove downgrade path -->
 	<remove xpath="/blocks/block/property[@name='DowngradeBlock']"/>
 	
+	
+	<!-- Make normal forged a dev block -->
+	<append xpath="/blocks/block[@name='forge']">
+		<property name="CreativeMode" value="Dev"/>
+	</append>
+	
 	<!-- Add costume items -->
 	<append xpath="/blocks">
 		
@@ -62,7 +68,8 @@
 
 		<block name="largeforge">
 			<property name="Class" value="Forge"/>
-			<property name="CustomIconTint" value="255,255,0"/>
+			<property name="CustomIconTint" value="0,255,0"/>
+			<property name="Overlay0Tint" value="87,87,87"/>
 			<property name="DescriptionKey" value="largeforgeDesc"/>
 			<property name="CustomIcon" value="forge"/>
 			<property name="Material" value="Mstone_scrap"/>
@@ -119,6 +126,7 @@
 		<block name="bigforge">
 			<property name="CustomIcon" value="forge"/>
 			<property name="CustomIconTint" value="0,255,255"/>
+			<property name="Overlay0Tint" value="87,87,87"/>
 			<property name="DescriptionKey" value="bigforgeDesc"/>
 			<property name="Class" value="Forge"/>
 			<property name="Material" value="Mstone_scrap"/>
