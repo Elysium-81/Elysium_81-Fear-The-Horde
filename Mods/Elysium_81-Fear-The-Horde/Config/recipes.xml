@@ -27,17 +27,15 @@
 		</recipe>
 
 		<recipe name="largeforge" count="1" tags="learnable" craft_area="workbench">
-			<ingredient name="resourceRockSmall" count="50"/>
-			<ingredient name="resourceClayLump" count="60"/>
+			<ingredient name="flagstoneBlock" count="4"/>
 			<ingredient name="toolBellows" count="1"/>
-			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
 		</recipe>
 
 		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench">
-			<ingredient name="resourceRockSmall" count="50"/>
-			<ingredient name="resourceClayLump" count="60"/>
+			<ingredient name="flagstoneBlock" count="9"/>
 			<ingredient name="toolBellows" count="1"/>
-			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMetalPipe" count="25"/>
 		</recipe>		
 
 		<recipe name="meleeToolweedCleaver" count="1">
