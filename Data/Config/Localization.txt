@@ -7220,5 +7220,6 @@ largeforge,blocks,Workstation,New,Large Forge,,,,,
 largeforgeDesc,blocks,Workstation,New,"Large Forge can be used to make crude scrap iron.",,,,,
 bigforge,blocks,Workstation,New,Big Forge,,,,,
 bigforgeDesc,blocks,Workstation,New,"Big Forge can be used to make crude scrap iron.",,,,,
-
+toolforgeairblowerunit,blocks,Workstation,New,Forge airt blower unit,,,,,
+toolforgeairblowerunitDesc,blocks,Workstation,New,"Forge airt blower unit is used to make the large and big forge.",,,,,
 
