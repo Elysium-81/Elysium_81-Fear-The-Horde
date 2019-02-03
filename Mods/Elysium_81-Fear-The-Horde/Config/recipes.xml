@@ -29,7 +29,11 @@
 		<recipe name="resourceScrapIron" count="1" craft_area="crudeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 			<ingredient name="unit_iron" count="1"/>
 		</recipe>
-
+		
+		<recipe name="resourceClayLump" count="1" craft_area="crudeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
+		
 		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
 			<ingredient name="resourceZincFragment" count="1"/>
 			<ingredient name="resourceCopperFragment" count="1"/>
