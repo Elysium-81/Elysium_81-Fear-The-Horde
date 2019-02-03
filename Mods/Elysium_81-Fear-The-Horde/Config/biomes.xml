@@ -1,4 +1,22 @@
 <configs>
+	<append xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']">
+		<blockontop blockname="rocklimerock01" prob="0.0007"/>
+		<blockontop blockname="rocklimerock02" prob="0.0007"/>
+		<blockontop blockname="rocklimerock04" prob="0.0007"/>
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome/subbiome/decorations">
+		<blockontop blockname="rocklimerock05" prob="0.0007"/>
+		<blockontop blockname="rocklimerock06" prob="0.0007"/>
+		<blockontop blockname="rocklimerock07" prob="0.0007"/>
+	</append>
+	
+	<append xpath="/worldgeneration/biomes/biome/decorations">
+		<blockontop blockname="rocklimerock05" prob="0.0007"/>
+		<blockontop blockname="rocklimerock06" prob="0.0007"/>
+		<blockontop blockname="rocklimerock07" prob="0.0007"/>
+	</append>
+
 	<append xpath="/worldgeneration/biomes/biome[@name='snow']">
 	
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: Copper -->
