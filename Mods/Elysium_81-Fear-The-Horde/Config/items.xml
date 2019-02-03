@@ -11,8 +11,6 @@
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		</property>
 	</append>
-	
-
 
 	<!-- Add costume items -->
 	<append xpath="/items">
@@ -29,7 +27,7 @@
 			<property name="Group" value="Resources"/>
 			<property name="CraftingSkillGroup" value="craftSkillTools"/>
 		</item>
-	
+
 		<item name="meleeToolweedCleaver">
 			<property name="DescriptionKey" value="meleeToolweedCleaverDesc"/>			
 			<property name="Tags" value="knife,melee,light,tool,meleeWeapon,perkTheHuntsman"/>
@@ -77,7 +75,7 @@
 				<passive_effect name="DamageModifier" operation="base_set" value="0" tags="stone,earth,wood"/>
 			</effect_group>
 		</item>
-		
+
 		<item name="meleeToolStoneHammer">
 			<property name="DescriptionKey" value="meleeToolStoneHammerDesc"/>	
 			<property name="Tags" value="knife,melee,light,tool,perkMotherLode,perkDeepCuts,perkTheHuntsman"/>
@@ -105,7 +103,6 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 				<passive_effect name="BlockRange" operation="base_set" value="3"/>
-
 				<passive_effect name="EntityDamage" operation="base_set" value="10"/> <!-- meleeToolStoneAxe -->
 				<passive_effect name="BlockDamage" operation="base_set" value="21"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="70"/> <!-- A16 .8 -->
@@ -114,7 +111,6 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.33" tags="stone"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-
 				<passive_effect name="StaminaLoss" operation="base_set" value="12.0" tags="primary"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="70,200" tier="1,6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -126,13 +122,7 @@
 			<property name="CraftingSkillGroup" value="craftSkillTools"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 		</item>
-		
-		
+
 	</append>
 
-	
-	
-	
-	
 </configs>
-
