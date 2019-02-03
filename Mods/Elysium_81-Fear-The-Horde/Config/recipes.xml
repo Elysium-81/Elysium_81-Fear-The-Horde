@@ -19,21 +19,21 @@
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
-		<recipe name="crudeforge" count="1" tags="learnable" craft_time="60">
+		<recipe name="crudeforge" count="1" tags="learnable" craft_time="180">
 			<ingredient name="resourceRockSmall" count="50"/>
 			<ingredient name="resourceClayLump" count="60"/>
 			<ingredient name="toolBellows" count="1"/>
 			<ingredient name="resourceMetalPipe" count="1"/>
 		</recipe>
 
-		<recipe name="largeforge" count="1" tags="learnable" craft_area="workbench" craft_time="60">
+		<recipe name="largeforge" count="1" tags="learnable" craft_area="workbench" craft_time="600">
 			<ingredient name="flagstoneBlock" count="4"/>
 			<ingredient name="toolforgeairblowerunit" count="1"/>
 			<ingredient name="resourceMetalPipe" count="10"/>
 			<ingredient name="toolfirepit" count="1"/>
 		</recipe>
 
-		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench" craft_time="120">
+		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench" craft_time="1200">
 			<ingredient name="flagstoneBlock" count="9"/>
 			<ingredient name="flagstoneRamp" count="9"/>
 			<ingredient name="toolforgeairblowerunit" count="3"/>
@@ -41,7 +41,7 @@
 			<ingredient name="toolfirepitlarge" count="1"/>
 		</recipe>
 
-		<recipe name="toolforgeairblowerunit" count="1" tags="learnable" craft_area="workbench" craft_time="60">
+		<recipe name="toolforgeairblowerunit" count="1" tags="learnable" craft_area="workbench" craft_time="240">
 			<ingredient name="resourceWood" count="100"/>
 			<ingredient name="toolBellows" count="1"/>
 			<ingredient name="resourceMetalPipe" count="5"/>
@@ -49,19 +49,19 @@
 			<ingredient name="resourceScrapIron" count="100"/>
 		</recipe>
 
-		<recipe name="toolfirepit" count="1" tags="learnable" craft_area="workbench" craft_time="60">
+		<recipe name="toolfirepit" count="1" tags="learnable" craft_area="workbench" craft_time="120">
 			<ingredient name="resourceRockSmall" count="25"/>
 			<ingredient name="resourceClayLump" count="100"/>
 			<ingredient name="resourceCoal" count="50"/>
 		</recipe>
 
-		<recipe name="toolfirepitlarge" count="1" tags="learnable" craft_area="workbench" craft_time="60">
+		<recipe name="toolfirepitlarge" count="1" tags="learnable" craft_area="workbench" craft_time="180">
 			<ingredient name="resourceRockSmall" count="100"/>
 			<ingredient name="resourceClayLump" count="400"/>
 			<ingredient name="resourceCoal" count="200"/>
 		</recipe>
 
-		<recipe name="toolfirepitbig" count="1" tags="learnable" craft_area="workbench" craft_time="60">
+		<recipe name="toolfirepitbig" count="1" tags="learnable" craft_area="workbench" craft_time="240">
 			<ingredient name="resourceRockSmall" count="400"/>
 			<ingredient name="resourceClayLump" count="1200"/>
 			<ingredient name="resourceCoal" count="800"/>
