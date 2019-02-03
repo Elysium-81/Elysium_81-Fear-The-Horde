@@ -33,7 +33,7 @@
 			<ingredient name="toolfirepit" count="1"/>
 		</recipe>
 
-		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench" craft_time="60">
+		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench" craft_time="120">
 			<ingredient name="flagstoneBlock" count="9"/>
 			<ingredient name="flagstoneRamp" count="9"/>
 			<ingredient name="toolforgeairblowerunit" count="3"/>
