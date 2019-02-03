@@ -71,8 +71,8 @@
 			<property name="CustomIconTint" value="0,255,0"/>
 			<property name="RandomTintColor1" value="0,255,0"/>
 			<property name="DescriptionKey" value="largeforgeDesc"/>
-			<property name="DisplayType" value="blockMulti" />
-			<property name="MultiBlockDim" value="2,3,2"/>
+<!-- 			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="2,3,2"/> -->
 			<property name="CustomIcon" value="forge"/>
 			<property name="Material" value="Mstone_scrap"/>
 			<property name="MaxDamage" value="800"/>
@@ -130,8 +130,8 @@
 			<property name="CustomIconTint" value="0,0,255"/>
 			<property name="RandomTintColor1" value="0,0,255"/>
 			<property name="DescriptionKey" value="bigforgeDesc"/>
-			<property name="DisplayType" value="blockMulti" />
-			<property name="MultiBlockDim" value="3,5,3"/>
+<!-- 			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="3,5,3"/> -->
 			<property name="Class" value="Forge"/>
 			<property name="Material" value="Mstone_scrap"/>
 			<property name="MaxDamage" value="800"/>
