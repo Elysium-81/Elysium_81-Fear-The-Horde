@@ -7190,6 +7190,10 @@ perksPerceptionRank8Desc,progression,Attribute,New,Ranged weapon damage 35% and 
 perksPerceptionRank9Desc,progression,Attribute,New,Ranged weapon damage 40% and accuracy 16%.,,,,,
 perksPerceptionRank10Desc,progression,Attribute,New,Ranged weapon damage 50% and accuracy 18%.,,,,,
 
+perkConcreteCraftingDesc,progression,Perk,New,Allows you to begin crafting blocks of concrete.,,,,,
+perkConcreteCraftingName,progression,Perk,New,Concrete Crafting,,,,,
+perkConcreteCraftingRank1Desc,progression,Perk,New,You can craft cement and concrete.,,,,,
+
 
 
 
