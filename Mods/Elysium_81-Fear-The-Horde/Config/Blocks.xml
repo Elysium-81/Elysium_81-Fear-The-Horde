@@ -69,7 +69,7 @@
 		<block name="largeforge">
 			<property name="Class" value="Forge"/>
 			<property name="CustomIconTint" value="0,255,0"/>
-			<property name="RandomTintColor1" value="87,87,87"/>
+			<property name="RandomTintColor1" value="0,255,0"/>
 			<property name="DescriptionKey" value="largeforgeDesc"/>
 			<property name="CustomIcon" value="forge"/>
 			<property name="Material" value="Mstone_scrap"/>
@@ -126,7 +126,7 @@
 		<block name="bigforge">
 			<property name="CustomIcon" value="forge"/>
 			<property name="CustomIconTint" value="0,0,255"/>
-			<property name="RandomTintColor1" value="87,87,87"/>
+			<property name="RandomTintColor1" value="0,0,255"/>
 			<property name="DescriptionKey" value="bigforgeDesc"/>
 			<property name="Class" value="Forge"/>
 			<property name="Material" value="Mstone_scrap"/>
