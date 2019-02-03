@@ -43,6 +43,17 @@
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>		
+		
+		<window_group name="workstation_cementforge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowworkstationCraftingQueue"/>
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowCrudeForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>	
 	</append>
 
 	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and not(contains(@name, 'crude'))]/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
