@@ -125,7 +125,7 @@
 				
 		<block name="bigforge">
 			<property name="CustomIcon" value="forge"/>
-			<property name="CustomIconTint" value="0,255,255"/>
+			<property name="CustomIconTint" value="0,0,255"/>
 			<property name="Overlay0Tint" value="87,87,87"/>
 			<property name="DescriptionKey" value="bigforgeDesc"/>
 			<property name="Class" value="Forge"/>
