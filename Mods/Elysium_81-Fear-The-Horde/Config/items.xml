@@ -16,6 +16,19 @@
 
 	<!-- Add costume items -->
 	<append xpath="/items">
+		<item name="toolforgeairblowerunit">
+			<property name="DescriptionKey" value="toolforgeairblowerunitDesc"/>	
+			<property name="CustomIcon" value="toolBellows"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="MtoolBellows"/>
+			<property name="Stacknumber" value="1"/> <!-- STK resource -->
+			<property name="Weight" value="100"/>
+			<property name="EconomicValue" value="405"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>
+		</item>
 	
 		<item name="meleeToolweedCleaver">
 			<property name="DescriptionKey" value="meleeToolweedCleaverDesc"/>			
