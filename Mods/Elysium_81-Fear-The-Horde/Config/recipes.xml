@@ -1,6 +1,6 @@
 <configs>
 	<!-- Makes the recipes learnable -->
-	
+
  	<setattribute xpath="/recipes/recipe[@name='resourceForgedIron']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolClawHammer']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolPickaxeIron']" name="tags">learnable</setattribute>
@@ -10,15 +10,20 @@
 	<setattribute xpath="/recipes/recipe[@name='meleeToolPickaxeSteel']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolShovelSteel']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
-	
-	
+
 	<!-- Change existing recipes -->
-	
+
 	<remove xpath="/recipes/recipe[@name='forge']"/>
-	
+	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
+
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
+		<recipe name="resourceCement" count="1" craft_area="cementforge" material_based="true">
+			<ingredient name="unit_stone" count="5"/>
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
+		
 		<recipe name="crudeforge" count="1" tags="learnable" craft_time="180">
 			<ingredient name="resourceRockSmall" count="50"/>
 			<ingredient name="resourceClayLump" count="60"/>
@@ -26,14 +31,14 @@
 			<ingredient name="resourceMetalPipe" count="1"/>
 		</recipe>
 
-		<recipe name="largeforge" count="1" tags="learnable" craft_area="workbench" craft_time="600">
+		<recipe name="largeforge" count="1" tags="learnable" craft_area="workbench" craft_time="450">
 			<ingredient name="flagstoneBlock" count="4"/>
 			<ingredient name="toolforgeairblowerunit" count="1"/>
 			<ingredient name="resourceMetalPipe" count="10"/>
 			<ingredient name="toolfirepit" count="1"/>
 		</recipe>
 
-		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench" craft_time="1200">
+		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench" craft_time="900">
 			<ingredient name="flagstoneBlock" count="9"/>
 			<ingredient name="flagstoneRamp" count="9"/>
 			<ingredient name="toolforgeairblowerunit" count="3"/>
@@ -41,6 +46,14 @@
 			<ingredient name="toolfirepitlarge" count="1"/>
 		</recipe>
 
+		<recipe name="cementforge" count="1" tags="learnable" craft_area="workbench" craft_time="900">
+			<ingredient name="flagstoneBlock" count="9"/>
+			<ingredient name="flagstoneRamp" count="9"/>
+			<ingredient name="toolforgeairblowerunit" count="3"/>
+			<ingredient name="resourceMetalPipe" count="25"/>
+			<ingredient name="toolfirepitlarge" count="1"/>
+		</recipe>
+		
 		<recipe name="toolforgeairblowerunit" count="1" tags="learnable" craft_area="workbench" craft_time="240">
 			<ingredient name="resourceWood" count="100"/>
 			<ingredient name="toolBellows" count="1"/>
@@ -87,16 +100,13 @@
 			<ingredient name="resourceDuctTape" count="2"/>
 			<ingredient name="resourceForgedIron" count="5"/>
 		</recipe>		
-	
+
 		<recipe name="meleeToolStoneHammer" count="1"> <!-- Toolsd -->
 			<ingredient name="resourceRockSmall" count="4"/>
 			<ingredient name="resourceYuccaFibers" count="2"/>
 			<ingredient name="resourceWood" count="2"/>
 		</recipe>
-	
+
 	</append>
-	
-	
+
 </configs>
-
-
