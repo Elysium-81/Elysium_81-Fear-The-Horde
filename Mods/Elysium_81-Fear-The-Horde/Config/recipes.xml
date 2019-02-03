@@ -38,6 +38,13 @@
 			<ingredient name="resourceMetalPipe" count="25"/>
 		</recipe>		
 
+		<recipe name="toolforgeairblowerunit" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="toolBellows" count="1"/>
+			<ingredient name="resourceMetalPipe" count="5"/>
+			<ingredient name="smallEngine" count="1"/>
+		</recipe>		
+		
 		<recipe name="meleeToolweedCleaver" count="1">
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceWood" count="5"/>
