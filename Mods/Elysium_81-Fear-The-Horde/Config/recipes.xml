@@ -48,7 +48,7 @@
 			<ingredient name="smallEngine" count="1"/>
 			<ingredient name="resourceScrapIron" count="100"/>
 		</recipe>
-		
+
 		<recipe name="toolfirepit" count="1" tags="learnable" craft_area="workbench">
 			<ingredient name="resourceRockSmall" count="25"/>
 			<ingredient name="resourceClayLump" count="100"/>
@@ -59,6 +59,12 @@
 			<ingredient name="resourceRockSmall" count="100"/>
 			<ingredient name="resourceClayLump" count="400"/>
 			<ingredient name="resourceCoal" count="200"/>
+		</recipe>
+
+		<recipe name="toolfirepitbig" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="resourceRockSmall" count="400"/>
+			<ingredient name="resourceClayLump" count="1200"/>
+			<ingredient name="resourceCoal" count="800"/>
 		</recipe>
 		
 		<recipe name="meleeToolweedCleaver" count="1">
