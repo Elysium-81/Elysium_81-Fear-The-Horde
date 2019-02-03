@@ -28,22 +28,37 @@
 
 		<recipe name="largeforge" count="1" tags="learnable" craft_area="workbench">
 			<ingredient name="flagstoneBlock" count="4"/>
-			<ingredient name="toolBellows" count="1"/>
+			<ingredient name="toolforgeairblowerunit" count="1"/>
 			<ingredient name="resourceMetalPipe" count="10"/>
+			<ingredient name="toolfirepit" count="1"/>
 		</recipe>
 
 		<recipe name="bigforge" count="1" tags="learnable" craft_area="workbench">
 			<ingredient name="flagstoneBlock" count="9"/>
-			<ingredient name="toolBellows" count="1"/>
+			<ingredient name="flagstoneRamp" count="9"/>
+			<ingredient name="toolforgeairblowerunit" count="3"/>
 			<ingredient name="resourceMetalPipe" count="25"/>
-		</recipe>		
+			<ingredient name="toolfirepitlarge" count="1"/>
+		</recipe>
 
 		<recipe name="toolforgeairblowerunit" count="1" tags="learnable" craft_area="workbench">
 			<ingredient name="resourceWood" count="100"/>
 			<ingredient name="toolBellows" count="1"/>
 			<ingredient name="resourceMetalPipe" count="5"/>
 			<ingredient name="smallEngine" count="1"/>
-		</recipe>		
+		</recipe>
+		
+		<recipe name="toolfirepit" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="resourceRockSmall" count="25"/>
+			<ingredient name="resourceClayLump" count="100"/>
+			<ingredient name="resourceCoal" count="50"/>
+		</recipe>
+
+		<recipe name="toolfirepitlarge" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="resourceRockSmall" count="100"/>
+			<ingredient name="resourceClayLump" count="400"/>
+			<ingredient name="resourceCoal" count="100"/>
+		</recipe>
 		
 		<recipe name="meleeToolweedCleaver" count="1">
 			<ingredient name="resourceForgedIron" count="10"/>
