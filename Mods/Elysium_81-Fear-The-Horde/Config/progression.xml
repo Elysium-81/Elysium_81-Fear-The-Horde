@@ -980,7 +980,7 @@
 				<triggered_effect trigger="onPerkLevelChanged" action="ModifyCVar" cvar="AS_Rifles_LvlNextAdd" operation="multiply" value="@AS_XP_Mult"/>
 				<triggered_effect trigger="onPerkLevelChanged" action="ModifyCVar" cvar="AS_Rifles_LvlNextTotal" operation="add" value="@AS_Rifles_LvlNextAdd"/>
 				<triggered_effect trigger="onPerkLevelChanged" action="ModifyCVar" cvar="AS_Rifles_Lvl_Perm" operation="add" value="1"/>
-			</effect_group>
+			</effect_group>			
 		</perk>
 		
 		<!-- Crafting recipes -->
