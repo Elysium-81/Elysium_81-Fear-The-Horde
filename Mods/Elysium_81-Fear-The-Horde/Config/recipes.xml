@@ -15,7 +15,7 @@
 
 	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" craft_tool="tags">toolAnvil</setattribute>
 
-	<setattribute xpath="/recipes/recipe[@name='resourceScrapIron']" name="craft_area">crudeforge</setattribute>
+	<set xpath="/recipes/recipe[@name='resourceScrapIron']/@craft_area">crudeforge</set>
 	
 	<!-- Change existing recipes -->
 
