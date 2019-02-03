@@ -57,7 +57,7 @@
 		<recipe name="toolfirepitlarge" count="1" tags="learnable" craft_area="workbench">
 			<ingredient name="resourceRockSmall" count="100"/>
 			<ingredient name="resourceClayLump" count="400"/>
-			<ingredient name="resourceCoal" count="100"/>
+			<ingredient name="resourceCoal" count="200"/>
 		</recipe>
 		
 		<recipe name="meleeToolweedCleaver" count="1">
