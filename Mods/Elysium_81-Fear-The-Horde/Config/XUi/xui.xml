@@ -31,7 +31,7 @@
 			<window name="windowForgeInput" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
-		</window_group>		
+		</window_group>
 		
 <!-- 		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
@@ -77,8 +77,8 @@
 		</window_group>	
 	</append>
 
-	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and not(contains(@name, 'crude') or contains(@name, 'workstation_forge'))]/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
-
+<!-- 	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and not(contains(@name, 'crude') or contains(@name, 'workstation_forge'))]/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
+ -->
 	<!-- Health bar -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
