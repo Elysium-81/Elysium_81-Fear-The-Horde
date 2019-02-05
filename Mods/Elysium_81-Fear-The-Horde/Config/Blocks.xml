@@ -406,7 +406,7 @@
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 
 			<property class="Workstation">
-				<property name="CraftingAreaRecipes" value="crudeforge"/>
+				<property name="CraftingAreaRecipes" value="cementforge"/>
 				<property name="Modules" value="tools,output,fuel,material_input"/>
 				<property name="InputMaterials" value="lime,clay"/>
 			</property>
