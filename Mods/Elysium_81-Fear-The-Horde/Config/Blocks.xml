@@ -233,7 +233,7 @@
 			<property class="Workstation">
 				<property name="CraftingAreaRecipes" value="forge"/>
 				<property name="Modules" value="output,fuel,material_input"/>
-				<property name="InputMaterials" value="iron,brass,lead,glass,clay"/>
+				<property name="InputMaterials" value="iron,brass,lead,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
 			<property name="OpenSound" value="forge_open" />
