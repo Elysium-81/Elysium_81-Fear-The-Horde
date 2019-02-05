@@ -19,7 +19,7 @@
 	
 	
 	<!-- Change existing recipes -->
-	
+	<set xpath="/recipes/recipes[@name='resourceBrokenGlass']/@craft_area">largeforge</set>
 	<!-- <set xpath="/recipes/recipes[@craft_area='forge']/@craft_area">largeforge</set> -->
 	
 	<remove xpath="/recipes/recipe[@name='forge']"/>
@@ -28,13 +28,26 @@
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
-		<recipe name="resourceScrapIron" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+		
+		<recipe name="resourceClayLump" count="1" craft_area="largeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
+
+		<recipe name="resourceRockSmall" count="1" craft_area="largeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_stone" count="5"/>
+		</recipe>
+
+		<recipe name="resourceScrapBrass" count="1" craft_area="largeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_brass" count="1"/>
+		</recipe>
+
+		<recipe name="resourceScrapIron" count="1" craft_area="largeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 			<ingredient name="unit_iron" count="1"/>
 		</recipe>
-		
-		<recipe name="resourceClayLump" count="1" craft_area="forge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
-			<ingredient name="unit_clay" count="5"/>
-		</recipe>	
+
+		<recipe name="resourceScrapLead" count="1" craft_area="largeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_lead" count="1"/>
+		</recipe>
 		
 		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
 			<ingredient name="resourceZincFragment" count="1"/>
