@@ -21,6 +21,8 @@
 	<!-- Change existing recipes -->
 	<set xpath="/recipes/recipe[@name='resourceScrapBrass']/@craft_area">largeforge</set>
 	<set xpath="/recipes/recipe[@name='resourceScrapLead']/@craft_area">largeforge</set>
+	<set xpath="/recipes/recipe[@name='resourceRockSmall']/@craft_area">largeforge</set>
+	<set xpath="/recipes/recipe[@name='resourceBrokenGlass']/@craft_area">largeforge</set>
 	<remove xpath="/recipes/recipe[@name='resourceRockSmall']"/>
 	<remove xpath="/recipes/recipe[@name='forge']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
