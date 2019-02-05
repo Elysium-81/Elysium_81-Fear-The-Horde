@@ -1,6 +1,6 @@
 <configs>
 	<!-- Remove downgrade path -->
-	<remove xpath="/blocks/block/property[@name='DowngradeBlock']"/>
+	<!-- <remove xpath="/blocks/block/property[@name='DowngradeBlock']"/> -->
 	
 	
 	<!-- Make normal forged a dev block -->
