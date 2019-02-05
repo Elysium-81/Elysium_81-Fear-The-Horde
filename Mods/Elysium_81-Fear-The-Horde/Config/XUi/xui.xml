@@ -58,7 +58,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowworkstationCraftingQueue"/>
-			<window name="windowToolsForge" />
+			<window name="windowToolsconcreteworkbench" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			
@@ -69,7 +69,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowworkstationCraftingQueue"/>
-			<window name="windowToolsForge" />
+			<window name="windowToolsammoworkbench" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
@@ -79,7 +79,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowworkstationCraftingQueue"/>
-			<window name="windowToolsForge" />
+			<window name="windowToolstailorworkbench" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
@@ -89,7 +89,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowworkstationCraftingQueue"/>
-			<window name="windowToolsForge" />
+			<window name="windowToolsmetalworkbench" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
@@ -99,7 +99,7 @@
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowworkstationCraftingQueue"/>
-			<window name="windowToolsForge" />
+			<window name="windowToolsmechanicsworkbench" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
