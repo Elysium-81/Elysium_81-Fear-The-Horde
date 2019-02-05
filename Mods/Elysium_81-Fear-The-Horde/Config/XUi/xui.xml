@@ -29,7 +29,7 @@
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
 			<window name="windowForgeInput" />
-			<window name="windowOutput" />
+			<window name="windowworkstationCraftingQueue" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 
@@ -40,7 +40,7 @@
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
 			<window name="windowForgeInput" />
-			<window name="windowOutput" />
+			<window name="windowworkstationCraftingQueue" />
 			<window name="windowNonPagingHeader" />
 		</window_group>	
 
@@ -50,9 +50,54 @@
 			<window name="windowworkstationCraftingQueue"/>
 			<window name="windowFuel" />
 			<window name="windowForgeInput" />
-			<window name="windowOutput" />
+			<window name="windowworkstationCraftingQueue" />
 			<window name="windowNonPagingHeader" />
 		</window_group>	
+		
+		<window_group name="workstation_concreteworkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowworkstationCraftingQueue" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+		
+		<window_group name="workstation_ammoworkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowworkstationCraftingQueue" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+		
+		<window_group name="workstation_tailorworkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowworkstationCraftingQueue" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+		
+		<window_group name="workstation_metalworkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowworkstationCraftingQueue" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
+		
+		<window_group name="workstation_mechanicsworkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowworkstationCraftingQueue" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>
 	</append>
 
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">windowCrudeForgeOutput</set>
