@@ -18,8 +18,8 @@
 			<window name="windowCraftingQueue"/> <!-- <window name="windowCrudeForgeCraftingQueue"/> error -->
 			<window name="windowToolsCrudeForge" /> 
 			<window name="windowFuel" />
-			<window name="windowForgeInput" /> <!-- <window name="windowCrudeForgeInput"/> error -->
-			<window name="windowCrudeForgeOutput" />
+			<window name="windowToolsForge" /> <!-- <window name="windowCrudeForgeInput"/> error -->
+			<window name="windowOutput" /> <!-- <window name="windowCrudeForgeOutput"/> error -->
 			<window name="windowNonPagingHeader" />
 		</window_group>
 
