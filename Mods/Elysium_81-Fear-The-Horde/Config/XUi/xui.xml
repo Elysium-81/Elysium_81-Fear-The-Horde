@@ -17,8 +17,8 @@
 			<window name="windowCraftingQueue"/>
 			<window name="windowToolsCrudeForge" />
 			<window name="windowFuel" />
-			<window name="windowForgeInput" />
 			<window name="windowCrudeForgeInput" />
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 
