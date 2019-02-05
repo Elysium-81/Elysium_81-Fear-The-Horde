@@ -15,7 +15,7 @@
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="windowCrudeForgeCraftingQueue"/>
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
 			<window name="windowForgeInput" />
