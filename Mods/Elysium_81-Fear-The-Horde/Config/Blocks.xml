@@ -4,10 +4,7 @@
 	
 	
 	<!-- Make normal forged a dev block -->
-	<append xpath="/blocks/block[@name='forge']">
-		<property name="CreativeMode" value="Dev"/>
-	</append>
-	<set xpath="/blocks/block[@name='forge']/property[@class='Workstation']/property[@name='InputMaterials']/@value">iron,clay</set>
+	<remove xpath="/blocks/block[@name='forge']"/>
 	
 	<append xpath="/blocks/block[@name='rockResource']">
 		<drop event="Harvest" name="resourcelimestone" count="8" prob="0.33" tag="oreWoodHarvest"/>
@@ -212,12 +209,10 @@
 			<property name="DisplayType" value="blockTerrain" />
 		</block>
 		
-		<block name="crudeforge">
+		<block name="forge">
 			<property name="Class" value="Forge"/>
-			<property name="CustomIcon" value="forge"/>
-			<property name="DescriptionKey" value="crudeforgeDesc"/>
 			<property name="Material" value="Mstone_scrap"/>
-			<property name="MaxDamage" value="200"/>
+			<property name="MaxDamage" value="800"/>
 			<property name="StabilitySupport" value="true"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Path" value="solid"/>
@@ -229,16 +224,16 @@
 			<property name="ParticleOffset" value="0.5,0,0.5"/>
 			<property name="ImposterDontBlock" value="true"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="HeatMapStrength" value="1.1"/>
-			<property name="HeatMapTime" value="400"/>
-			<property name="HeatMapFrequency" value="50"/>
+			<property name="HeatMapStrength" value="1.5"/>
+			<property name="HeatMapTime" value="1200"/>
+			<property name="HeatMapFrequency" value="25"/>
 			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 
 			<property class="Workstation">
-				<property name="CraftingAreaRecipes" value="crudeforge"/>
+				<property name="CraftingAreaRecipes" value="forge"/>
 				<property name="Modules" value="tools,output,fuel,material_input"/>
-				<property name="InputMaterials" value="iron,clay"/>
+				<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
 			<property name="OpenSound" value="forge_open" />
