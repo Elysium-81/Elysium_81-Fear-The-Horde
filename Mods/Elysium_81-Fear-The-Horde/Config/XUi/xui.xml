@@ -1,6 +1,7 @@
 <configs>
 
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='skills']"/>
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']"/>
 	<append xpath="/xui/ruleset[@name='default']">
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
 			<window name="FTHwindowSkillList"/> <!-- Overskrift venstre side -->
@@ -11,6 +12,17 @@
 			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks right side -->
 		</window_group>
 
+		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCrudeForgeCraftingQueue"/>
+			<window name="windowToolsCrudeForge" />
+			<window name="windowFuel" />
+			<window name="windowCrudeForgeInput" />
+			<window name="windowCrudeForgeOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
 		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
