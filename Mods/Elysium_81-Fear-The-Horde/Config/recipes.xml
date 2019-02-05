@@ -22,7 +22,7 @@
 	
 	<!-- <set xpath="/recipes/recipes[@craft_area='forge']/@craft_area">largeforge</set> -->
 	
-	<remove xpath="/recipes/recipes[@name='forge']"/>
+	<remove xpath="/recipes/recipe[@name='forge']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
 
 	
