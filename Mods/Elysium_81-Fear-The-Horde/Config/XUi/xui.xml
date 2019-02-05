@@ -1,7 +1,6 @@
 <configs>
 
 	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='skills']"/>
-	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']"/>
 	<append xpath="/xui/ruleset[@name='default']">
 		<window_group name="skills" controller="XUiC_SkillWindowGroup">
 			<window name="FTHwindowSkillList"/> <!-- Overskrift venstre side -->
@@ -10,17 +9,6 @@
 			<window name="FTHwindowSkillAttributeInfo" /> <!-- Infopanel Attribute right side -->
 			<window name="windowSkillSkillInfo" />
 			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks right side -->
-		</window_group>
-
-		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
-			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowToolsForge" />
-			<window name="windowFuel" />
-			<window name="windowForgeInput" />
-			<window name="windowOutput" />
-			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 <!-- 		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
@@ -67,8 +55,11 @@
 		</window_group>	
 	</append>
 
-<!-- 	<set xpath="/xui/ruleset[@name='default']/window_group[contains(@name, 'workstation') and not(contains(@name, 'crude') or contains(@name, 'workstation_forge'))]/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
- -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
+
 	<!-- Health bar -->
 	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
 		<window name="windowTargetBar" anchor="CenterTop" />
