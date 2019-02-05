@@ -297,7 +297,7 @@
 			<property class="Workstation">
 				<property name="CraftingAreaRecipes" value="largeforge"/>
 				<property name="Modules" value="tools,output,fuel,material_input"/>
-				<property name="InputMaterials" value="iron,brass,lead,clay"/>
+				<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
 			<property name="OpenSound" value="forge_open" />
