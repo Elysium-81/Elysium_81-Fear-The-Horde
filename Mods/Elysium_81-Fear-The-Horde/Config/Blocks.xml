@@ -7,7 +7,7 @@
 	<append xpath="/blocks/block[@name='forge']">
 		<property name="CreativeMode" value="Dev"/>
 	</append>
-	<set xpath="/blocks/block[@name='forge']/property[@class='Workstation']/property[@name='InputMaterials']/@value">iron,clay</set>
+	<!-- <set xpath="/blocks/block[@name='forge']/property[@class='Workstation']/property[@name='InputMaterials']/@value">iron,clay</set> -->
 	
 	<append xpath="/blocks/block[@name='rockResource']">
 		<drop event="Harvest" name="resourcelimestone" count="8" prob="0.33" tag="oreWoodHarvest"/>
