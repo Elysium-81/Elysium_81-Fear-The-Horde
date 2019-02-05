@@ -12,11 +12,8 @@
 	<setattribute xpath="/recipes/recipe[@name='meleeToolWrench']" name="tags">learnable</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='resourceConcreteMix']" name="tags">learnable</setattribute>
 
-
 	<setattribute xpath="/recipes/recipe[@name='toolAnvil']" name="craft_tool">toolAnvil</setattribute>
 	<setattribute xpath="/recipes/recipe[@name='toolCookingPot']" name="craft_tool">toolAnvil</setattribute>
-	
-	
 	
 	<!-- Change existing recipes -->
 	<set xpath="/recipes/recipe[@name='resourceScrapBrass']/@craft_area">largeforge</set>
@@ -137,7 +134,6 @@
 	<set xpath="/recipes/recipe[@name='ammoGasCan']/@count">1000</set>
 	<remove xpath="/recipes/recipe[@name='forge']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
-
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
@@ -157,14 +153,14 @@
 			<ingredient name="unit_clay" count="5"/>
 		</recipe>
 		
-		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
-			<ingredient name="resourceZincFragment" count="1"/>
-			<ingredient name="resourceCopperFragment" count="1"/>
-		</recipe>
-		
 		<recipe name="resourceCement" count="1" craft_area="cementforge" material_based="true" tags="learnable">
 			<ingredient name="unit_lime" count="3"/>
 			<ingredient name="unit_clay" count="1"/>
+		</recipe>
+				
+		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
+			<ingredient name="resourceZincFragment" count="1"/>
+			<ingredient name="resourceCopperFragment" count="1"/>
 		</recipe>
 		
 		<recipe name="crudeforge" count="1" tags="learnable" craft_time="180">
