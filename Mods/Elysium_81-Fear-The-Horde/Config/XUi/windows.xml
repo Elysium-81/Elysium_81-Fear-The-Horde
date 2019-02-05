@@ -296,7 +296,7 @@
 
 		</window>
 
-		<window name="windowToolsammoworkbench" width="228" height="121" panel="Right" cursor_area="true" >
+		<window name="windowToolsammoworkbench" width="228" height="196" panel="Right" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
 			<panel style="header.panel">
 				<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
