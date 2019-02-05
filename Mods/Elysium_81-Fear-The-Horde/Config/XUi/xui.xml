@@ -11,7 +11,7 @@
 			<window name="windowSkillPerkInfo" /> <!-- Infopanel Perks right side -->
 		</window_group>
 		
-<!-- 		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_crudeforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
 			<window name="windowCrudeForgeCraftingQueue"/>
@@ -20,7 +20,7 @@
 			<window name="windowCrudeForgeInput" />
 			<window name="windowCrudeForgeOutput" />
 			<window name="windowNonPagingHeader" />
-		</window_group> -->
+		</window_group>
 
 		<window_group name="workstation_largeforge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
