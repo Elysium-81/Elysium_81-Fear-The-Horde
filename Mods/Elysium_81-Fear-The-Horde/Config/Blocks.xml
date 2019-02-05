@@ -719,8 +719,8 @@
 		<block name="mechanicsworkbench">
 			<property name="Class" value="workbench"/>
 			<property name="CustomIcon" value="workbench"/>
-			<property name="CustomIconTint" value="0,255,0"/>
-			<property name="RandomTintColor1" value="0,255,0"/>
+			<property name="CustomIconTint" value="0,255,255"/>
+			<property name="RandomTintColor1" value="0,255,255"/>
 			<property name="DescriptionKey" value="mechanicsworkbenchDesc"/>
 			<property name="Class" value="Workstation"/>
 			<property name="Material" value="Mmetal"/>
