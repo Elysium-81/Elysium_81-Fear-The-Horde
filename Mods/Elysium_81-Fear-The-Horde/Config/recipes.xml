@@ -20,7 +20,7 @@
 	
 	<!-- Change existing recipes -->
 	
-	<set xpath="/xui/ruleset[@craft_area='forge']/@craft_area">largeforge</set>
+	<set xpath="/recipes/recipes[@craft_area='forge']/@craft_area">largeforge</set>
 	
 	<remove xpath="/recipes/recipes[@name='forge']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
