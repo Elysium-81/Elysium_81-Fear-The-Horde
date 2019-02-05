@@ -104,6 +104,28 @@
 			<window name="windowNonPagingHeader" />
 			<!-- <window name="windowCombine" /> -->
 		</window_group>
+		
+		<window_group name="workstation_mechanicsworkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowworkstationCraftingQueue"/>
+			<window name="windowToolsmechanicsworkbench" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>		
+		
+		<window_group name="workstation_medicalscienceStation" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowworkstationCraftingQueue"/>
+			<window name="windowToolsmedicalscienceStation" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>		
+		
+		
 	</append>
 
 	
@@ -111,6 +133,10 @@
 		<window name="windowToolsworkbench" />
 	</insertAfter>
 
+	<insertAfter xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']" >
+		<window name="windowToolschemistryStation" />
+	</insertAfter>
+	
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">windowCrudeForgeOutput</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowToolsForge']/@name">windowToolsCrudeForge</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">windowCrudeForgeInput</set>
