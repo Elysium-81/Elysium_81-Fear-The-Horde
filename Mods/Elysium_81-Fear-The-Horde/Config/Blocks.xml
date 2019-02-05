@@ -232,7 +232,7 @@
 
 			<property class="Workstation">
 				<property name="CraftingAreaRecipes" value="forge"/>
-				<property name="Modules" value="output,fuel,material_input"/>
+				<property name="Modules" value="tools,output,fuel,material_input"/>
 				<property name="InputMaterials" value="iron,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
@@ -265,6 +265,7 @@
 		<block name="crudeforge">
 			<property name="Class" value="Forge"/>
 			<property name="CustomIconTint" value="255,0,255"/>
+			<property name="CustomIcon" value="forge"/>
 			<property name="RandomTintColor1" value="255,0,255"/>
 			<property name="DescriptionKey" value="crudeforgeDesc"/>
 			<property name="Class" value="Forge"/>
@@ -288,8 +289,8 @@
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 
 			<property class="Workstation">
-				<property name="CraftingAreaRecipes" value="crudeforge"/>
-				<property name="Modules" value="output,fuel,material_input"/>
+				<property name="CraftingAreaRecipes" value="forge"/>
+				<property name="Modules" value="tools,output,fuel,material_input"/>
 				<property name="InputMaterials" value="iron,clay"/>
 			</property>
 			<property name="WorkstationIcon" value="ui_game_symbol_forge" />
