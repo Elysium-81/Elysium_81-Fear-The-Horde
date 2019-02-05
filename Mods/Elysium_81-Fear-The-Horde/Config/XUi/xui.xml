@@ -55,6 +55,7 @@
 		</window_group>	
 	</append>
 
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">windowCrudeForgeOutput</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowToolsForge']/@name">windowToolsCrudeForge</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">windowCrudeForgeInput</set>
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowCraftingQueue']/@name">windowworkstationCraftingQueue</set>
