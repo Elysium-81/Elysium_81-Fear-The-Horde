@@ -28,7 +28,10 @@
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
-				
+		<recipe name="resourcelimestone" count="1" craft_area="cementforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_lime" count="5"/>
+		</recipe>		
+
 		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
 			<ingredient name="resourceZincFragment" count="1"/>
 			<ingredient name="resourceCopperFragment" count="1"/>
