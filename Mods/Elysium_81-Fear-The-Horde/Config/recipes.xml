@@ -46,7 +46,7 @@
 			<ingredient name="unit_clay" count="1"/>
 		</recipe>
 		
-		<recipe name="crudeforge" count="1" tags="learnable" craft_time="180">
+		<recipe name="forge" count="1" tags="learnable" craft_time="180">
 			<ingredient name="resourceRockSmall" count="50"/>
 			<ingredient name="resourceClayLump" count="60"/>
 			<ingredient name="toolBellows" count="1"/>
