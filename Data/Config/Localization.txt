@@ -7171,6 +7171,8 @@ attSmithClassRank5Desc,progression,Attribute,New,"5, Complete the Smithing class
 
 skillGeneralcharacterskillsName,progression,Skill,New,General character skills,,,,,
 skillGeneralcharacterskillsDesc,progression,Skill,New,General character skills,,,,,
+skillGeneralperksSkillsName,progression,Skill,New,General perks,,,,,
+skillGeneralperksSkillsDesc,progression,Skill,New,General perks,,,,,
 skillActivityToolsskillsName,progression,Skill,New,Tools activity skills,,,,,
 skillActivityToolsskillsDesc,progression,Skill,New,Tools activity skills,,,,,
 skillActivityweaponsskillsName,progression,Skill,New,Weapon activity skills,,,,,
