@@ -23,7 +23,6 @@
 	<set xpath="/recipes/recipe[@name='resourceScrapLead']/@craft_area">largeforge</set>
 	<set xpath="/recipes/recipe[@name='resourceRockSmall']/@craft_area">largeforge</set>
 	<set xpath="/recipes/recipe[@name='resourceBrokenGlass']/@craft_area">largeforge</set>
-	<remove xpath="/recipes/recipe[@name='resourceRockSmall']"/>
 	<remove xpath="/recipes/recipe[@name='forge']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
 
@@ -32,8 +31,20 @@
 	<append xpath="/recipes">
 		<recipe name="resourcelimestone" count="1" craft_area="cementforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
 			<ingredient name="unit_lime" count="5"/>
-		</recipe>		
+		</recipe>
+		
+		<recipe name="resourceClayLump" count="1" craft_area="cementforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
 
+		<recipe name="resourceClayLump" count="1" craft_area="largeforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
+		
+		<recipe name="resourceClayLump" count="1" craft_area="bigforge" material_based="true" craft_time="1" craft_exp_gain="0" always_unlocked="true">
+			<ingredient name="unit_clay" count="5"/>
+		</recipe>
+		
 		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
 			<ingredient name="resourceZincFragment" count="1"/>
 			<ingredient name="resourceCopperFragment" count="1"/>
