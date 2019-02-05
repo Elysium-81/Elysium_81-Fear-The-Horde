@@ -20,20 +20,15 @@
 	
 	<!-- Change existing recipes -->
 	<set xpath="/recipes/recipe[@name='resourceRockSmall']/@craft_area">cementforge</set>
-	<set xpath="/recipes/recipe[@name='resourceBrokenGlass']/@craft_area">largeforge</set>
-	<set xpath="/recipes/recipe[@name='resourceBrokenGlass']/@craft_area">largeforge</set>
-	<set xpath="/recipes/recipe[@name='resourceBrokenGlass']/@craft_area">largeforge</set>
-	<!-- <set xpath="/recipes/recipe[@craft_area='forge']/@craft_area">largeforge</set> -->
-	<remove xpath="/recipes/recipe[@name='forge']"/>
+	<set xpath="/recipes/recipe[@name='resourceScrapBrass']/@craft_area">largeforge</set>
+	<set xpath="/recipes/recipe[@name='resourceScrapLead']/@craft_area">largeforge</set>
 	<remove xpath="/recipes/recipe[@name='forge']"/>
 	<remove xpath="/recipes/recipe[@name='resourceCement']"/>
 
 	
 	<!-- Add costume recipes -->
 	<append xpath="/recipes">
-		
-		</recipe>
-		
+				
 		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer" tags="learnable">
 			<ingredient name="resourceZincFragment" count="1"/>
 			<ingredient name="resourceCopperFragment" count="1"/>
@@ -44,7 +39,7 @@
 			<ingredient name="unit_clay" count="1"/>
 		</recipe>
 		
-		<recipe name="forge" count="1" tags="learnable" craft_time="180">
+		<recipe name="crudeforge" count="1" tags="learnable" craft_time="180">
 			<ingredient name="resourceRockSmall" count="50"/>
 			<ingredient name="resourceClayLump" count="60"/>
 			<ingredient name="toolBellows" count="1"/>
